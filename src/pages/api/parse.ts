@@ -32,7 +32,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     if (req.method === 'POST') {
-      console.log(oas.name)
+      console.log(typeof oas)
       const { fileManager } = await build({
         config: {
           root: './',
