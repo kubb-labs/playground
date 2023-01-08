@@ -9,28 +9,6 @@ import createSwaggerReactQuery from '@kubb/swagger-react-query'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-// interface KubbModule {
-//   default(): Promise<unknown>
-//   build: KubbBuild
-// }
-
-// export async function loadKubbCore(version: string): Promise<KubbModule> {
-//   const packageName = '@kubb/core'
-//   const entryFileName = 'index.js'
-//   console.log(`https://cdn.jsdelivr.net/npm/${packageName}@${version}/dist/${entryFileName}`)
-//   const build: KubbModule = await import(
-//     /* webpackIgnore: true */
-//     `https://cdn.jsdelivr.net/npm/${packageName}@${version}/dist/${entryFileName}`
-//   )
-//   await build.default()
-//   return build
-
-//   return {
-//     default: () => Promise.resolve(),
-//     build,
-//   }
-// }
-
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     if (req.method === 'POST') {

@@ -56,8 +56,23 @@ const fetchOutput = (url: string, { arg }) =>
     return json as File[]
   })
 
+interface KubbModule {
+  default(): Promise<unknown>
+  build: any
+}
+
+export async function loadKubbCore(version?: string): Promise<KubbModule> {
+  const build: KubbModule = await import(
+    /* webpackIgnore: true */
+    'https://cdn.skypack.dev/@kubb/core'
+  )
+
+  return build
+}
+
 export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
+  // const d = useSWR('load', () => loadKubbCore())
   const [version] = useAtom(versionAtom)
   const [fileName] = useAtom(fileNameAtom)
   const { trigger, isMutating, data: files, error } = useSWRMutation(`/api/parse`, fetchOutput)
