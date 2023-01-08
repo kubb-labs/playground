@@ -1,3 +1,4 @@
+//! WE NEED TO IMPORT OS BECAUSE ELSE NEXTJS IS NOT INCLUDING OAS INSIDE THE BUNDLE(PRODUCTION BUILD)
 import oas from 'oas'
 
 import { build } from '@kubb/core'
@@ -31,7 +32,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     if (req.method === 'POST') {
-      console.log(typeof oas, oas)
+      console.log(oas.name)
       const { fileManager } = await build({
         config: {
           root: './',
