@@ -1,8 +1,8 @@
+import oas from 'oas'
+
 import { build } from '@kubb/core'
 import createSwagger from '@kubb/swagger'
 import createSwaggerTypescript from '@kubb/swagger-typescript'
-
-import oas from 'oas'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
