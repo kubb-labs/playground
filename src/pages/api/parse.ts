@@ -2,6 +2,8 @@ import { build } from '@kubb/core'
 import createSwagger from '@kubb/swagger'
 import createSwaggerTypescript from '@kubb/swagger-typescript'
 
+import oas from 'oas'
+
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 // interface KubbModule {
@@ -29,6 +31,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     if (req.method === 'POST') {
+      console.log(typeof oas, oas)
       const { fileManager } = await build({
         config: {
           root: './',
