@@ -1,5 +1,4 @@
-import { Box, Button, Flex, HStack, Link, useColorMode, useColorModeValue } from '@chakra-ui/react'
-import Image from 'next/image'
+import { Text, Box, Button, Flex, HStack, Link, useColorMode, useColorModeValue } from '@chakra-ui/react'
 import { useEffect } from 'react'
 import { CgExternal, CgMoon, CgSun } from 'react-icons/cg'
 
@@ -25,9 +24,9 @@ export default function HeaderBar() {
 
   return (
     <Flex as="header" justifyContent="space-between" h="56px" px={[2, 2, 5]} py="2" bg={bg} borderBottomWidth="1px" borderBottomColor={borderColor}>
-      <a href="http://kubb.dev" target="_blank" rel="noopener noreferrer">
-        <Image src="/kubb.svg" alt="kubb" width="120" height="43" />
-      </a>
+      <HStack spacing="4">
+        <Text fontSize="lg">BETA</Text>
+      </HStack>
       <HStack spacing="4">
         <Button variant="ghost" onClick={toggleColorMode}>
           {colorMode === 'dark' ? <CgMoon /> : <CgSun />}

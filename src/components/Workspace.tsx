@@ -54,7 +54,7 @@ const fetchOutput = (url: string, { arg }) =>
 export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
   const [version] = useAtom(versionAtom)
-  const { trigger, data: kubbOutput, error } = useSWRMutation(`/api/parse`, fetchOutput)
+  const { trigger, isMutating, data: kubbOutput, error } = useSWRMutation(`/api/parse`, fetchOutput)
   const [code] = useAtom(codeAtom)
   const [config] = useAtom(configAtom)
 
@@ -67,7 +67,7 @@ export default function Workspace() {
       return Err(String(error))
     }
 
-    if (!kubbOutput) {
+    if (isMutating) {
       return Err('Loading Kubb...')
     }
 
@@ -76,7 +76,7 @@ export default function Workspace() {
         code: kubbOutput,
       },
     } as unknown as TransformationResult
-  }, [code, kubbOutput, error, config])
+  }, [code, isMutating, error, config])
   const toast = useToast()
 
   useEffect(() => {
@@ -109,7 +109,7 @@ export default function Workspace() {
     <Main>
       <VStack spacing={4} alignItems="unset" gridArea="sidebar">
         <Configuration />
-        <VersionSelect isLoading={!kubbOutput && !error} />
+        <VersionSelect isLoading={isMutating} />
       </VStack>
       <InputEditor output={output} />
       <OutputEditor output={output} />
