@@ -61,14 +61,14 @@ interface KubbModule {
   build: any
 }
 
-export async function loadKubbCore(version?: string): Promise<KubbModule> {
-  const build: KubbModule = await import(
-    /* webpackIgnore: true */
-    'https://cdn.skypack.dev/@kubb/core'
-  )
+// export async function loadKubbCore(version?: string): Promise<KubbModule> {
+//   const build: KubbModule = await import(
+//     /* webpackIgnore: true */
+//     'https://cdn.skypack.dev/@kubb/core'
+//   )
 
-  return build
-}
+//   return build
+// }
 
 export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
