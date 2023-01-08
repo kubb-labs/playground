@@ -5,9 +5,9 @@ specifiers:
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
   '@gplane/tsconfig': ^5.0.0
-  '@kubb/core': 0.36.1
-  '@kubb/swagger': 0.36.1
-  '@kubb/swagger-typescript': 0.36.1
+  '@kubb/core': ^0.37.2
+  '@kubb/swagger': ^0.37.2
+  '@kubb/swagger-typescript': ^0.37.2
   '@monaco-editor/react': ^4.4.6
   '@next/env': ^13.1.1
   '@types/json-schema': ^7.0.11
@@ -50,9 +50,9 @@ dependencies:
   '@chakra-ui/react': 2.4.6_7rmqxmvcooh6vn4y4z6d5tku5u
   '@emotion/react': 11.10.5_kzbn2opkn2327fwg5yzwzya5o4
   '@emotion/styled': 11.10.5_qvatmowesywn4ye42qoh247szu
-  '@kubb/core': 0.36.1
-  '@kubb/swagger': 0.36.1
-  '@kubb/swagger-typescript': 0.36.1
+  '@kubb/core': 0.37.2
+  '@kubb/swagger': 0.37.2
+  '@kubb/swagger-typescript': 0.37.2
   '@monaco-editor/react': 4.4.6_6vrjaj6ridxbohi43n7zt4gn7q
   framer-motion: 8.2.4_biqbaboplfbrettd7655fr4n2y
   jotai: 1.12.1_react@18.2.0
@@ -1507,8 +1507,8 @@ packages:
     resolution: {integrity: sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==}
     dev: false
 
-  /@kubb/core/0.36.1:
-    resolution: {integrity: sha512-gn3FxiQLTYl3Yy3qAUsmBkSPWpuq6eLb5f8sicCBMLy/CsJyV5unMULXY1+OLjnmwPsqFRCmqYgfptG6mxzr/w==}
+  /@kubb/core/0.37.2:
+    resolution: {integrity: sha512-OqSZWy7h+PNkQqs4JSh0+qzugdAJW8vuBmcb8NqLMs1j/qcykPnHDHUQCgXs2cn+fyKfxiJnBJILWEo1IdvAmA==}
     dependencies:
       change-case: 4.1.2
       directory-tree: 3.5.1
@@ -1518,11 +1518,11 @@ packages:
       typescript: 4.9.4
     dev: false
 
-  /@kubb/swagger-typescript/0.36.1:
-    resolution: {integrity: sha512-akCZVTNE7PfktnropjbZJ+kIQNaTkC4oiI3O4YwK9PxFfHJsS/W1pfnUKsrElY2eJ3zpO1A8WnP+duhWvU1OHw==}
+  /@kubb/swagger-typescript/0.37.2:
+    resolution: {integrity: sha512-ZxEzABwq3dtW6MpHO66Vw0/pTJWC3plLQFdUH/dOnqhhKamMxKHvzHi0F8rPpdHcf2PSTlWh2f/pYt2Ufm1tAg==}
     dependencies:
-      '@kubb/core': 0.36.1
-      '@kubb/swagger': 0.36.1
+      '@kubb/core': 0.37.2
+      '@kubb/swagger': 0.37.2
       change-case: 4.1.2
       lodash.camelcase: 4.3.0
       lodash.get: 4.4.2
@@ -1534,11 +1534,11 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger/0.36.1:
-    resolution: {integrity: sha512-v9AuIlPsCIKzbqxdYzFuGRxEf9i8W/RKaO5lt9jaJOwXjJdHt4yNvtQco+zWIMYBNiFaD8t+yFMgs4SglzrM2w==}
+  /@kubb/swagger/0.37.2:
+    resolution: {integrity: sha512-TKcPHHt4b6rCwl8p46xRVeHTePP4rVp8Xi0w4XRVXId8NtL1EaypeUJTD4iEKyChYTLzXRu4GPvsoN+xL945HQ==}
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0
-      '@kubb/core': 0.36.1
+      '@kubb/core': 0.37.2
       oas: 20.3.0
     transitivePeerDependencies:
       - encoding
