@@ -19,6 +19,7 @@
     "@emotion/styled": "^11.10.5",
     "@kubb/core": "^0.37.2",
     "@kubb/swagger": "^0.37.2",
+    "@kubb/swagger-react-query": "^0.37.2",
     "@kubb/swagger-typescript": "^0.37.2",
     "@monaco-editor/react": "^4.4.6",
     "framer-motion": "^8.2.4",

@@ -7,10 +7,12 @@ specifiers:
   '@gplane/tsconfig': ^5.0.0
   '@kubb/core': ^0.37.2
   '@kubb/swagger': ^0.37.2
+  '@kubb/swagger-react-query': ^0.37.2
   '@kubb/swagger-typescript': ^0.37.2
   '@monaco-editor/react': ^4.4.6
   '@next/env': ^13.1.1
   '@types/json-schema': ^7.0.11
+  '@types/lodash': ^4.14.191
   '@types/node': ^18.11.18
   '@types/pako': ^2.0.0
   '@types/react': ^18.0.26
@@ -29,6 +31,7 @@ specifiers:
   framer-motion: ^8.2.4
   jotai: ^1.12.1
   js-base64: ^3.7.4
+  lodash: ^4.17.21
   monaco-editor: ^0.34.1
   next: ^13.1.1
   oas: ^20.3.0
@@ -52,11 +55,13 @@ dependencies:
   '@emotion/styled': 11.10.5_qvatmowesywn4ye42qoh247szu
   '@kubb/core': 0.37.2
   '@kubb/swagger': 0.37.2
+  '@kubb/swagger-react-query': 0.37.2
   '@kubb/swagger-typescript': 0.37.2
   '@monaco-editor/react': 4.4.6_6vrjaj6ridxbohi43n7zt4gn7q
   framer-motion: 8.2.4_biqbaboplfbrettd7655fr4n2y
   jotai: 1.12.1_react@18.2.0
   js-base64: 3.7.4
+  lodash: 4.17.21
   monaco-editor: 0.34.1
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   oas: 20.3.0
@@ -74,6 +79,7 @@ devDependencies:
   '@gplane/tsconfig': 5.0.0
   '@next/env': 13.1.1
   '@types/json-schema': 7.0.11
+  '@types/lodash': 4.14.191
   '@types/node': 18.11.18
   '@types/pako': 2.0.0
   '@types/react': 18.0.26
@@ -1518,6 +1524,19 @@ packages:
       typescript: 4.9.4
     dev: false
 
+  /@kubb/swagger-react-query/0.37.2:
+    resolution: {integrity: sha512-F2fiISkhnJn1mMLrzE+qUKE/YTN0bPlnWeCcwGo1+UpO8FKZYvwiJ87eY4EJBIlxTdf2wVJQ+dBqh2I22yAMpA==}
+    dependencies:
+      '@kubb/core': 0.37.2
+      '@kubb/swagger': 0.37.2
+      '@kubb/swagger-typescript': 0.37.2
+      change-case: 4.1.2
+      oas: 20.3.0
+    transitivePeerDependencies:
+      - encoding
+      - openapi-types
+    dev: false
+
   /@kubb/swagger-typescript/0.37.2:
     resolution: {integrity: sha512-ZxEzABwq3dtW6MpHO66Vw0/pTJWC3plLQFdUH/dOnqhhKamMxKHvzHi0F8rPpdHcf2PSTlWh2f/pYt2Ufm1tAg==}
     dependencies:
@@ -1854,7 +1873,6 @@ packages:
 
   /@types/lodash/4.14.191:
     resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
-    dev: false
 
   /@types/node/17.0.45:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}

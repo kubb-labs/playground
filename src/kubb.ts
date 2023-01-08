@@ -9,6 +9,8 @@ export interface TransformationOutput {
 
 export const versionAtom = atom(new URLSearchParams(window.location.search).get('version') ?? '0.35.0')
 
+export const fileNameAtom = atom('')
+
 export type TransformationResult = Result<TransformationOutput, string>
 
 export const configSchema: JSONSchema6 = {

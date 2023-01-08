@@ -7,12 +7,14 @@ import styled from '@emotion/styled'
 import { loader } from '@monaco-editor/react'
 import { Err } from 'ts-results'
 
+import type { File } from '@kubb/core'
+
 import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
 import InputEditor from './InputEditor'
 import OutputEditor from './OutputEditor'
 
-import { versionAtom } from '../kubb'
+import { fileNameAtom, versionAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
 import type { TransformationResult } from '../kubb'
@@ -49,12 +51,16 @@ const fetchOutput = (url: string, { arg }) =>
   fetch(url, {
     method: 'POST',
     body: JSON.stringify(arg.code),
-  }).then((response) => response.text())
+  }).then(async (response) => {
+    const json = await response.json()
+    return json as File[]
+  })
 
 export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
   const [version] = useAtom(versionAtom)
-  const { trigger, isMutating, data: kubbOutput, error } = useSWRMutation(`/api/parse`, fetchOutput)
+  const [fileName] = useAtom(fileNameAtom)
+  const { trigger, isMutating, data: files, error } = useSWRMutation(`/api/parse`, fetchOutput)
   const [code] = useAtom(codeAtom)
   const [config] = useAtom(configAtom)
 
@@ -70,13 +76,14 @@ export default function Workspace() {
     if (isMutating) {
       return Err('Loading Kubb...')
     }
+    const code = files?.find((file) => file.fileName === fileName)?.source
 
     return {
       val: {
-        code: kubbOutput,
+        code,
       },
     } as unknown as TransformationResult
-  }, [code, isMutating, error, config])
+  }, [code, isMutating, files, fileName, error, config])
   const toast = useToast()
 
   useEffect(() => {
@@ -93,7 +100,7 @@ export default function Workspace() {
   }, [error, toast])
 
   const isLoadingMonaco = !monaco
-  if (isLoadingMonaco && !kubbOutput) {
+  if (isLoadingMonaco && !files) {
     return (
       <Center width="full" height="88vh" display="flex" flexDirection="column">
         <CircularProgress isIndeterminate mb="3" />
@@ -112,7 +119,7 @@ export default function Workspace() {
         <VersionSelect isLoading={isMutating} />
       </VStack>
       <InputEditor output={output} />
-      <OutputEditor output={output} />
+      <OutputEditor files={files} output={output} />
     </Main>
   )
 }
