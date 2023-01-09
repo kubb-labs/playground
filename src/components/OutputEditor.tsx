@@ -60,19 +60,21 @@ export default function OutputEditor({ output, files }: Props) {
   const editorLanguage = output.err ? 'text' : output.val.language
 
   useEffect(() => {
-    if (editorRef.current) {
-      editorRef.current?.updateOptions({
-        readOnly: false,
-      })
-      editorRef.current
-        .getAction('editor.action.formatDocument')
-        .run()
-        .then(() => {
-          editorRef.current?.updateOptions({
-            readOnly: true,
-          })
-        })
+    if (!editorRef.current) {
+      return
     }
+
+    editorRef.current?.updateOptions({
+      readOnly: false,
+    })
+    editorRef.current
+      .getAction('editor.action.formatDocument')
+      .run()
+      .then(() => {
+        editorRef.current?.updateOptions({
+          readOnly: true,
+        })
+      })
   }, [editorRef, outputContent])
 
   const handleFileNameChange = (event: React.ChangeEvent<HTMLSelectElement>) => {

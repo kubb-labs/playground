@@ -112,7 +112,7 @@ export default function Workspace() {
     if (isMutating) {
       return Err('Loading Kubb...')
     }
-    const code = files?.find((file) => file.fileName === fileName)?.source
+    const code = files?.find((file) => file.fileName === fileName)?.source || ''
     let language = 'text'
 
     if (fileName.endsWith('.js') || fileName.endsWith('.ts')) {

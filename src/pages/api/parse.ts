@@ -46,8 +46,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
       const files = result.files
         .map((file) => {
-          return { ...file, path: file.path.split('/gen/')[1] || 'input' }
+          return { ...file, path: file.path.split('/gen/')[1] }
         })
+        .filter((file) => file.path)
         .reduce((acc, file) => {
           if (!acc.find((item) => item.path === file.path)) {
             return [...acc, file]
