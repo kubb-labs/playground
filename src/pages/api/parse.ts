@@ -20,9 +20,9 @@ const formatOptions: Options = {
   bracketSameLine: false,
   endOfLine: 'auto',
 }
-export const format = (text?: string) => {
+const format = (text?: string) => {
   if (!text) {
-    return undefined
+    return text
   }
   return prettierFormat(text, formatOptions)
 }
@@ -32,7 +32,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (req.method === 'POST') {
       //! WE NEED TO IMPORT OS BECAUSE ELSE NEXTJS IS NOT INCLUDING OAS INSIDE THE BUNDLE(PRODUCTION BUILD)
       console.log(typeof oas)
-      const { fileManager } = await build({
+      const result = await build({
         config: {
           root: './',
           input: JSON.parse(req.body),
@@ -44,9 +44,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         mode: 'development',
       })
 
-      const files = fileManager.files
+      const files = result.files
         .map((file) => {
-          return { ...file, source: file.fileName.endsWith('.ts') ? format(file.source) : file.source, path: file.path.split('/gen/')[1] }
+          return { ...file, source: file.fileName.endsWith('.ts') ? file.source : file.source, path: file.path.split('/gen/')[1] }
         })
         .reduce((acc, file) => {
           if (!acc.find((item) => item.path === file.path)) {
