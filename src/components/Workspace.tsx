@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { useEffect, useMemo } from 'react'
 import { useAtom } from 'jotai'
 import useSWRMutation from 'swr/mutation'
@@ -47,25 +48,45 @@ const Main = styled.main`
   }
 `
 
-const fetchOutput = (url: string, { arg }) =>
-  fetch(url, {
+const fetchOutput = async (url: string, { arg }) => {
+  // const kubb = globalThis.kubb
+  // const { fileManager } = await kubb.build({
+  //   config: {
+  //     root: './',
+  //     input: arg.code,
+  //     output: {
+  //       path: 'gen',
+  //     },
+  //     plugins: [],
+  //   },
+  //   mode: 'development',
+  // })
+
+  // console.log(fileManager.files)
+
+  return fetch(url, {
     method: 'POST',
     body: JSON.stringify(arg.code),
   }).then(async (response) => {
     const json = await response.json()
     return json as File[]
   })
-
-interface KubbModule {
-  default(): Promise<unknown>
-  build: any
 }
+
+// interface KubbModule {
+//   default(): Promise<unknown>
+//   build: any
+// }
 
 // export async function loadKubbCore(version?: string): Promise<KubbModule> {
 //   const build: KubbModule = await import(
 //     /* webpackIgnore: true */
-//     'https://cdn.skypack.dev/@kubb/core'
+//     'https://cdn.jsdelivr.net/npm/@kubb/core@0.37.18/dist/index.global.js'
 //   )
+
+//   console.log({ build })
+
+//   await build()
 
 //   return build
 // }

@@ -9,6 +9,7 @@ function App({ Component, pageProps }: AppProps) {
     <ChakraProvider>
       <Head>
         <title>Kubb Playground</title>
+        <script src="https://cdn.jsdelivr.net/npm/@kubb/core@0.37.18/dist/index.global.js"></script>
       </Head>
       <Component {...pageProps} />
     </ChakraProvider>
