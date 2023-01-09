@@ -46,7 +46,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
       const files = result.files
         .map((file) => {
-          return { ...file, source: file.fileName.endsWith('.ts') ? file.source : file.source, path: file.path.split('/gen/')[1] }
+          return { ...file, path: file.path.split('/gen/')[1] || 'input' }
         })
         .reduce((acc, file) => {
           if (!acc.find((item) => item.path === file.path)) {

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Editor, { useMonaco } from '@monaco-editor/react'
 import { Box, Flex, Heading, HStack, Select } from '@chakra-ui/react'
 import stripAnsi from 'strip-ansi'
@@ -38,9 +38,11 @@ const editorOptions: editor.IStandaloneEditorConstructionOptions = {
   wordWrap: 'on',
   renderControlCharacters: false,
   tabSize: 4,
+  autoIndent: 'full',
 }
 
 export default function OutputEditor({ output, files }: Props) {
+  const editorRef = useRef<editor.IStandaloneCodeEditor>()
   const borderColor = useBorderColor()
   const monacoTheme = useMonacoThemeValue()
   const monaco = useMonaco()
@@ -55,7 +57,23 @@ export default function OutputEditor({ output, files }: Props) {
   }, [monaco])
 
   const outputContent = stringifyOutput(output)
-  const editorLanguage = output.err ? 'text' : 'javascript'
+  const editorLanguage = output.err ? 'text' : output.val.language
+
+  useEffect(() => {
+    if (editorRef.current) {
+      editorRef.current?.updateOptions({
+        readOnly: false,
+      })
+      editorRef.current
+        .getAction('editor.action.formatDocument')
+        .run()
+        .then(() => {
+          editorRef.current?.updateOptions({
+            readOnly: true,
+          })
+        })
+    }
+  }, [editorRef, outputContent])
 
   const handleFileNameChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setFileName(event.target.value)
@@ -76,7 +94,17 @@ export default function OutputEditor({ output, files }: Props) {
         </HStack>
       </Flex>
       <Box height="full" borderColor={borderColor} borderWidth="1px">
-        <Editor value={outputContent} language={editorLanguage} defaultLanguage="javascript" path={'output.js'} theme={monacoTheme} options={editorOptions} />
+        <Editor
+          onMount={(editor) => {
+            editorRef.current = editor
+          }}
+          value={outputContent}
+          language={editorLanguage}
+          defaultLanguage="javascript"
+          path={'output.js'}
+          theme={monacoTheme}
+          options={editorOptions}
+        />
       </Box>
     </Flex>
   )

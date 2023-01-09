@@ -5,6 +5,8 @@ import type { JSONSchema6 } from 'json-schema'
 
 export interface TransformationOutput {
   code: string
+  fileName: string
+  language: string
 }
 
 export const versionAtom = atom(new URLSearchParams(window.location.search).get('version') ?? '0.35.0')

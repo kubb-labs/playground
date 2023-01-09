@@ -113,10 +113,19 @@ export default function Workspace() {
       return Err('Loading Kubb...')
     }
     const code = files?.find((file) => file.fileName === fileName)?.source
+    let language = 'text'
+
+    if (fileName.endsWith('.js') || fileName.endsWith('.ts')) {
+      language = 'javascript'
+    } else if (fileName.endsWith('.json')) {
+      language = 'json'
+    }
 
     return {
       val: {
         code,
+        fileName,
+        language,
       },
     } as unknown as TransformationResult
   }, [code, isMutating, files, fileName, error, config])
