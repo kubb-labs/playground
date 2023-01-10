@@ -27,11 +27,13 @@ const format = (text?: string) => {
   return prettierFormat(text, formatOptions)
 }
 
+console.log(typeof oas)
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     if (req.method === 'POST') {
       //! WE NEED TO IMPORT OS BECAUSE ELSE NEXTJS IS NOT INCLUDING OAS INSIDE THE BUNDLE(PRODUCTION BUILD)
-      console.log(typeof oas)
+
       const result = await build({
         config: {
           root: './',
@@ -61,7 +63,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
     res.status(200).send(undefined)
   } catch (err) {
-    console.log(err)
-    res.status(500).send(undefined)
+    console.log(err?.message || err)
+    res.status(500).json({ error: err?.message || err })
   }
 }

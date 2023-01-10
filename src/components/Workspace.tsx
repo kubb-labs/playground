@@ -69,6 +69,10 @@ const fetchOutput = async (url: string, { arg }) => {
     body: JSON.stringify(arg.code),
   }).then(async (response) => {
     const json = await response.json()
+    if (response.status === 500) {
+      throw json.error
+    }
+
     return json as File[]
   })
 }
