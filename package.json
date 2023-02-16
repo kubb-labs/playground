@@ -16,7 +16,7 @@
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@kubb/core": "^0.37.30",
+    "@kubb/core": "^0.40.0",
     "@kubb/swagger": "^0.37.30",
     "@kubb/swagger-react-query": "^0.37.30",
     "@kubb/swagger-typescript": "^0.37.30",
