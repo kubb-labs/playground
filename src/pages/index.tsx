@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic'
 import React from 'react'
 
 import HeaderBar from '../components/HeaderBar'
+import Terminal from '../components/sandbox/Terminal'
 
 const Workspace = dynamic(() => import('../components/Workspace'), {
   ssr: false,
@@ -15,6 +16,7 @@ export default function App() {
     <Box minHeight="100vh" pb={[8, 8, 0]} bg={bg}>
       <HeaderBar />
       <Workspace />
+      <Terminal />
     </Box>
   )
 }
