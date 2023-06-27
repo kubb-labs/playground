@@ -19,6 +19,9 @@ dependencies:
   '@kubb/swagger':
     specifier: ^1.4.1
     version: 1.4.1(openapi-types@12.1.3)
+  '@kubb/swagger-client':
+    specifier: ^1.4.1
+    version: 1.4.1(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.1.3)
   '@kubb/swagger-faker':
     specifier: ^1.4.1
     version: 1.4.1(openapi-types@12.1.3)(typescript@5.1.3)

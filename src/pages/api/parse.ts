@@ -11,6 +11,7 @@ import createSwaggerZod from '@kubb/swagger-zod'
 import createSwaggerZodios from '@kubb/swagger-zodios'
 import createSwaggerFaker from '@kubb/swagger-faker'
 import createSwaggerForm from '@kubb/swagger-form'
+import createSwaggerCient from '@kubb/swagger-client'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
@@ -41,6 +42,9 @@ export const buildKubbFiles = async (config: any) => {
       }
       if (name === '@kubb/swagger-ts') {
         return createSwaggerTs(options)
+      }
+      if (name === '@kubb/swagger-client') {
+        return createSwaggerCient(options)
       }
       if (name === '@kubb/swagger-tanstack-query') {
         return createSwaggerTanstackQuery(options)

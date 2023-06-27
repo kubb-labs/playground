@@ -25,6 +25,7 @@
     "@kubb/swagger-faker": "^1.4.1",
     "@kubb/swagger-swr": "^1.4.1",
     "@kubb/swagger-form": "^1.4.1",
+    "@kubb/swagger-client": "^1.4.1",
     "@kubb/swagger-tanstack-query": "^1.4.1",
     "@kubb/swagger-ts": "^1.4.1",
     "@kubb/swagger-zod": "^1.4.1",
