@@ -10,6 +10,7 @@ import createSwaggerSwr from '@kubb/swagger-swr'
 import createSwaggerZod from '@kubb/swagger-zod'
 import createSwaggerZodios from '@kubb/swagger-zodios'
 import createSwaggerFaker from '@kubb/swagger-faker'
+import createSwaggerForm from '@kubb/swagger-form'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
@@ -55,6 +56,9 @@ export const buildKubbFiles = async (config: any) => {
       }
       if (name === '@kubb/swagger-faker') {
         return createSwaggerFaker(options)
+      }
+      if (name === '@kubb/swagger-form') {
+        return createSwaggerForm(options)
       }
     }
     return plugin
