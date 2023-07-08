@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 import { useEffect } from 'react'
 import { useAtom } from 'jotai'
-import { Flex, FormControl, FormLabel, Heading, Select, VStack } from '@chakra-ui/react'
+import { Flex, FormControl, FormLabel, Heading, VStack } from '@chakra-ui/react'
 import { Base64 } from 'js-base64'
 import { ungzip } from 'pako'
 import * as React from 'react'
@@ -51,10 +51,6 @@ export default function Configuration() {
         <VStack spacing="2">
           <FormControl>
             <FormLabel htmlFor="logLevel">LogLevel</FormLabel>
-            <Select disabled id="logLevel" value={config.logLevel} onInput={handleLogLevelChange}>
-              <option value="warn">Warn</option>
-              <option value="error">Error</option>
-            </Select>
           </FormControl>
         </VStack>
         <ConfigEditorModal />
