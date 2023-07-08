@@ -21,7 +21,7 @@ export const uploadObject = async (data: any, options: { client: S3Client } = { 
 
   try {
     const command = new PutObjectCommand(bucketParams)
-    await options.client.send(command)
+    await options.client.send(command as any)
 
     // Create the presigned URL.
     const signedUrl = `https://kubb.s3.eu-west-1.amazonaws.com/${bucketParams.Key}`
