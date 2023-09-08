@@ -14,35 +14,35 @@ dependencies:
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.21)(react@18.2.0)
   '@kubb/core':
-    specifier: ~1.6.2
-    version: 1.6.2
+    specifier: ~1.7.2
+    version: 1.7.2
   '@kubb/swagger':
-    specifier: ~1.6.2
-    version: 1.6.2(openapi-types@12.1.3)
+    specifier: ~1.7.2
+    version: 1.7.2(openapi-types@12.1.3)
   '@kubb/swagger-client':
-    specifier: ~1.6.2
-    version: 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+    specifier: ~1.7.2
+    version: 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-faker':
-    specifier: ~1.6.2
-    version: 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
+    specifier: ~1.7.2
+    version: 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-form':
-    specifier: ~1.6.2
-    version: 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+    specifier: ~1.7.2
+    version: 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-swr':
-    specifier: ~1.6.2
-    version: 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+    specifier: ~1.7.2
+    version: 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-tanstack-query':
-    specifier: ~1.6.2
-    version: 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+    specifier: ~1.7.2
+    version: 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-ts':
-    specifier: ~1.6.2
-    version: 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
+    specifier: ~1.7.2
+    version: 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-zod':
-    specifier: ~1.6.2
-    version: 1.6.2(openapi-types@12.1.3)
+    specifier: ~1.7.2
+    version: 1.7.2(openapi-types@12.1.3)
   '@kubb/swagger-zodios':
-    specifier: ~1.6.2
-    version: 1.6.2(openapi-types@12.1.3)
+    specifier: ~1.7.2
+    version: 1.7.2(openapi-types@12.1.3)
   '@monaco-editor/react':
     specifier: ^4.5.2
     version: 4.5.2(monaco-editor@0.41.0)(react-dom@18.2.0)(react@18.2.0)
@@ -2190,11 +2190,11 @@ packages:
     resolution: {integrity: sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==}
     dev: false
 
-  /@kubb/core@1.6.2:
-    resolution: {integrity: sha512-UyxYYTmDTXR0XBohKlAVpvH7jMUlH/8qAxUSLRlc4oTEz14EPAUF1qi17cG9yuEL5j90WIGilEZwa5HmHOSqiQ==}
+  /@kubb/core@1.7.2:
+    resolution: {integrity: sha512-sYqlMzLVDPoP9OHLle2yXK9jVV5GNMWlIlC029t0PCIjiPvTGixhUp2iVZdO+3wVQdXWjM3D/1ZOQZOIH3LwlA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
       directory-tree: 3.5.1
       fs-extra: 11.1.1
@@ -2204,16 +2204,16 @@ packages:
       seedrandom: 3.0.5
     dev: false
 
-  /@kubb/swagger-client@1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-FvGghKWHi60X2KInn3XTn9b5ubxhUs4gr6rk87wiUPPRxdxwbzar+lnpIkqzbGkH91zFagnXIzBanuIHN3nagw==}
+  /@kubb/swagger-client@1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-U6q/txTk/u1KBuyooy33uiaOi5nGeAdiPhdpKJ8oElWB07wp5tfmxQID+pK0rWesmTB/HMr+21zvHialBG0Cwg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
       axios: ^1.4.0
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/ts-codegen': 1.7.2
       axios: 1.4.0
       change-case: 4.1.2
     transitivePeerDependencies:
@@ -2222,14 +2222,14 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-faker@1.6.2(openapi-types@12.1.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-3fEO/tOOC242Ghqnn/broeQ4WT8v3f/r5gnC9oa9kvAfrdHpKygyPfc4vIDxeuloGTUwTby7NPKFGLNvZhwkYA==}
+  /@kubb/swagger-faker@1.7.2(openapi-types@12.1.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-AICE0u12ElSYSfqlYWYPp4J0e6j+/RlIk/YC2DaWB2abBgqTWAmXF/NfHR2bCVNSvt2MEt8LIgwSOoamkx0fsg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2237,32 +2237,15 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-form@1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-fDieYin3o/J8pDfW7r7M23clm98iuhCb7Ki/OXWX24rANginhmsm9DwrAonvJuxhW1fGvmwiVHLmfueibq73Xg==}
+  /@kubb/swagger-form@1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-4dLs0tdasyJpm4C9zY3N4Bk6oH/dhs6NWim2qhnuQaTfqerG+mpFRpHehc4B4ZULfSPpcy44Nkbry2TFJIAfaA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/ts-codegen': 1.6.2
-      change-case: 4.1.2
-    transitivePeerDependencies:
-      - axios
-      - encoding
-      - openapi-types
-      - typescript
-    dev: false
-
-  /@kubb/swagger-swr@1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-5CwB2gk7sw+EaifWfRvuijJtwN5si0Ij2MHH4nlntXhgLq+yfDNpHTqe2lcxVPALUuoV7zCOwVuc9IZjf0SkRQ==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2271,15 +2254,15 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-tanstack-query@1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-n7ABYDTNuiLVHYB7ltZHrzSe/HM8J+7/TkbBKbuqkyb6bRiMO3ywr/2hZErIm3Bn78pDVGdFDL/QVpwVyV5Rdw==}
+  /@kubb/swagger-swr@1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-UAzX44mmKQwrdFk/l2YelwZKIwodVChvyEOrtfIqQNpTa+E+ZY74TL9GLNzv6d+M9QbQdD+TKHfe6SzqNg9KLw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.6.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.6.2(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2288,15 +2271,32 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-ts@1.6.2(openapi-types@12.1.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-6uhk4HRophs4+5ZqwRtowlO3rsPiVUlxOzZn5oWp8lfxN2kwK6zNh0LmbsG5ReuDwUPnUaAvRy/S/L9GHk/l7A==}
+  /@kubb/swagger-tanstack-query@1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-qTMJTfr2PdM/MyZG3mOT7K716oYSSYYZrjAumTqbaYlX/lXRyhUOBDwvA6p32P/fZlltLSpiTAjzJAwBXx7Z5g==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    dependencies:
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.7.2(axios@1.4.0)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.7.2(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/ts-codegen': 1.7.2
+      change-case: 4.1.2
+    transitivePeerDependencies:
+      - axios
+      - encoding
+      - openapi-types
+      - typescript
+    dev: false
+
+  /@kubb/swagger-ts@1.7.2(openapi-types@12.1.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-p8ngbx3Vamt1+TTQvW6V7CU1LSQe4CDbaN4tsuJ5uHEtwLJ8Ew6AQMQyYKDDbzGzUS20yT9aPoorU2nQT9QdaA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
       typescript: ^5.2.2
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
       typescript: 5.2.2
     transitivePeerDependencies:
@@ -2304,39 +2304,39 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zod@1.6.2(openapi-types@12.1.3):
-    resolution: {integrity: sha512-oSYEwdP1mrazcMJt6pQYMBrN7zCXjDjdzLG6cBU9HHL9v95RZViloUy4ukBxkfzTDLOERmgSnv8aMCWhLc5XJw==}
+  /@kubb/swagger-zod@1.7.2(openapi-types@12.1.3):
+    resolution: {integrity: sha512-Na3IWFa/Xq54umrv3eETuW/PCMsyuRVYYE74pahBJjSqHi4otjq2pJIbUl1F3qwjkoCfvctW4oy9QwPbg2V0tg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zodios@1.6.2(openapi-types@12.1.3):
-    resolution: {integrity: sha512-jybL3HfK5V0twaG09j6bFQQUNyXGtIZwAWZKPjc251E+ZLwVvwOus56IShMgfYmIwUataxxQz9VI5xQZ6P7WCg==}
+  /@kubb/swagger-zodios@1.7.2(openapi-types@12.1.3):
+    resolution: {integrity: sha512-uOVxOnxSfXWpCIlCCUkVsSZTQYnwguJQzmKfPDb+v+qoSJEpcf/WNAmn7oeDu8su+SA4QOjIsj/ZbqXakfa9SQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 1.6.2
-      '@kubb/swagger': 1.6.2(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 1.6.2(openapi-types@12.1.3)
-      '@kubb/ts-codegen': 1.6.2
+      '@kubb/core': 1.7.2
+      '@kubb/swagger': 1.7.2(openapi-types@12.1.3)
+      '@kubb/swagger-zod': 1.7.2(openapi-types@12.1.3)
+      '@kubb/ts-codegen': 1.7.2
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
       - openapi-types
     dev: false
 
-  /@kubb/swagger@1.6.2(openapi-types@12.1.3):
-    resolution: {integrity: sha512-gqBpE0HB42YkAZYhMyzlw4wwbssSmMSXEWr/RdAxiJgaB7RZxF3Cu6s0vLMCVDHvwC2DT6aCrKyXFFINfPDXrw==}
+  /@kubb/swagger@1.7.2(openapi-types@12.1.3):
+    resolution: {integrity: sha512-JhDln+mF/XUvnBdHpWT4xFfKb+LTHKZ2XBOZXgcIDU5D6//49q+d4PFeu8tCrO0FcUtwf3YTacqXH2PBZkSYow==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
-      '@kubb/core': 1.6.2
+      '@kubb/core': 1.7.2
       change-case: 4.1.2
       oas: 21.0.2
       oas-normalize: 9.0.0
@@ -2346,8 +2346,8 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/ts-codegen@1.6.2:
-    resolution: {integrity: sha512-X+fGpxNf2Ar0N9Ajr/kNWshO7xH73PS7Thu1iYh5R4wWbRGBDjJgdlTP7YlGdW5VcoYuvFtY2SFeo0u8jTWkXA==}
+  /@kubb/ts-codegen@1.7.2:
+    resolution: {integrity: sha512-vgSAEoC6rQNasQjKSxyK9nvjlITkI16f/bC6seDyPOlONP3oPBWZ/QGgVlLZlar28KLXZG+DLVnXBh00x6cy5Q==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       typescript: 5.2.2
@@ -5844,18 +5844,6 @@ packages:
       http2-client: 1.3.5
     dev: false
 
-  /node-fetch@2.6.11:
-    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      whatwg-url: 5.0.0
-    dev: false
-
   /node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
     engines: {node: 4.x || >=6.0.0}
@@ -6857,7 +6845,7 @@ packages:
     hasBin: true
     dependencies:
       call-me-maybe: 1.0.2
-      node-fetch: 2.6.11
+      node-fetch: 2.7.0
       node-fetch-h2: 2.3.0
       node-readfiles: 0.2.0
       oas-kit-common: 1.0.8
