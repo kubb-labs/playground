@@ -4,7 +4,7 @@ import { Box, Flex, Heading, HStack, Select } from '@chakra-ui/react'
 import stripAnsi from 'strip-ansi'
 import { useAtom } from 'jotai'
 
-import type { File } from '@kubb/core'
+import type { KubbFile } from '@kubb/core'
 
 import { editorOptions as sharedEditorOptions, useBorderColor, useMonacoThemeValue } from '../utils'
 import { fileNameAtom } from '../kubb'
@@ -29,7 +29,7 @@ function stringifyOutput(output: TransformationResult): string {
 
 interface Props {
   output: TransformationResult
-  files?: File[]
+  files?: KubbFile.File[]
 }
 
 const editorOptions: editor.IStandaloneEditorConstructionOptions = {
@@ -54,7 +54,7 @@ export default function OutputEditor({ output, files }: Props) {
 
   useEffect(() => {
     if (!fileName && files?.length) {
-      setFileName(files[0].fileName)
+      setFileName(files[0].baseName)
     }
   }, [files, fileName])
 
@@ -75,17 +75,17 @@ export default function OutputEditor({ output, files }: Props) {
           <Select size="xs" id="logLevel" value={fileName} onInput={handleFileNameChange}>
             {files
               ?.sort((a, b) => {
-                if (a.fileName < b.fileName) {
+                if (a.baseName < b.baseName) {
                   return -1
                 }
-                if (a.fileName > b.fileName) {
+                if (a.baseName > b.baseName) {
                   return 1
                 }
                 return 0
               })
               ?.map((file) => {
                 return (
-                  <option key={file.fileName} value={file.fileName}>
+                  <option key={file.baseName} value={file.baseName}>
                     {file.path}
                   </option>
                 )

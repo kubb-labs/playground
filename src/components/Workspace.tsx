@@ -8,7 +8,7 @@ import styled from '@emotion/styled'
 import { loader } from '@monaco-editor/react'
 import { Err } from 'ts-results'
 
-import type { File } from '@kubb/core'
+import type { KubbFile } from '@kubb/core'
 
 import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
@@ -88,7 +88,7 @@ const fetchOutput = async (url: string, { arg }) => {
       throw json.error
     }
 
-    const files: File[] = json
+    const files: KubbFile.File[] = json
       .map((file) => {
         return { ...file, path: file.path.split('/gen/')[1] }
       })
@@ -98,7 +98,7 @@ const fetchOutput = async (url: string, { arg }) => {
           return [...acc, file]
         }
         return acc
-      }, [] as File[])
+      }, [] as KubbFile.File[])
 
     return files
   })
@@ -145,7 +145,7 @@ export default function Workspace() {
     if (isMutating) {
       return Err('Loading Kubb...')
     }
-    const code = files?.find((file) => file.fileName === fileName)?.source || ''
+    const code = files?.find((file) => file.baseName === fileName)?.source || ''
     let language: 'text' | 'javascript' | 'json' = 'text'
 
     if (fileName.endsWith('.js') || fileName.endsWith('.ts')) {
