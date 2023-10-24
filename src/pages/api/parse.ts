@@ -2,74 +2,97 @@
 import oas from 'oas'
 import oasNormalize from 'oas-normalize'
 
-import { build } from '@kubb/core'
-import createSwagger from '@kubb/swagger'
-import createSwaggerTs from '@kubb/swagger-ts'
-import createSwaggerTanstackQuery from '@kubb/swagger-tanstack-query'
-import createSwaggerSwr from '@kubb/swagger-swr'
-import createSwaggerZod from '@kubb/swagger-zod'
-import createSwaggerZodios from '@kubb/swagger-zodios'
-import createSwaggerFaker from '@kubb/swagger-faker'
-import createSwaggerMsw from '@kubb/swagger-msw'
-import createSwaggerCient from '@kubb/swagger-client'
-
 import type { NextApiRequest, NextApiResponse } from 'next'
+import { ParserBody } from '../../kubb'
+
+const latest = {
+  '@kubb/core': import('@kubb/core'),
+  '@kubb/swagger': import('@kubb/swagger'),
+  '@kubb/swagger-ts': import('@kubb/swagger-ts'),
+  '@kubb/swagger-tanstack-query': import('@kubb/swagger-tanstack-query'),
+  '@kubb/swagger-zod': import('@kubb/swagger-zod'),
+  '@kubb/swagger-zodios': import('@kubb/swagger-zodios'),
+  '@kubb/swagger-faker': import('@kubb/swagger-faker'),
+  '@kubb/swagger-msw': import('@kubb/swagger-msw'),
+  '@kubb/swagger-swr': import('@kubb/swagger-swr'),
+  '@kubb/swagger-client': import('@kubb/swagger-client'),
+} as const
+
+const alpha = {
+  '@kubb/core': import('@kubb-alpha/core'),
+  '@kubb/swagger': import('@kubb-alpha/swagger'),
+  '@kubb/swagger-ts': import('@kubb-alpha/swagger-ts'),
+  '@kubb/swagger-tanstack-query': import('@kubb-alpha/swagger-tanstack-query'),
+  '@kubb/swagger-zod': import('@kubb-alpha/swagger-zod'),
+  '@kubb/swagger-zodios': import('@kubb-alpha/swagger-zodios'),
+  '@kubb/swagger-faker': import('@kubb-alpha/swagger-faker'),
+  '@kubb/swagger-msw': import('@kubb-alpha/swagger-msw'),
+  '@kubb/swagger-swr': import('@kubb-alpha/swagger-swr'),
+  '@kubb/swagger-client': import('@kubb-alpha/swagger-client'),
+} as const
+
+const canary = {
+  '@kubb/core': import('@kubb-canary/core'),
+  '@kubb/swagger': import('@kubb-canary/swagger'),
+  '@kubb/swagger-ts': import('@kubb-canary/swagger-ts'),
+  '@kubb/swagger-tanstack-query': import('@kubb-canary/swagger-tanstack-query'),
+  '@kubb/swagger-zod': import('@kubb-canary/swagger-zod'),
+  '@kubb/swagger-zodios': import('@kubb-canary/swagger-zodios'),
+  '@kubb/swagger-faker': import('@kubb-canary/swagger-faker'),
+  '@kubb/swagger-msw': import('@kubb-canary/swagger-msw'),
+  '@kubb/swagger-swr': import('@kubb-canary/swagger-swr'),
+  '@kubb/swagger-client': import('@kubb-canary/swagger-client'),
+} as const
 
 //! WE NEED TO LOG OS BECAUSE ELSE NEXTJS IS NOT INCLUDING OAS INSIDE THE BUNDLE(PRODUCTION BUILD)
 console.log(typeof oas, typeof oasNormalize)
 
-export const buildKubbFiles = async (config: any) => {
-  const combinedConfig = config || {
-    root: './',
-    output: {
-      path: 'gen',
-    },
-    plugins: [
-      ['@kubb/swagger', { output: false }],
-      ['@kubb/swagger-ts', { output: 'models.ts' }],
-      ['@kubb/swagger-zod', { output: './zod' }],
-      ['@kubb/swagger-react-query', { output: './hooks' }],
-      ['@kubb/swagger-zodios', { output: 'zodios.ts' }],
-      ['@kubb/swagger-faker', { output: 'mocks' }],
-    ],
-  }
-  const mappedPlugins = combinedConfig.plugins?.map((plugin) => {
-    if (Array.isArray(plugin)) {
-      const [name, options = {}] = plugin as any[]
+export const buildKubbFiles = async (config: ParserBody['config'], version: ParserBody['version']) => {
+  const packages = version === 'canary' ? canary : version === 'alpha' ? alpha : latest
 
-      if (name === '@kubb/swagger') {
-        return createSwagger({ ...options, validate: false })
-      }
-      if (name === '@kubb/swagger-ts') {
-        return createSwaggerTs(options)
-      }
-      if (name === '@kubb/swagger-client') {
-        return createSwaggerCient(options)
-      }
-      if (name === '@kubb/swagger-tanstack-query') {
-        return createSwaggerTanstackQuery(options)
-      }
-      if (name === '@kubb/swagger-swr') {
-        return createSwaggerSwr(options)
-      }
-      if (name === '@kubb/swagger-zod') {
-        return createSwaggerZod(options)
-      }
-      if (name === '@kubb/swagger-zodios') {
-        return createSwaggerZodios(options)
-      }
-      if (name === '@kubb/swagger-faker') {
-        return createSwaggerFaker(options)
-      }
-      if (name === '@kubb/swagger-msw') {
-        return createSwaggerMsw(options)
-      }
+  const core = await packages['@kubb/core']
+
+  const combinedConfig =
+    config ||
+    ({
+      root: './',
+      output: {
+        path: 'gen',
+      },
+      plugins: [
+        ['@kubb/swagger', { output: false }],
+        ['@kubb/swagger-ts', { output: 'models.ts' }],
+        ['@kubb/swagger-zod', { output: './zod' }],
+        ['@kubb/swagger-react-query', { output: './hooks' }],
+        ['@kubb/swagger-zodios', { output: 'zodios.ts' }],
+        ['@kubb/swagger-faker', { output: 'mocks' }],
+      ],
+    } as const)
+
+  const promises = combinedConfig.plugins?.map(async (plugin) => {
+    if (!Array.isArray(plugin)) {
+      return plugin
     }
-    return plugin
+
+    const [name, options = {}] = plugin as [name: keyof Omit<typeof packages, '@kubb/core'>, any]
+    const pluginImport = await packages[name]
+
+    if (!pluginImport) {
+      throw new Error(`Cannot find ${pluginImport} ${name}`)
+    }
+
+    if (name === '@kubb/swagger') {
+      return pluginImport.definePlugin({ ...options, validate: false })
+    }
+
+    return pluginImport.definePlugin(options)
   })
 
-  const result = await build({
+  const mappedPlugins = await Promise.all(promises)
+
+  const result = await core.build({
     config: {
+      root: '.',
       ...combinedConfig,
       output: {
         ...combinedConfig.output,
@@ -85,9 +108,9 @@ export const buildKubbFiles = async (config: any) => {
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     if (req.method === 'POST') {
-      const { body } = req
+      const { body } = req as { body: ParserBody }
 
-      const files = await buildKubbFiles(body.config)
+      const files = await buildKubbFiles(body.config, body.version)
 
       res.status(200).json(files)
       return

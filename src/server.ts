@@ -5,6 +5,7 @@ import { S3Client } from '@aws-sdk/client-s3'
 
 import { buildKubbFiles } from './pages/api/parse'
 import { uploadObject } from './aws'
+import { ParserBody } from './kubb'
 
 const dev = process.env.NODE_ENV !== 'production'
 const port = process.env.PORT || 3000
@@ -35,9 +36,9 @@ app
     })
 
     server.post('/api/parse', async (req, res) => {
-      const { body } = req
+      const { body } = req as { body: ParserBody }
 
-      const files = await buildKubbFiles(body.config)
+      const files = await buildKubbFiles(body.config, body.version)
 
       return res.status(200).json(files)
     })

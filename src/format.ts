@@ -14,8 +14,14 @@ const formatOptions: Options = {
   plugins: [parserTypescript],
 }
 export const format = (source: string, language: 'text' | 'javascript' | 'json') => {
-  if (language === 'json') {
-    return JSON.stringify(JSON.parse(source), undefined, 2)
+  try {
+    if (language === 'json') {
+      return JSON.stringify(JSON.parse(source), undefined, 2)
+    }
+    return prettierFormat(source, formatOptions)
+  } catch (e) {
+    console.log('prettier format issue \n\n', e)
+
+    return source
   }
-  return prettierFormat(source, formatOptions)
 }

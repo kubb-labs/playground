@@ -8,7 +8,7 @@ import styled from '@emotion/styled'
 import { loader } from '@monaco-editor/react'
 import { Err } from 'ts-results'
 
-import type { KubbFile } from '@kubb/core'
+import type { KubbFile, KubbUserConfig } from '@kubb/core'
 
 import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
@@ -19,7 +19,7 @@ import { format } from '../format'
 import { fileNameAtom, versionAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
-import type { TransformationResult } from '../kubb'
+import type { ParserBody, TransformationResult } from '../kubb'
 
 const Main = styled.main`
   display: grid;
@@ -49,7 +49,7 @@ const Main = styled.main`
   }
 `
 
-const fetchOutput = async (url: string, { arg }) => {
+const fetchOutput = async (url: string, { arg }: { arg: ParserBody }) => {
   const file = await fetch(`/api/upload`, {
     method: 'POST',
     headers: {
@@ -72,6 +72,7 @@ const fetchOutput = async (url: string, { arg }) => {
     },
     body: JSON.stringify({
       file: file.url,
+      version: arg.version,
       config:
         arg.config && file.url
           ? {
@@ -133,9 +134,9 @@ export default function Workspace() {
 
   useEffect(() => {
     if (code) {
-      trigger({ input: code, config })
+      trigger({ input: code, config, version })
     }
-  }, [code, config])
+  }, [code, version, config])
 
   const output = useMemo(() => {
     if (error) {
