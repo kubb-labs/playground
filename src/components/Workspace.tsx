@@ -18,7 +18,7 @@ import MSWSelect from './MSWSelect'
 import TanstackSelect from './TanstackSelect'
 
 import { format } from '../format'
-import { MSWVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom } from '../kubb'
+import { mswVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
 import type { ParserBody, TransformationResult } from '../kubb'
@@ -76,7 +76,7 @@ const fetchOutput = async (url: string, { arg }: { arg: ParserBody }) => {
       file: file.url,
       version: arg.version,
       tanstackVersion: arg.tanstackVersion,
-      MSWVersion: arg.MSWVersion,
+      mswVersion: arg.mswVersion,
       config:
         arg.config && file.url
           ? {
@@ -132,7 +132,7 @@ export default function Workspace() {
   // const d = useSWR('load', () => loadKubbCore())
   const [version] = useAtom(versionAtom)
   const [tanstackVersion] = useAtom(tanstackVersionAtom)
-  const [MSWVersion] = useAtom(MSWVersionAtom)
+  const [mswVersion] = useAtom(mswVersionAtom)
   const [fileName] = useAtom(fileNameAtom)
   const { trigger, isMutating, data: files, error } = useSWRMutation(`/api/parse`, fetchOutput)
   const [code] = useAtom(codeAtom)
@@ -140,9 +140,9 @@ export default function Workspace() {
 
   useEffect(() => {
     if (code) {
-      trigger({ input: code, config, version, tanstackVersion, MSWVersion })
+      trigger({ input: code, config, version, tanstackVersion, mswVersion })
     }
-  }, [code, version, tanstackVersion, MSWVersion, config])
+  }, [code, version, tanstackVersion, mswVersion, config])
 
   const output = useMemo(() => {
     if (error) {

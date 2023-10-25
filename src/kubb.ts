@@ -16,7 +16,7 @@ export type ParserBody = {
   input: string
   version: 'canary' | 'alpha' | (string & {})
   tanstackVersion: '4' | '5' | (string & {})
-  MSWVersion: '1' | '2' | (string & {})
+  mswVersion: '1' | '2' | (string & {})
   config: KubbUserConfig
 }
 
@@ -28,8 +28,8 @@ export const tanstackVersionAtom = atom<ParserBody['tanstackVersion']>(
   (new URLSearchParams(window.location.search).get('tanstack_version') as ParserBody['tanstackVersion']) || '4'
 )
 
-export const MSWVersionAtom = atom<ParserBody['MSWVersion']>(
-  (new URLSearchParams(window.location.search).get('msw_version') as ParserBody['MSWVersion']) || '1'
+export const mswVersionAtom = atom<ParserBody['mswVersion']>(
+  (new URLSearchParams(window.location.search).get('msw_version') as ParserBody['mswVersion']) || '1'
 )
 
 export const fileNameAtom = atom('')

@@ -38,7 +38,7 @@ app
     server.post('/api/parse', async (req, res) => {
       const { body } = req as { body: ParserBody }
 
-      const files = await buildKubbFiles(body.config, body.version, body.tanstackVersion, body.MSWVersion)
+      const files = await buildKubbFiles(body.config, body.version, body.tanstackVersion, body.mswVersion)
 
       return res.status(200).json(files)
     })

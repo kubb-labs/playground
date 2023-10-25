@@ -2,7 +2,7 @@ import useSWR from 'swr'
 import { useAtom } from 'jotai'
 import { CircularProgress, Flex, Heading, Select, Text } from '@chakra-ui/react'
 
-import { MSWVersionAtom } from '../kubb'
+import { mswVersionAtom } from '../kubb'
 import { useBgColor, useBorderColor } from '../utils'
 
 import type { ChangeEvent } from 'react'
@@ -26,7 +26,7 @@ interface Props {
 }
 
 export default function MSWSelect({ isLoading }: Props) {
-  const [version, setVersion] = useAtom(MSWVersionAtom)
+  const [version, setVersion] = useAtom(mswVersionAtom)
   const { data: packageInfo, error } = useSWR('msw', fetchPackageInfo)
   const bg = useBgColor()
   const borderColor = useBorderColor()

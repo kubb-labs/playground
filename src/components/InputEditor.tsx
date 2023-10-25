@@ -12,7 +12,7 @@ import type { KubbUserConfig } from '@kubb/core'
 
 import { codeAtom, configAtom } from '../state'
 import { editorOptions, useBorderColor, useMonacoThemeValue } from '../utils'
-import { MSWVersionAtom, tanstackVersionAtom, versionAtom } from '../kubb'
+import { mswVersionAtom, tanstackVersionAtom, versionAtom } from '../kubb'
 
 import type { editor } from 'monaco-editor'
 import type { TransformationResult } from '../kubb'
@@ -49,7 +49,7 @@ export default function InputEditor(_props: Props) {
   const [config] = useAtom(configAtom)
   const [version] = useAtom(versionAtom)
   const [tanstackVersion] = useAtom(tanstackVersionAtom)
-  const [MSWVersion] = useAtom(MSWVersionAtom)
+  const [mswVersion] = useAtom(mswVersionAtom)
   const monacoTheme = useMonacoThemeValue()
   const borderColor = useBorderColor()
   const monaco = useMonaco()
@@ -86,7 +86,7 @@ export default function InputEditor(_props: Props) {
 
     url.searchParams.set('version', version)
     url.searchParams.set('tanstack_version', tanstackVersion)
-    url.searchParams.set('msw_version', MSWVersion)
+    url.searchParams.set('msw_version', mswVersion)
     url.searchParams.set('config', encodedConfig)
     url.searchParams.set('code', encodedInput)
 

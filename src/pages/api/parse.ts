@@ -51,7 +51,7 @@ export const buildKubbFiles = async (
   config: ParserBody['config'],
   version: ParserBody['version'],
   tanstackVersion: ParserBody['tanstackVersion'],
-  MSWVersion: ParserBody['MSWVersion']
+  mswVersion: ParserBody['mswVersion']
 ) => {
   const latestCore = await latest['@kubb/core']
   const packages = version === 'canary' ? canary : version === 'alpha' ? alpha : latest
@@ -75,15 +75,6 @@ export const buildKubbFiles = async (
       ],
     } as const)
 
-  if ('setVersion' in core.PackageManager) {
-    core.PackageManager.setVersion('@tanstack/react-query', tanstackVersion)
-    core.PackageManager.setVersion('@tanstack/solid-query', tanstackVersion)
-    core.PackageManager.setVersion('@tanstack/vue-query', tanstackVersion)
-    core.PackageManager.setVersion('@tanstack/svelte-query', tanstackVersion)
-
-    core.PackageManager.setVersion('msw', MSWVersion)
-  }
-
   const promises = combinedConfig.plugins?.map(async (plugin) => {
     if (!Array.isArray(plugin)) {
       return plugin
@@ -105,6 +96,15 @@ export const buildKubbFiles = async (
 
   const mappedPlugins = await Promise.all(promises)
 
+  if ('setVersion' in core.PackageManager) {
+    core.PackageManager.setVersion('@tanstack/react-query', tanstackVersion)
+    core.PackageManager.setVersion('@tanstack/solid-query', tanstackVersion)
+    core.PackageManager.setVersion('@tanstack/vue-query', tanstackVersion)
+    core.PackageManager.setVersion('@tanstack/svelte-query', tanstackVersion)
+
+    core.PackageManager.setVersion('msw', mswVersion)
+  }
+
   const result = await core.build({
     config: {
       root: '.',
@@ -125,7 +125,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (req.method === 'POST') {
       const { body } = req as { body: ParserBody }
 
-      const files = await buildKubbFiles(body.config, body.version, body.tanstackVersion, body.MSWVersion)
+      const files = await buildKubbFiles(body.config, body.version, body.tanstackVersion, body.mswVersion)
 
       res.status(200).json(files)
       return
