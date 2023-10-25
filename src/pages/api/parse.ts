@@ -47,10 +47,16 @@ const canary = {
 //! WE NEED TO LOG OS BECAUSE ELSE NEXTJS IS NOT INCLUDING OAS INSIDE THE BUNDLE(PRODUCTION BUILD)
 console.log(typeof oas, typeof oasNormalize)
 
-export const buildKubbFiles = async (config: ParserBody['config'], version: ParserBody['version']) => {
+export const buildKubbFiles = async (
+  config: ParserBody['config'],
+  version: ParserBody['version'],
+  tanstackVersion: ParserBody['tanstackVersion'],
+  MSWVersion: ParserBody['MSWVersion']
+) => {
+  const latestCore = await latest['@kubb/core']
   const packages = version === 'canary' ? canary : version === 'alpha' ? alpha : latest
 
-  const core = await packages['@kubb/core']
+  const core = (await packages['@kubb/core']) as typeof latestCore
 
   const combinedConfig =
     config ||
@@ -68,6 +74,15 @@ export const buildKubbFiles = async (config: ParserBody['config'], version: Pars
         ['@kubb/swagger-faker', { output: 'mocks' }],
       ],
     } as const)
+
+  if ('setVersion' in core.PackageManager) {
+    core.PackageManager.setVersion('@tanstack/react-query', tanstackVersion)
+    core.PackageManager.setVersion('@tanstack/solid-query', tanstackVersion)
+    core.PackageManager.setVersion('@tanstack/vue-query', tanstackVersion)
+    core.PackageManager.setVersion('@tanstack/svelte-query', tanstackVersion)
+
+    core.PackageManager.setVersion('msw', MSWVersion)
+  }
 
   const promises = combinedConfig.plugins?.map(async (plugin) => {
     if (!Array.isArray(plugin)) {
@@ -110,7 +125,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (req.method === 'POST') {
       const { body } = req as { body: ParserBody }
 
-      const files = await buildKubbFiles(body.config, body.version)
+      const files = await buildKubbFiles(body.config, body.version, body.tanstackVersion, body.MSWVersion)
 
       res.status(200).json(files)
       return

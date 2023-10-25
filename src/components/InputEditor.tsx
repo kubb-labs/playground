@@ -12,7 +12,7 @@ import type { KubbUserConfig } from '@kubb/core'
 
 import { codeAtom, configAtom } from '../state'
 import { editorOptions, useBorderColor, useMonacoThemeValue } from '../utils'
-import { versionAtom } from '../kubb'
+import { MSWVersionAtom, tanstackVersionAtom, versionAtom } from '../kubb'
 
 import type { editor } from 'monaco-editor'
 import type { TransformationResult } from '../kubb'
@@ -48,6 +48,8 @@ export default function InputEditor(_props: Props) {
   const [code, setCode] = useAtom(codeAtom)
   const [config] = useAtom(configAtom)
   const [version] = useAtom(versionAtom)
+  const [tanstackVersion] = useAtom(tanstackVersionAtom)
+  const [MSWVersion] = useAtom(MSWVersionAtom)
   const monacoTheme = useMonacoThemeValue()
   const borderColor = useBorderColor()
   const monaco = useMonaco()
@@ -79,11 +81,15 @@ export default function InputEditor(_props: Props) {
 
   const shareUrl = useMemo(() => {
     const url = new URL(location.href)
-    url.searchParams.set('version', version)
     const encodedInput = Base64.fromUint8Array(gzip(code))
-    url.searchParams.set('code', encodedInput)
     const encodedConfig = Base64.fromUint8Array(gzip(JSON.stringify(config)))
+
+    url.searchParams.set('version', version)
+    url.searchParams.set('tanstack_version', tanstackVersion)
+    url.searchParams.set('msw_version', MSWVersion)
     url.searchParams.set('config', encodedConfig)
+    url.searchParams.set('code', encodedInput)
+
     return url.toString()
   }, [code, config, version])
 

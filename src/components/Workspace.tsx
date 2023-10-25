@@ -8,15 +8,17 @@ import styled from '@emotion/styled'
 import { loader } from '@monaco-editor/react'
 import { Err } from 'ts-results'
 
-import type { KubbFile, KubbUserConfig } from '@kubb/core'
+import type { KubbFile } from '@kubb/core'
 
 import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
 import InputEditor from './InputEditor'
 import OutputEditor from './OutputEditor'
+import MSWSelect from './MSWSelect'
+import TanstackSelect from './TanstackSelect'
 
 import { format } from '../format'
-import { fileNameAtom, versionAtom } from '../kubb'
+import { MSWVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
 import type { ParserBody, TransformationResult } from '../kubb'
@@ -73,6 +75,8 @@ const fetchOutput = async (url: string, { arg }: { arg: ParserBody }) => {
     body: JSON.stringify({
       file: file.url,
       version: arg.version,
+      tanstackVersion: arg.tanstackVersion,
+      MSWVersion: arg.MSWVersion,
       config:
         arg.config && file.url
           ? {
@@ -127,6 +131,8 @@ export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
   // const d = useSWR('load', () => loadKubbCore())
   const [version] = useAtom(versionAtom)
+  const [tanstackVersion] = useAtom(tanstackVersionAtom)
+  const [MSWVersion] = useAtom(MSWVersionAtom)
   const [fileName] = useAtom(fileNameAtom)
   const { trigger, isMutating, data: files, error } = useSWRMutation(`/api/parse`, fetchOutput)
   const [code] = useAtom(codeAtom)
@@ -134,9 +140,9 @@ export default function Workspace() {
 
   useEffect(() => {
     if (code) {
-      trigger({ input: code, config, version })
+      trigger({ input: code, config, version, tanstackVersion, MSWVersion })
     }
-  }, [code, version, config])
+  }, [code, version, tanstackVersion, MSWVersion, config])
 
   const output = useMemo(() => {
     if (error) {
@@ -195,6 +201,8 @@ export default function Workspace() {
     <Main>
       <VStack spacing={4} alignItems="unset" gridArea="sidebar">
         <Configuration />
+        <TanstackSelect isLoading={isMutating} />
+        <MSWSelect isLoading={isMutating} />
         <VersionSelect isLoading={isMutating} />
       </VStack>
       <InputEditor output={output} />
