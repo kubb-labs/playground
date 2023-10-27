@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@kubb/react': alpha
+
 dependencies:
   '@aws-sdk/client-s3':
     specifier: ^3.437.0
@@ -22,94 +25,94 @@ dependencies:
     version: /@kubb/core@1.15.0-canary.20231027T174910
   '@kubb-alpha/swagger':
     specifier: npm:@kubb/swagger@alpha
-    version: /@kubb/swagger@1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger@1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-client':
     specifier: npm:@kubb/swagger-client@alpha
-    version: /@kubb/swagger-client@1.15.0-canary.20231027T175124(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-client@1.15.0-canary.20231027T175124(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-alpha/swagger-faker':
     specifier: npm:@kubb/swagger-faker@alpha
-    version: /@kubb/swagger-faker@1.15.0-canary.20231027T175140(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-faker@1.15.0-canary.20231027T175140(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-alpha/swagger-msw':
     specifier: npm:@kubb/swagger-msw@alpha
-    version: /@kubb/swagger-msw@1.15.0-canary.20231027T175230(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-msw@1.15.0-canary.20231027T175230(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-alpha/swagger-swr':
     specifier: npm:@kubb/swagger@alpha
-    version: /@kubb/swagger@1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger@1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@alpha
-    version: /@kubb/swagger-tanstack-query@1.15.0-canary.20231027T175214(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-tanstack-query@1.15.0-canary.20231027T175214(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-alpha/swagger-ts':
     specifier: npm:@kubb/swagger-ts@alpha
-    version: /@kubb/swagger-ts@1.15.0-canary.20231027T175035(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-ts@1.15.0-canary.20231027T175035(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-alpha/swagger-zod':
     specifier: npm:@kubb/swagger-zod@alpha
-    version: /@kubb/swagger-zod@1.15.0-canary.20231027T175019(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zod@1.15.0-canary.20231027T175019(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@alpha
-    version: /@kubb/swagger-zodios@1.15.0-canary.20231027T175108(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zodios@1.15.0-canary.20231027T175108(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-canary/core':
     specifier: npm:@kubb/core@canary
     version: /@kubb/core@1.15.0-canary.20231026T165002
   '@kubb-canary/swagger':
     specifier: npm:@kubb/swagger@canary
-    version: /@kubb/swagger@1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger@1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-canary/swagger-client':
     specifier: npm:@kubb/swagger-client@canary
-    version: /@kubb/swagger-client@1.15.0-canary.20231026T165152(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-client@1.15.0-canary.20231026T165152(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-canary/swagger-faker':
     specifier: npm:@kubb/swagger-faker@canary
-    version: /@kubb/swagger-faker@1.15.0-canary.20231026T165210(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-faker@1.15.0-canary.20231026T165210(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-canary/swagger-msw':
     specifier: npm:@kubb/swagger-msw@canary
-    version: /@kubb/swagger-msw@1.15.0-canary.20231026T165331(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-msw@1.15.0-canary.20231026T165331(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-canary/swagger-swr':
     specifier: npm:@kubb/swagger@canary
-    version: /@kubb/swagger@1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger@1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-canary/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@canary
-    version: /@kubb/swagger-tanstack-query@1.15.0-canary.20231026T165256(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-tanstack-query@1.15.0-canary.20231026T165256(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-canary/swagger-ts':
     specifier: npm:@kubb/swagger-ts@canary
-    version: /@kubb/swagger-ts@1.15.0-canary.20231026T165055(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: /@kubb/swagger-ts@1.15.0-canary.20231026T165055(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb-canary/swagger-zod':
     specifier: npm:@kubb/swagger-zod@canary
-    version: /@kubb/swagger-zod@1.15.0-canary.20231026T165135(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zod@1.15.0-canary.20231026T165135(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb-canary/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@canary
-    version: /@kubb/swagger-zodios@1.15.0-canary.20231026T165240(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zodios@1.15.0-canary.20231026T165240(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb/core':
     specifier: latest
     version: 1.14.5
   '@kubb/react':
-    specifier: latest
-    version: 1.14.5
+    specifier: alpha
+    version: 1.15.0-canary.20231027T174927
   '@kubb/swagger':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb/swagger-client':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-faker':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-msw':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-swr':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-tanstack-query':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-ts':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
   '@kubb/swagger-zod':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@kubb/swagger-zodios':
     specifier: latest
-    version: 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
+    version: 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
   '@monaco-editor/react':
     specifier: ^4.6.0
     version: 4.6.0(monaco-editor@0.44.0)(react-dom@18.2.0)(react@18.2.0)
@@ -2345,19 +2348,19 @@ packages:
       typescript: 5.2.2
     dev: false
 
-  /@kubb/react@1.14.5:
-    resolution: {integrity: sha512-Mv8X2t+M1/+7WL5Z7So/TaSVKEJVRGA1AEiiQXzRrY6y+do4A7W+q6ynf7rr6sJOI8kiFgX1NLfygfKCIuhEow==}
+  /@kubb/react@1.15.0-canary.20231027T174927:
+    resolution: {integrity: sha512-5cz1rIZS/wTzTVp6P7SxYmMElsjVICWaQ0E2/+lYdR6lEHnnXSrwjHLOodfMdhwZL2E14/DpP87wDCc+cEhlWQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 1.14.5
-      '@kubb/parser': 1.14.5
+      '@kubb/core': 1.15.0-canary.20231027T174910
+      '@kubb/parser': 1.15.0-canary.20231027T174854
     dev: false
 
-  /@kubb/swagger-client@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-client@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-0SnqSXlEtQpbPO/7U22n5JxDm0z8Un3l+7qeO3YIUGgXRdCHr0DR2tPbmnBVFjqr1ocgUDC68pesbqgvK5bD5A==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.5
+      '@kubb/react': alpha
       axios: ^1.4.0
     peerDependenciesMeta:
       axios:
@@ -2365,9 +2368,9 @@ packages:
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2375,11 +2378,11 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-client@1.15.0-canary.20231026T165152(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-client@1.15.0-canary.20231026T165152(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-fMBugH7MQbWFeAT1H+LAIu4D2z1atJ2tj+FfsXZbx333WJBcDWlN+TKu7prlI3+TnUinO05srdTfb6goHl9N/w==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231026T165019
+      '@kubb/react': alpha
       axios: ^1.4.0
     peerDependenciesMeta:
       axios:
@@ -2387,9 +2390,9 @@ packages:
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2397,7 +2400,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-client@1.15.0-canary.20231027T175124(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-client@1.15.0-canary.20231027T175124(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-T1RbUMnHI2E9hyxLQP3LTwc3Z2kPvHjmGqiUH2AFpafVmsmh0VH5WkMgr33Uw4DimWct0ux+h8SW1zWVyi3GDA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2409,9 +2412,9 @@ packages:
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2419,14 +2422,14 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-faker@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-faker@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-+Iwpdg9NafOUEjG4WMZ7EhDv56wGy5b5QbqfA47ugt7yP7ga9x4R10vAVcGd5HVvGBqnDUOtR1aiLHR9ffOtVA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2435,14 +2438,14 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-faker@1.15.0-canary.20231026T165210(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-faker@1.15.0-canary.20231026T165210(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-UMo8QmwwyqKw7xem1YBbiNCAasni6jIZTJtFtLfpQ2DYp0xsjSuyhZB4qLip7527FSj6DRXQ9ixOdXLtC3RJMQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2451,14 +2454,14 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-faker@1.15.0-canary.20231027T175140(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-faker@1.15.0-canary.20231027T175140(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-LkpZP+1/xzq9NlsUKO6XIZ7L7nRnx00rBb4bMbNiCBJEZpSIFXk5pLtUL8/onPaKsni3livsWCT93g/qofyNLQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2467,18 +2470,18 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-msw@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-msw@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-0bMC35ysyCY4GS4+UdIIF927h9GBrw7vifFz5L3eOvcv8JmbBDPNA7xJqIXfTfFL3OuZIvHelq/ocx8vJqDY8g==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.5
+      '@kubb/react': alpha
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-faker': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-faker': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2486,18 +2489,18 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-msw@1.15.0-canary.20231026T165331(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-msw@1.15.0-canary.20231026T165331(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-FesgAxJuPEf9O7NA+zBBx+x2E8mCtE2GilCHHvLkQQL7GQkQTXYMPYna6493T7hd6jBM0XVenR2dOnN5l08Hrw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231026T165019
+      '@kubb/react': alpha
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-faker': 1.15.0-canary.20231026T165210(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-faker': 1.15.0-canary.20231026T165210(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2505,7 +2508,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-msw@1.15.0-canary.20231027T175230(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-msw@1.15.0-canary.20231027T175230(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-TttYgu4HsryOy4b0EUwm0Lx6sKP8xcSEFYj1YVZ7tLhdqyiC7H+puo3124afDSCfhDSyjvGf9JTef8Tdm43y1g==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2513,10 +2516,10 @@ packages:
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-faker': 1.15.0-canary.20231027T175140(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-faker': 1.15.0-canary.20231027T175140(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2524,18 +2527,18 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-swr@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-swr@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-KJaHBHL2Y4TEm5dnq0iCIYBNFqff7tfsvshF4Re/L9p4uwMSpQNipMErjLg9W3vIsIkJS3SONMNxXWZIpnMORQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.5
+      '@kubb/react': alpha
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2544,18 +2547,18 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-tanstack-query@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-tanstack-query@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-QjMpbDCqJ+Z8l1S2UkOwLXMPLuCm5fPGEtOs847/ieULEbM+tWT0TFGAB5aVYAAibf7DkJJv/nWSSE78HIRgDg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.5
+      '@kubb/react': alpha
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2564,18 +2567,18 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-tanstack-query@1.15.0-canary.20231026T165256(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-tanstack-query@1.15.0-canary.20231026T165256(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-U22CywsiKrp3A+6OLdspSGFia7i1gl4O39P19UZ0Sny41DD/h7yg7bj90XKdcR5Db7LIURQ6YXmmrSAnXCnDGQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231026T165019
+      '@kubb/react': alpha
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.15.0-canary.20231026T165152(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.15.0-canary.20231026T165152(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.15.0-canary.20231026T165055(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2584,7 +2587,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-tanstack-query@1.15.0-canary.20231027T175214(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-tanstack-query@1.15.0-canary.20231027T175214(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-U4dhDAymASbGKU78Szrz2FlKn6panvfIeTaL4jKTW+f5hKEMVtC8z7usAPixVfOQj5mCti6hzep9VWKEefjXrA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2592,10 +2595,10 @@ packages:
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/react': 1.14.5
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.15.0-canary.20231027T175124(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
-      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/react': 1.15.0-canary.20231027T174927
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-client': 1.15.0-canary.20231027T175124(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
+      '@kubb/swagger-ts': 1.15.0-canary.20231027T175035(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2)
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2604,7 +2607,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-ts@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-ts@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-ERyAlYzjehNA/oiRVuL3mgIFuhAmJQDfyw3IKjsgGOlNlFc44gnktFe7BNZcMq1HScD/CvTRqn5syAcovj9O4g==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2612,7 +2615,7 @@ packages:
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
       typescript: 5.2.2
     transitivePeerDependencies:
@@ -2621,7 +2624,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-ts@1.15.0-canary.20231026T165055(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-ts@1.15.0-canary.20231026T165055(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-qJV0DuzFipwFg3iLVXxpiFcAuHyhEbj1KUa1C57lqS/x5wZpLrcXf17QzMNIl2rnY8W2MkaEOECKW4Kf0Uh8vA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2629,7 +2632,7 @@ packages:
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
       typescript: 5.2.2
     transitivePeerDependencies:
@@ -2638,7 +2641,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-ts@1.15.0-canary.20231027T175035(@kubb/react@1.14.5)(openapi-types@12.1.3)(typescript@5.2.2):
+  /@kubb/swagger-ts@1.15.0-canary.20231027T175035(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)(typescript@5.2.2):
     resolution: {integrity: sha512-r89UjrucDxVNmxqugn8WXOiDWm7bMjsA91BStArAPIIeyZkWuRzk/Mkm0LmiXwvy/p6JIxgxfv4nWgr5fVCzOQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2646,7 +2649,7 @@ packages:
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
       typescript: 5.2.2
     transitivePeerDependencies:
@@ -2655,13 +2658,13 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zod@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger-zod@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-IpcBxQhYE3gb7wFQZPVWAgSDt3XE/oIkEyBS4RV/X1jEzmDXkjxvxh9doz2P+NG63a52CPWxPPKxuelUxdLqlg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2669,13 +2672,13 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zod@1.15.0-canary.20231026T165135(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger-zod@1.15.0-canary.20231026T165135(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-zBKSPcS+VRW9raPYZIb90bt8Ni1kmXu3V5NbZYi0lFzinc9E9kdTspmsmmQz04OyH9ufsyaky9sfBH6HgJ+pTw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2683,13 +2686,13 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zod@1.15.0-canary.20231027T175019(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger-zod@1.15.0-canary.20231027T175019(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-1rKJaHfgQciTM0JUPew5CxNHicjtTKPbCzcNOqYR+w2spsfEDtEY3iXQ2ENyztYOBNUai+EsG3Ajyd8K48YscQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2697,14 +2700,14 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zodios@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger-zodios@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-n8eJAm8eULUnVeSlWyEWX4FLRhmrWXnrdunZgHP5fIm89eRLLMH4kOBGXfRYtX1Id3KmMhTkChX6qixZ5/UQHw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.14.5
       '@kubb/parser': 1.14.5
-      '@kubb/swagger': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-zod': 1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2712,14 +2715,14 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zodios@1.15.0-canary.20231026T165240(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger-zodios@1.15.0-canary.20231026T165240(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-d/CPtPBbLMggDVrYGmK1F5PmHMjuy1yBApRnMdoLFflPKMnLDc6MsQuD9SRbGvjUM4aF5RjJBOuROgpiloAEag==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.15.0-canary.20231026T165002
       '@kubb/parser': 1.15.0-canary.20231026T164947
-      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 1.15.0-canary.20231026T165135(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-zod': 1.15.0-canary.20231026T165135(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2727,14 +2730,14 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zodios@1.15.0-canary.20231027T175108(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger-zodios@1.15.0-canary.20231027T175108(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-pQs91kXM165+nAJH78kpi2fdSfPl6b/WDOil8b4kNIGOza8DLkTyeaEfW0rURW17DGwc/NQsox34MvFb7SQidg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 1.15.0-canary.20231027T174910
       '@kubb/parser': 1.15.0-canary.20231027T174854
-      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 1.15.0-canary.20231027T175019(@kubb/react@1.14.5)(openapi-types@12.1.3)
+      '@kubb/swagger': 1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
+      '@kubb/swagger-zod': 1.15.0-canary.20231027T175019(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2742,15 +2745,15 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger@1.14.5(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger@1.14.5(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-WghvhCSiin88Yqf2fkSqNgILUz6iSzO4krLplvDjpHGlUel+OP6bUTV7og3EsvcNLwqkYHR1ubhCpxoN7tJ1kw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.5
+      '@kubb/react': alpha
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 1.14.5
-      '@kubb/react': 1.14.5
+      '@kubb/react': 1.15.0-canary.20231027T174927
       change-case: 4.1.2
       js-yaml: 4.1.0
       oas: 23.0.0
@@ -2761,15 +2764,15 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger@1.15.0-canary.20231026T165037(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger@1.15.0-canary.20231026T165037(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-X/Xeo3Pq1pN+LhSWMLflGLXn3qFmQq6VCFQOzEvK6CfLlLaOzUHq2t9kZSQrS4BU7mmuTQlALRCgiDLi+66ERw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231026T165019
+      '@kubb/react': alpha
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 1.15.0-canary.20231026T165002
-      '@kubb/react': 1.14.5
+      '@kubb/react': 1.15.0-canary.20231027T174927
       change-case: 4.1.2
       js-yaml: 4.1.0
       oas: 23.0.0
@@ -2780,7 +2783,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger@1.15.0-canary.20231027T174945(@kubb/react@1.14.5)(openapi-types@12.1.3):
+  /@kubb/swagger@1.15.0-canary.20231027T174945(@kubb/react@1.15.0-canary.20231027T174927)(openapi-types@12.1.3):
     resolution: {integrity: sha512-9sRExWcodExBVoUCuwGkXcLp45c5qej4a4pMJGXeURoiojjqtY/6FceUznwUoxku9nsfeJyF0cz+LHTLB7I4Cg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2788,7 +2791,7 @@ packages:
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 1.15.0-canary.20231027T174910
-      '@kubb/react': 1.14.5
+      '@kubb/react': 1.15.0-canary.20231027T174927
       change-case: 4.1.2
       js-yaml: 4.1.0
       oas: 23.0.0
