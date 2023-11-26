@@ -10,6 +10,7 @@ import type { ChangeEvent } from 'react'
 type PackageInfo = {
   tags: {
     alpha: string
+    beta: string
     latest: string
   }
   versions: string[]

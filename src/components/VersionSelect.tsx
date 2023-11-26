@@ -10,6 +10,7 @@ import type { ChangeEvent } from 'react'
 type PackageInfo = {
   tags: {
     alpha: string
+    beta: string
     latest: string
   }
   versions: string[]
@@ -35,7 +36,7 @@ export default function VersionSelect({ isLoading }: Props) {
     setVersion(event.target.value)
   }
 
-  const tags = packageInfo?.tags['alpha'] ? ['canary', 'alpha'] : []
+  const tags = packageInfo?.tags['alpha'] ? ['canary', 'alpha', 'beta'] : []
 
   return (
     <Flex direction="column">

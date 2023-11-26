@@ -14,7 +14,7 @@ export interface TransformationOutput {
 
 export type ParserBody = {
   input: string
-  version: 'canary' | 'alpha' | (string & {})
+  version: 'canary' | 'alpha' | 'beta' | (string & {})
   tanstackVersion: '4' | '5' | (string & {})
   mswVersion: '1' | '2' | (string & {})
   config: KubbUserConfig

@@ -31,6 +31,19 @@ const alpha = {
   '@kubb/swagger-client': import('@kubb-alpha/swagger-client'),
 } as const
 
+const beta = {
+  '@kubb/core': import('@kubb-beta/core'),
+  '@kubb/swagger': import('@kubb-beta/swagger'),
+  '@kubb/swagger-ts': import('@kubb-beta/swagger-ts'),
+  '@kubb/swagger-tanstack-query': import('@kubb-beta/swagger-tanstack-query'),
+  '@kubb/swagger-zod': import('@kubb-beta/swagger-zod'),
+  '@kubb/swagger-zodios': import('@kubb-beta/swagger-zodios'),
+  '@kubb/swagger-faker': import('@kubb-beta/swagger-faker'),
+  '@kubb/swagger-msw': import('@kubb-beta/swagger-msw'),
+  '@kubb/swagger-swr': import('@kubb-beta/swagger-swr'),
+  '@kubb/swagger-client': import('@kubb-beta/swagger-client'),
+} as const
+
 const canary = {
   '@kubb/core': import('@kubb-canary/core'),
   '@kubb/swagger': import('@kubb-canary/swagger'),
@@ -44,6 +57,13 @@ const canary = {
   '@kubb/swagger-client': import('@kubb-canary/swagger-client'),
 } as const
 
+const versions = {
+  latest,
+  canary,
+  alpha,
+  beta,
+} as const
+
 //! WE NEED TO LOG OS BECAUSE ELSE NEXTJS IS NOT INCLUDING OAS INSIDE THE BUNDLE(PRODUCTION BUILD)
 console.log(typeof oas, typeof oasNormalize)
 
@@ -54,7 +74,7 @@ export const buildKubbFiles = async (
   mswVersion: ParserBody['mswVersion']
 ) => {
   const latestCore = await latest['@kubb/core']
-  const packages = version === 'canary' ? canary : version === 'alpha' ? alpha : latest
+  const packages = versions[version as keyof typeof versions] || latest
 
   const core = (await packages['@kubb/core']) as typeof latestCore
 
