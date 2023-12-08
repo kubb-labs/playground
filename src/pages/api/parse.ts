@@ -114,7 +114,7 @@ export const buildKubbFiles = async (
     return pluginImport.definePlugin(options)
   })
 
-  const mappedPlugins = await Promise.all(promises)
+  const mappedPlugins = await Promise.all(promises as any)
 
   if ('setVersion' in core.PackageManager) {
     core.PackageManager.setVersion('@tanstack/react-query', tanstackVersion)
