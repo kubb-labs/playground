@@ -51,7 +51,7 @@
     "@kubb-canary/swagger-zod": "npm:@kubb/swagger-zod@canary",
     "@kubb-canary/swagger-zodios": "npm:@kubb/swagger-zodios@canary",
     "@kubb/core": "latest",
-    "@kubb/react": "alpha",
+    "@kubb/react": "latest",
     "@kubb/swagger": "latest",
     "@kubb/swagger-client": "latest",
     "@kubb/swagger-faker": "latest",
@@ -117,10 +117,5 @@
   "engines": {
     "node": ">=18",
     "pnpm": ">=8.3.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "@kubb/react": "alpha"
-    }
   }
 }

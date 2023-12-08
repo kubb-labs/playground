@@ -36,7 +36,9 @@ export default function VersionSelect({ isLoading }: Props) {
     setVersion(event.target.value)
   }
 
-  const tags = packageInfo?.tags['alpha'] ? ['canary', 'alpha', 'beta'] : []
+  // const tags = packageInfo?.tags['alpha'] ? ['canary', 'alpha', 'beta'] : []
+
+  const tags = ['canary', 'beta']
 
   return (
     <Flex direction="column">

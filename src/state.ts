@@ -14,8 +14,30 @@ export const configAtom = atom<KubbUserConfig>({
   },
   plugins: [
     ['@kubb/swagger', {}],
-    ['@kubb/swagger-ts', { output: 'models.ts' }],
-    ['@kubb/swagger-zod', { output: 'zod' }],
-    ['@kubb/swagger-tanstack-query', { output: 'hooks', framework: 'react' }],
+    [
+      '@kubb/swagger-ts',
+      {
+        output: {
+          path: 'models.ts',
+        },
+      },
+    ],
+    [
+      '@kubb/swagger-zod',
+      {
+        output: {
+          path: 'zod',
+        },
+      },
+    ],
+    [
+      '@kubb/swagger-tanstack-query',
+      {
+        output: {
+          path: 'hooks',
+        },
+        framework: 'react',
+      },
+    ],
   ],
 } as unknown as KubbUserConfig)
