@@ -6,140 +6,140 @@ settings:
 
 dependencies:
   '@aws-sdk/client-s3':
-    specifier: ^3.468.0
-    version: 3.468.0
+    specifier: ^3.473.0
+    version: 3.473.0
   '@chakra-ui/react':
     specifier: ^2.8.2
-    version: 2.8.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.42)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.8.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.45)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0)
   '@emotion/react':
     specifier: ^11.11.1
-    version: 11.11.1(@types/react@18.2.42)(react@18.2.0)
+    version: 11.11.1(@types/react@18.2.45)(react@18.2.0)
   '@emotion/styled':
     specifier: ^11.11.0
-    version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.42)(react@18.2.0)
+    version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.45)(react@18.2.0)
   '@kubb-alpha/core':
     specifier: npm:@kubb/core@alpha
     version: /@kubb/core@2.0.0-alpha.12
   '@kubb-alpha/swagger':
     specifier: npm:@kubb/swagger@alpha
-    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-client':
     specifier: npm:@kubb/swagger-client@alpha
-    version: /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
   '@kubb-alpha/swagger-faker':
     specifier: npm:@kubb/swagger-faker@alpha
-    version: /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
   '@kubb-alpha/swagger-msw':
     specifier: npm:@kubb/swagger-msw@alpha
-    version: /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
   '@kubb-alpha/swagger-swr':
     specifier: npm:@kubb/swagger@alpha
-    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@alpha
-    version: /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
   '@kubb-alpha/swagger-ts':
     specifier: npm:@kubb/swagger-ts@alpha
-    version: /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
   '@kubb-alpha/swagger-zod':
     specifier: npm:@kubb/swagger-zod@alpha
-    version: /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@alpha
-    version: /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
   '@kubb-beta/core':
     specifier: npm:@kubb/core@beta
     version: /@kubb/core@2.0.0-beta.14
   '@kubb-beta/swagger':
     specifier: npm:@kubb/swagger@beta
-    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-client':
     specifier: npm:@kubb/swagger-client@beta
-    version: /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-faker':
     specifier: npm:@kubb/swagger-faker@beta
-    version: /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-msw':
     specifier: npm:@kubb/swagger-msw@beta
-    version: /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-swr':
     specifier: npm:@kubb/swagger@beta
-    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@beta
-    version: /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-ts':
     specifier: npm:@kubb/swagger-ts@beta
-    version: /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-zod':
     specifier: npm:@kubb/swagger-zod@beta
-    version: /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-beta/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@beta
-    version: /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.0.0)
+    version: /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.0.5)
   '@kubb-canary/core':
     specifier: npm:@kubb/core@canary
-    version: /@kubb/core@1.15.0-canary.20231126T104835
+    version: /@kubb/core@0.0.0-canary-20231213204140
   '@kubb-canary/swagger':
     specifier: npm:@kubb/swagger@canary
-    version: /@kubb/swagger@1.15.0-canary.20231126T104858(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-client':
     specifier: npm:@kubb/swagger-client@canary
-    version: /@kubb/swagger-client@1.15.0-canary.20231126T105002(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-client@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-faker':
     specifier: npm:@kubb/swagger-faker@canary
-    version: /@kubb/swagger-faker@1.15.0-canary.20231206T162605(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-faker@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-msw':
     specifier: npm:@kubb/swagger-msw@canary
-    version: /@kubb/swagger-msw@1.15.0-canary.20231206T162617(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-msw@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-swr':
     specifier: npm:@kubb/swagger@canary
-    version: /@kubb/swagger@1.15.0-canary.20231126T104858(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@canary
-    version: /@kubb/swagger-tanstack-query@1.15.0-canary.20231126T105034(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-tanstack-query@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-ts':
     specifier: npm:@kubb/swagger-ts@canary
-    version: /@kubb/swagger-ts@1.15.0-canary.20231126T104930(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+    version: /@kubb/swagger-ts@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-zod':
     specifier: npm:@kubb/swagger-zod@canary
-    version: /@kubb/swagger-zod@1.15.0-canary.20231202T101038(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zod@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb-canary/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@canary
-    version: /@kubb/swagger-zodios@1.15.0-canary.20231202T101052(@kubb/react@2.0.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zodios@0.0.0-canary-20231213204140(@kubb/react@2.0.5)
   '@kubb/core':
     specifier: latest
-    version: 2.0.0
+    version: 2.0.5
   '@kubb/react':
     specifier: latest
-    version: 2.0.0
+    version: 2.0.5
   '@kubb/swagger':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-client':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-faker':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-msw':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-swr':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-tanstack-query':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-ts':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-zod':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@kubb/swagger-zodios':
     specifier: latest
-    version: 2.0.0(@kubb/react@2.0.0)
+    version: 2.0.5(@kubb/react@2.0.5)
   '@monaco-editor/react':
     specifier: ^4.6.0
     version: 4.6.0(monaco-editor@0.44.0)(react-dom@18.2.0)(react@18.2.0)
@@ -151,7 +151,7 @@ dependencies:
     version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
   jotai:
     specifier: ^2.6.0
-    version: 2.6.0(@types/react@18.2.42)(react@18.2.0)
+    version: 2.6.0(@types/react@18.2.45)(react@18.2.0)
   js-base64:
     specifier: ^3.7.5
     version: 3.7.5
@@ -218,8 +218,8 @@ devDependencies:
     specifier: ^2.0.3
     version: 2.0.3
   '@types/react':
-    specifier: ^18.2.42
-    version: 18.2.42
+    specifier: ^18.2.45
+    version: 18.2.45
   '@types/react-dom':
     specifier: ^18.2.17
     version: 18.2.17
@@ -227,11 +227,11 @@ devDependencies:
     specifier: ^7.5.6
     version: 7.5.6
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.13.2
-    version: 6.13.2(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)(typescript@5.3.3)
+    specifier: ^6.14.0
+    version: 6.14.0(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)(typescript@5.3.3)
   '@typescript-eslint/parser':
-    specifier: ^6.13.2
-    version: 6.13.2(eslint@8.55.0)(typescript@5.3.3)
+    specifier: ^6.14.0
+    version: 6.14.0(eslint@8.55.0)(typescript@5.3.3)
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
@@ -243,7 +243,7 @@ devDependencies:
     version: 8.55.0
   eslint-config-airbnb:
     specifier: ^19.0.4
-    version: 19.0.4(eslint-plugin-import@2.29.0)(eslint-plugin-jsx-a11y@6.8.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.55.0)
+    version: 19.0.4(eslint-plugin-import@2.29.1)(eslint-plugin-jsx-a11y@6.8.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.55.0)
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.55.0)
@@ -251,17 +251,17 @@ devDependencies:
     specifier: ^4.11.3
     version: 4.11.3(eslint@8.55.0)
   eslint-plugin-import:
-    specifier: ^2.29.0
-    version: 2.29.0(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)
+    specifier: ^2.29.1
+    version: 2.29.1(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)
   eslint-plugin-jest:
     specifier: ^27.6.0
-    version: 27.6.0(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)(typescript@5.3.3)
+    version: 27.6.0(@typescript-eslint/eslint-plugin@6.14.0)(eslint@8.55.0)(typescript@5.3.3)
   eslint-plugin-prettier:
     specifier: ^5.0.1
     version: 5.0.1(eslint-config-prettier@9.1.0)(eslint@8.55.0)(prettier@2.8.8)
   eslint-plugin-unused-imports:
     specifier: ^3.0.0
-    version: 3.0.0(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)
+    version: 3.0.0(@typescript-eslint/eslint-plugin@6.14.0)(eslint@8.55.0)
   prettier:
     specifier: ^2.8.8
     version: 2.8.8
@@ -383,34 +383,34 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@aws-sdk/client-s3@3.468.0:
-    resolution: {integrity: sha512-j0MnSYKu7KRAPXXn5egmJBzzPAgM/Hb0UUr0CHRrj8eMV7Ni/cZQpbU8tqgFel7BrsS4YINB5W/Q3FShHpI/8w==}
+  /@aws-sdk/client-s3@3.473.0:
+    resolution: {integrity: sha512-JmQdYFJnlBOv+IKlgkTWLNr58FBBgW5dpRzwsraAp/sy6QcPEFKzf48iOvB9ekvLafpHah+7AaFJ3VptLLBoJw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha1-browser': 3.0.0
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.468.0
+      '@aws-sdk/client-sts': 3.473.0
       '@aws-sdk/core': 3.468.0
-      '@aws-sdk/credential-provider-node': 3.468.0
-      '@aws-sdk/middleware-bucket-endpoint': 3.468.0
+      '@aws-sdk/credential-provider-node': 3.470.0
+      '@aws-sdk/middleware-bucket-endpoint': 3.470.0
       '@aws-sdk/middleware-expect-continue': 3.468.0
       '@aws-sdk/middleware-flexible-checksums': 3.468.0
       '@aws-sdk/middleware-host-header': 3.468.0
       '@aws-sdk/middleware-location-constraint': 3.468.0
       '@aws-sdk/middleware-logger': 3.468.0
       '@aws-sdk/middleware-recursion-detection': 3.468.0
-      '@aws-sdk/middleware-sdk-s3': 3.468.0
+      '@aws-sdk/middleware-sdk-s3': 3.470.0
       '@aws-sdk/middleware-signing': 3.468.0
       '@aws-sdk/middleware-ssec': 3.468.0
-      '@aws-sdk/middleware-user-agent': 3.468.0
-      '@aws-sdk/region-config-resolver': 3.468.0
-      '@aws-sdk/signature-v4-multi-region': 3.468.0
+      '@aws-sdk/middleware-user-agent': 3.470.0
+      '@aws-sdk/region-config-resolver': 3.470.0
+      '@aws-sdk/signature-v4-multi-region': 3.470.0
       '@aws-sdk/types': 3.468.0
-      '@aws-sdk/util-endpoints': 3.468.0
+      '@aws-sdk/util-endpoints': 3.470.0
       '@aws-sdk/util-user-agent-browser': 3.468.0
-      '@aws-sdk/util-user-agent-node': 3.468.0
-      '@aws-sdk/xml-builder': 3.465.0
+      '@aws-sdk/util-user-agent-node': 3.470.0
+      '@aws-sdk/xml-builder': 3.472.0
       '@smithy/config-resolver': 2.0.21
       '@smithy/eventstream-serde-browser': 2.0.15
       '@smithy/eventstream-serde-config-resolver': 2.0.15
@@ -448,8 +448,8 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-sso@3.468.0:
-    resolution: {integrity: sha512-NabkDaiFsMP8lBR3+JzdtOVarH8kCJst30fQyBIs2PI0uMfajFJ+SK9JTg1J1YZY6aNJBxo2Bxu3dl0fjZ5N/g==}
+  /@aws-sdk/client-sso@3.470.0:
+    resolution: {integrity: sha512-iMXqdXuypE3OK0rggbvSz7vBGlLDG418dNidHhdaeLluMTG/GfHbh1fLOlavhYxRwrsPrtYvFiVkxXFGzXva4w==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -458,12 +458,12 @@ packages:
       '@aws-sdk/middleware-host-header': 3.468.0
       '@aws-sdk/middleware-logger': 3.468.0
       '@aws-sdk/middleware-recursion-detection': 3.468.0
-      '@aws-sdk/middleware-user-agent': 3.468.0
-      '@aws-sdk/region-config-resolver': 3.468.0
+      '@aws-sdk/middleware-user-agent': 3.470.0
+      '@aws-sdk/region-config-resolver': 3.470.0
       '@aws-sdk/types': 3.468.0
-      '@aws-sdk/util-endpoints': 3.468.0
+      '@aws-sdk/util-endpoints': 3.470.0
       '@aws-sdk/util-user-agent-browser': 3.468.0
-      '@aws-sdk/util-user-agent-node': 3.468.0
+      '@aws-sdk/util-user-agent-node': 3.470.0
       '@smithy/config-resolver': 2.0.21
       '@smithy/fetch-http-handler': 2.3.1
       '@smithy/hash-node': 2.0.17
@@ -492,25 +492,25 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-sts@3.468.0:
-    resolution: {integrity: sha512-EausH7ezv1AIgl/4rfZRNRxrFND5hChbIqkuAf8e5wZ74HUEVBMmD5Jiwfs0WRCso3ejOjsNtS8PAOA3djn28w==}
+  /@aws-sdk/client-sts@3.473.0:
+    resolution: {integrity: sha512-ttRZs+sW96cpuoVdys4KZ81yXq4c6xyhGOZIRUpi/YiwB1gnNvCEo5CDFL7PSdW/bjI2ovyUgu8EArq+7KlLwA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-sdk/core': 3.468.0
-      '@aws-sdk/credential-provider-node': 3.468.0
+      '@aws-sdk/credential-provider-node': 3.470.0
       '@aws-sdk/middleware-host-header': 3.468.0
       '@aws-sdk/middleware-logger': 3.468.0
       '@aws-sdk/middleware-recursion-detection': 3.468.0
       '@aws-sdk/middleware-sdk-sts': 3.468.0
       '@aws-sdk/middleware-signing': 3.468.0
-      '@aws-sdk/middleware-user-agent': 3.468.0
-      '@aws-sdk/region-config-resolver': 3.468.0
+      '@aws-sdk/middleware-user-agent': 3.470.0
+      '@aws-sdk/region-config-resolver': 3.470.0
       '@aws-sdk/types': 3.468.0
-      '@aws-sdk/util-endpoints': 3.468.0
+      '@aws-sdk/util-endpoints': 3.470.0
       '@aws-sdk/util-user-agent-browser': 3.468.0
-      '@aws-sdk/util-user-agent-node': 3.468.0
+      '@aws-sdk/util-user-agent-node': 3.470.0
       '@smithy/config-resolver': 2.0.21
       '@smithy/fetch-http-handler': 2.3.1
       '@smithy/hash-node': 2.0.17
@@ -558,13 +558,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/credential-provider-ini@3.468.0:
-    resolution: {integrity: sha512-DBYsptYBq0xC+GTh+3dN3Q9/wRZiPpsHA4yCC1mskEbJfMy7EIZZKtZ8lOkZ24NOI5oea4o3L+wFTxOeFSKntA==}
+  /@aws-sdk/credential-provider-ini@3.470.0:
+    resolution: {integrity: sha512-eF22iPO6J2jY+LbuTv5dW0hZBmi6ksRDFFd/zT6TLasrzH2Ex+gAfN3c7rFHF+XAubL0JXFUKFA3UAwoZpO9Zg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/credential-provider-env': 3.468.0
       '@aws-sdk/credential-provider-process': 3.468.0
-      '@aws-sdk/credential-provider-sso': 3.468.0
+      '@aws-sdk/credential-provider-sso': 3.470.0
       '@aws-sdk/credential-provider-web-identity': 3.468.0
       '@aws-sdk/types': 3.468.0
       '@smithy/credential-provider-imds': 2.1.4
@@ -576,14 +576,14 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/credential-provider-node@3.468.0:
-    resolution: {integrity: sha512-iZlWWZXp6zAH4sP3VrqF7RpAmzl8Qr8tuVkF7ubUZhzyWzKfhLVzqRJqbMYCBPGmfZLAZWjsziPHaBErYkG/5g==}
+  /@aws-sdk/credential-provider-node@3.470.0:
+    resolution: {integrity: sha512-paySXwzGxBVU+2cVUkRIXafKhYhtO2fJJ3MotR6euvRONK/dta+bhEc5Z4QnTo/gNLoELK/QUC0EGoF+oPfk8g==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/credential-provider-env': 3.468.0
-      '@aws-sdk/credential-provider-ini': 3.468.0
+      '@aws-sdk/credential-provider-ini': 3.470.0
       '@aws-sdk/credential-provider-process': 3.468.0
-      '@aws-sdk/credential-provider-sso': 3.468.0
+      '@aws-sdk/credential-provider-sso': 3.470.0
       '@aws-sdk/credential-provider-web-identity': 3.468.0
       '@aws-sdk/types': 3.468.0
       '@smithy/credential-provider-imds': 2.1.4
@@ -606,12 +606,12 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/credential-provider-sso@3.468.0:
-    resolution: {integrity: sha512-eIdGoIw10xyBm7TDcV5Y/W7tzNs2f4H+2G5ZdjG2XGLAELsKCoixe+9ZB662MLtLCxvm7eE1GjOjKsSua6MImQ==}
+  /@aws-sdk/credential-provider-sso@3.470.0:
+    resolution: {integrity: sha512-biGDSh9S9KDR9Tl/8cCPn9g5KPNkXg/CIJIOk3X+6valktbJ2UVYBzi0ZX4vZiudt5ry/Hsu6Pgo+KN1AmBWdg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@aws-sdk/client-sso': 3.468.0
-      '@aws-sdk/token-providers': 3.468.0
+      '@aws-sdk/client-sso': 3.470.0
+      '@aws-sdk/token-providers': 3.470.0
       '@aws-sdk/types': 3.468.0
       '@smithy/property-provider': 2.0.16
       '@smithy/shared-ini-file-loader': 2.2.7
@@ -631,8 +631,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/middleware-bucket-endpoint@3.468.0:
-    resolution: {integrity: sha512-Dak7sSaPxkTWuBzvFI0zXL1t+/6JdeZZVLRckp2reoQ46CY/hnCbd5/wITtO7CYyjHX7WrEILjTynfZoa1E7Qw==}
+  /@aws-sdk/middleware-bucket-endpoint@3.470.0:
+    resolution: {integrity: sha512-vLXXNWtsRmEIwzJ9HUQfIuTNAsEzvCv0Icsnkvt2BiBZXnmHdp2vIC3e3+kfy1D7dVQloXqMmnfcLu/BUMu2Jw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.468.0
@@ -706,15 +706,15 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/middleware-sdk-s3@3.468.0:
-    resolution: {integrity: sha512-8Ma8tdHYH0stMmGQHh/8eI53oAfiuUJvnQdILWcNArAwlVXt+DJirCSGWP8SqvYdKGa4+jr1YW3+nTdhnm2FZg==}
+  /@aws-sdk/middleware-sdk-s3@3.470.0:
+    resolution: {integrity: sha512-yhavP2ju+upF50ccDFQNhVPxPOPgUUPs2JqPoq7NzTKZWIyRY65F3UC7CBmrSNiaL0S76r4kDdOkVcGUdI6ZiQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.468.0
       '@aws-sdk/util-arn-parser': 3.465.0
       '@smithy/node-config-provider': 2.1.8
       '@smithy/protocol-http': 3.0.11
-      '@smithy/signature-v4': 2.0.17
+      '@smithy/signature-v4': 2.0.18
       '@smithy/smithy-client': 2.1.18
       '@smithy/types': 2.7.0
       '@smithy/util-config-provider': 2.0.0
@@ -738,7 +738,7 @@ packages:
       '@aws-sdk/types': 3.468.0
       '@smithy/property-provider': 2.0.16
       '@smithy/protocol-http': 3.0.11
-      '@smithy/signature-v4': 2.0.17
+      '@smithy/signature-v4': 2.0.18
       '@smithy/types': 2.7.0
       '@smithy/util-middleware': 2.0.8
       tslib: 2.6.2
@@ -753,19 +753,19 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/middleware-user-agent@3.468.0:
-    resolution: {integrity: sha512-lmqaEChVWK6MvNpM/LH504pRsP3p/IuZugWwxCbelKw4bGVU4IgG3mbjfATiIlHo4rW8ttHh1bTsZIGjWOqNeA==}
+  /@aws-sdk/middleware-user-agent@3.470.0:
+    resolution: {integrity: sha512-s0YRGgf4fT5KwwTefpoNUQfB5JghzXyvmPfY1QuFEMeVQNxv0OPuydzo3rY2oXPkZjkulKDtpm5jzIHwut75hA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.468.0
-      '@aws-sdk/util-endpoints': 3.468.0
+      '@aws-sdk/util-endpoints': 3.470.0
       '@smithy/protocol-http': 3.0.11
       '@smithy/types': 2.7.0
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/region-config-resolver@3.468.0:
-    resolution: {integrity: sha512-EkDfaumuBhDJFg4lmvWiBE8Ln4BF6hYNC2YfkjKCTEuePy5BKryFedwylYZZ3CJG/uVyfr8xBy+mvoR8plpHjg==}
+  /@aws-sdk/region-config-resolver@3.470.0:
+    resolution: {integrity: sha512-C1o1J06iIw8cyAAOvHqT4Bbqf+PgQ/RDlSyjt2gFfP2OovDpc2o2S90dE8f8iZdSGpg70N5MikT1DBhW9NbhtQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/node-config-provider': 2.1.8
@@ -775,20 +775,20 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/signature-v4-multi-region@3.468.0:
-    resolution: {integrity: sha512-ADMWVrqUUjaiWmK7IcBuekOd8nNW6qV1G8ZM9Dgu2U7ezC4gzgZ3IFqZRcQXANX32EC1K3EpDx6fhPpOE/Unbg==}
+  /@aws-sdk/signature-v4-multi-region@3.470.0:
+    resolution: {integrity: sha512-pbgQW5Fbu7tLOQFXTnb9Mp8GL+b4DnkGwXHZjE9AmwDisW/jlGwf+EFKr2xnuoNiaqvj0zHY+vvN6dewzik7Og==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@aws-sdk/middleware-sdk-s3': 3.468.0
+      '@aws-sdk/middleware-sdk-s3': 3.470.0
       '@aws-sdk/types': 3.468.0
       '@smithy/protocol-http': 3.0.11
-      '@smithy/signature-v4': 2.0.17
+      '@smithy/signature-v4': 2.0.18
       '@smithy/types': 2.7.0
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/token-providers@3.468.0:
-    resolution: {integrity: sha512-IpLbthZmFXotwtgkE1Bw4HcKjwpAsGM+6iTXs4amZJqllJClOgyV/sV5Cze+8AqanfCZoPIFTmXyg8LfJTYwbw==}
+  /@aws-sdk/token-providers@3.470.0:
+    resolution: {integrity: sha512-rzxnJxEUJiV69Cxsf0AHXTqJqTACITwcSH/PL4lWP4uvtzdrzSi3KA3u2aWHWpOcdE6+JFvdICscsbBSo3/TOg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -796,12 +796,12 @@ packages:
       '@aws-sdk/middleware-host-header': 3.468.0
       '@aws-sdk/middleware-logger': 3.468.0
       '@aws-sdk/middleware-recursion-detection': 3.468.0
-      '@aws-sdk/middleware-user-agent': 3.468.0
-      '@aws-sdk/region-config-resolver': 3.468.0
+      '@aws-sdk/middleware-user-agent': 3.470.0
+      '@aws-sdk/region-config-resolver': 3.470.0
       '@aws-sdk/types': 3.468.0
-      '@aws-sdk/util-endpoints': 3.468.0
+      '@aws-sdk/util-endpoints': 3.470.0
       '@aws-sdk/util-user-agent-browser': 3.468.0
-      '@aws-sdk/util-user-agent-node': 3.468.0
+      '@aws-sdk/util-user-agent-node': 3.470.0
       '@smithy/config-resolver': 2.0.21
       '@smithy/fetch-http-handler': 2.3.1
       '@smithy/hash-node': 2.0.17
@@ -847,8 +847,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/util-endpoints@3.468.0:
-    resolution: {integrity: sha512-P91EbMG2+1ZToJeTLaRkdO7qM7RI0svuMVLkIdHV9rHR7PeUKUWMpf46xh8rQsIjKC9Arf+I9ueWp3iHJt1T5w==}
+  /@aws-sdk/util-endpoints@3.470.0:
+    resolution: {integrity: sha512-6N6VvPCmu+89p5Ez/+gLf+X620iQ9JpIs8p8ECZiCodirzFOe8NC1O2S7eov7YiG9IHSuodqn/0qNq+v+oLe0A==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.468.0
@@ -872,8 +872,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/util-user-agent-node@3.468.0:
-    resolution: {integrity: sha512-9p+Zyp6xmJUkcryTNmQQwdhRK6gAC6zVEJZLomLGQhD7sWcCzstolw//mAS3AKVQFYWnCEGKrDJdgT0KObCf4g==}
+  /@aws-sdk/util-user-agent-node@3.470.0:
+    resolution: {integrity: sha512-QxsZ9iVHcBB/XRdYvwfM5AMvNp58HfqkIrH88mY0cmxuvtlIGDfWjczdDrZMJk9y0vIq+cuoCHsGXHu7PyiEAQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       aws-crt: '>=1.0.0'
@@ -893,10 +893,11 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-sdk/xml-builder@3.465.0:
-    resolution: {integrity: sha512-9TKW5ZgsReygePTnAUdvaqxr/k1HXsEz2yDnk/jTLaUeRPsd5la8fFjb6OfgYYlbEVNlxTcKzaqOdrqxpUkmyQ==}
+  /@aws-sdk/xml-builder@3.472.0:
+    resolution: {integrity: sha512-PwjVxz1hr9up8QkddabuScPZ/d5aDHgvHYgK4acHYzltXL4wngfvimi5ZqXTzVWF2QANxHmWnHUr45QJX71oJQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
+      '@smithy/types': 2.7.0
       tslib: 2.6.2
     dev: false
 
@@ -912,7 +913,7 @@ packages:
     resolution: {integrity: sha512-0pYVBnDKZO2fnSPCrgM/6WMc7eS20Fbok+0r88fp+YtWVLZrp4CkafFGIp+W0VKw4a22sgebPT99y+FDNMdP4w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.5
+      '@babel/types': 7.23.6
     dev: false
 
   /@babel/helper-string-parser@7.23.4:
@@ -934,14 +935,14 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /@babel/runtime@7.23.5:
-    resolution: {integrity: sha512-NdUTHcPe4C99WxPub+K9l9tK5/lV4UXIoaHSYgzco9BCyjKAAwzdBI+wWtYqHt7LJdbo74ZjRPJgzVweq1sz0w==}
+  /@babel/runtime@7.23.6:
+    resolution: {integrity: sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
 
-  /@babel/types@7.23.5:
-    resolution: {integrity: sha512-ON5kSOJwVO6xXVRTvOI0eOnWe7VdUcIpsovGo9U/Br4Ie4UVFQTboO2cYnDhAGU6Fp+UxSiT+pMft0SMHfuq6w==}
+  /@babel/types@7.23.6:
+    resolution: {integrity: sha512-+uarb83brBzPKN38NX1MkB6vb6+mwvR6amUulqAE7ccQw1pEl+bCia9TbdG1lsnFP7lZySvUn37CHyXQdfTwzg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.23.4
@@ -1122,7 +1123,7 @@ packages:
       '@emotion/react': '>=10.0.35'
       react: '>=18'
     dependencies:
-      '@emotion/react': 11.11.1(@types/react@18.2.42)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.45)(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -1163,14 +1164,14 @@ packages:
     resolution: {integrity: sha512-IGM/yGUHS+8TOQrZGpAKOJl/xGBrmRYJrmbHfUE7zrG3PpQyXvbLDP1M+RggkCFVgHlJi2wpYIf0QtQlU0XZfw==}
     dev: false
 
-  /@chakra-ui/focus-lock@2.1.0(@types/react@18.2.42)(react@18.2.0):
+  /@chakra-ui/focus-lock@2.1.0(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-EmGx4PhWGjm4dpjRqM4Aa+rCWBxP+Rq8Uc/nAVnD4YVqkEhBkrPTpui2lnjsuxqNaZ24fIAZ10cF1hlpemte/w==}
     peerDependencies:
       react: '>=18'
     dependencies:
       '@chakra-ui/dom-utils': 2.1.0
       react: 18.2.0
-      react-focus-lock: 2.9.6(@types/react@18.2.42)(react@18.2.0)
+      react-focus-lock: 2.9.6(@types/react@18.2.45)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -1308,7 +1309,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.42)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.45)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-TQv1ZaiJMZN+rR9DK0snx/OPwmtaGH1HbZtlYt4W4s6CzyK541fxLRTjIXfEzIGpvNW+b6VFuFjbcR78p4DEoQ==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -1317,7 +1318,7 @@ packages:
       react-dom: '>=18'
     dependencies:
       '@chakra-ui/close-button': 2.1.1(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.42)(react@18.2.0)
+      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.45)(react@18.2.0)
       '@chakra-ui/portal': 2.1.0(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/react-context': 2.1.0(react@18.2.0)
       '@chakra-ui/react-types': 2.0.7(react@18.2.0)
@@ -1329,7 +1330,7 @@ packages:
       framer-motion: 10.16.16(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-remove-scroll: 2.5.7(@types/react@18.2.42)(react@18.2.0)
+      react-remove-scroll: 2.5.7(@types/react@18.2.45)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -1450,8 +1451,8 @@ packages:
       '@chakra-ui/react-env': 3.1.0(react@18.2.0)
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(react@18.2.0)
       '@chakra-ui/utils': 2.0.15
-      '@emotion/react': 11.11.1(@types/react@18.2.42)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.42)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.45)(react@18.2.0)
+      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.45)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -1667,7 +1668,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/react@2.8.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.42)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/react@2.8.2(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.45)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Hn0moyxxyCDKuR9ywYpqgX8dvjqwu9ArwpIb9wHNYjnODETjLwazgNIliCVBRcJvysGRiV51U2/JtJVrpeCjUQ==}
     peerDependencies:
       '@emotion/react': ^11.0.0
@@ -1688,7 +1689,7 @@ packages:
       '@chakra-ui/counter': 2.1.0(react@18.2.0)
       '@chakra-ui/css-reset': 2.3.0(@emotion/react@11.11.1)(react@18.2.0)
       '@chakra-ui/editable': 3.1.0(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.42)(react@18.2.0)
+      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.45)(react@18.2.0)
       '@chakra-ui/form-control': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/hooks': 2.2.1(react@18.2.0)
       '@chakra-ui/icon': 3.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
@@ -1698,7 +1699,7 @@ packages:
       '@chakra-ui/live-region': 2.1.0(react@18.2.0)
       '@chakra-ui/media-query': 3.3.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/menu': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@10.16.16)(react@18.2.0)
-      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.42)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.45)(framer-motion@10.16.16)(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/number-input': 2.1.2(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/pin-input': 2.1.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/popover': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@10.16.16)(react@18.2.0)
@@ -1729,8 +1730,8 @@ packages:
       '@chakra-ui/transition': 2.1.0(framer-motion@10.16.16)(react@18.2.0)
       '@chakra-ui/utils': 2.0.15
       '@chakra-ui/visually-hidden': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@emotion/react': 11.11.1(@types/react@18.2.42)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.42)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.45)(react@18.2.0)
+      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.45)(react@18.2.0)
       framer-motion: 10.16.16(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1869,8 +1870,8 @@ packages:
       '@chakra-ui/styled-system': 2.9.2
       '@chakra-ui/theme-utils': 2.0.21
       '@chakra-ui/utils': 2.0.15
-      '@emotion/react': 11.11.1(@types/react@18.2.42)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.42)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.45)(react@18.2.0)
+      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.45)(react@18.2.0)
       react: 18.2.0
       react-fast-compare: 3.2.2
     dev: false
@@ -1938,7 +1939,7 @@ packages:
       '@chakra-ui/anatomy': 2.2.2
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/styled-system': 2.9.2
-      color2k: 2.0.2
+      color2k: 2.0.3
     dev: false
 
   /@chakra-ui/theme-utils@2.0.21:
@@ -2047,7 +2048,7 @@ packages:
     resolution: {integrity: sha512-m4HEDZleaaCH+XgDDsPF15Ht6wTLsgDTeR3WYj9Q/k76JtWhrJjcP4+/XlG8LGT/Rol9qUfOIztXeA84ATpqPQ==}
     dependencies:
       '@babel/helper-module-imports': 7.22.15
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       '@emotion/hash': 0.9.1
       '@emotion/memoize': 0.8.1
       '@emotion/serialize': 1.1.2
@@ -2097,7 +2098,7 @@ packages:
     resolution: {integrity: sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==}
     dev: false
 
-  /@emotion/react@11.11.1(@types/react@18.2.42)(react@18.2.0):
+  /@emotion/react@11.11.1(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-5mlW1DquU5HaxjLkfkGN1GA/fvVGdyHURRiX/0FHl2cfIfRxSOfmxEH5YS43edp0OldZrZ+dkBKbngxcNCdZvA==}
     peerDependencies:
       '@types/react': '*'
@@ -2106,14 +2107,14 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       '@emotion/babel-plugin': 11.11.0
       '@emotion/cache': 11.11.0
       '@emotion/serialize': 1.1.2
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
       '@emotion/weak-memoize': 0.3.1
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
     dev: false
@@ -2132,7 +2133,7 @@ packages:
     resolution: {integrity: sha512-0QBtGvaqtWi+nx6doRwDdBIzhNdZrXUppvTM4dtZZWEGTXL/XE/yJxLMGlDT1Gt+UHH5IX1n+jkXyytE/av7OA==}
     dev: false
 
-  /@emotion/styled@11.11.0(@emotion/react@11.11.1)(@types/react@18.2.42)(react@18.2.0):
+  /@emotion/styled@11.11.0(@emotion/react@11.11.1)(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-hM5Nnvu9P3midq5aaXj4I+lnSfNi7Pmd4EWk1fOZ3pxookaQTNew6bp4JaCBYM4HVFZF9g7UjJmsUmC2JlxOng==}
     peerDependencies:
       '@emotion/react': ^11.0.0-rc.0
@@ -2142,14 +2143,14 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       '@emotion/babel-plugin': 11.11.0
       '@emotion/is-prop-valid': 1.2.1
-      '@emotion/react': 11.11.1(@types/react@18.2.42)(react@18.2.0)
+      '@emotion/react': 11.11.1(@types/react@18.2.45)(react@18.2.0)
       '@emotion/serialize': 1.1.2
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       react: 18.2.0
     dev: false
 
@@ -2195,7 +2196,7 @@ packages:
       ajv: 6.12.6
       debug: 4.3.4
       espree: 9.6.1
-      globals: 13.23.0
+      globals: 13.24.0
       ignore: 5.3.0
       import-fresh: 3.3.0
       js-yaml: 4.1.0
@@ -2313,53 +2314,19 @@ packages:
     resolution: {integrity: sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==}
     dev: false
 
-  /@kubb/core@1.14.9:
-    resolution: {integrity: sha512-nL4zwg+fFOcqBgNDGCgPc6zyeaQd7P2ip67EkCVC1u3j/lAweS0GrfrNILxla4YYlMKkgAjV4L3fkCjYyRPCag==}
+  /@kubb/core@0.0.0-canary-20231213204140:
+    resolution: {integrity: sha512-qoaooW7pXHCNg+iQ8yrQRSw5dDiAJu/9fYv3FdriTN7mRWheKQFQMRVb+ZRkj/6kAngGz79OiCxcxT7I/UDrow==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/parser': 1.14.9
-      change-case: 4.1.2
-      directory-tree: 3.5.1
-      find-up: 6.3.0
-      fs-extra: 11.2.0
-      js-runtime: 0.0.7
-      lodash.isequal: 4.5.0
-      natural-orderby: 3.0.2
-      picocolors: 1.0.0
-      seedrandom: 3.0.5
-      semver: 7.5.4
-    dev: false
-
-  /@kubb/core@1.15.0-canary.20231126T104835:
-    resolution: {integrity: sha512-PolwKzf+25RzLewA92IJiEt6KRrkqvCEoBaSybZ6bnWA3yzSvs13gXA1r3E5rTcXTGKqI/DSg5MKNDdGTe57mg==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      '@kubb/parser': 1.15.0-canary.20231126T104825
-      change-case: 4.1.2
-      directory-tree: 3.5.1
-      find-up: 6.3.0
-      fs-extra: 11.2.0
-      js-runtime: 0.0.7
-      lodash.isequal: 4.5.0
-      natural-orderby: 3.0.2
-      picocolors: 1.0.0
-      seedrandom: 3.0.5
-      semver: 7.5.4
-    dev: false
-
-  /@kubb/core@2.0.0:
-    resolution: {integrity: sha512-Prlhlu/ZGZv0D1m+X8l7DQ23lsXmjXYKxzfQrBppkXwR1EXBwdXDV7AuriuxwCc6xqSClDV98xgKHt/+J9Jn8A==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      '@kubb/parser': 2.0.0
-      '@kubb/types': 2.0.0
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/types': 0.0.0-canary-20231213204140
       change-case: 5.3.0
       directory-tree: 3.5.1
       find-up: 7.0.0
       fs-extra: 11.2.0
       js-runtime: 0.0.7
       natural-orderby: 3.0.2
-      p-queue: 8.0.0
+      p-queue: 8.0.1
       seedrandom: 3.0.5
       semver: 7.5.4
     dev: false
@@ -2399,22 +2366,25 @@ packages:
       semver: 7.5.4
     dev: false
 
-  /@kubb/parser@1.14.9:
-    resolution: {integrity: sha512-UCfdEYi+bbSscwagW/m8o/2afshtJW8YE4k5BQEUCroqWHPxHOBAimRU++DKB+k7cCT/Frq49cozao/36Rnveg==}
+  /@kubb/core@2.0.5:
+    resolution: {integrity: sha512-5FpxAwM+DCkqDwIoT8O4v3ZCt7ElMOSj2NHcQ/UCzK7bsqLBjgN5fcJR17sBiv5ypDsSaav5olrNmsLEJZKnSQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      typescript: 5.3.3
+      '@kubb/parser': 2.0.5
+      '@kubb/types': 2.0.5
+      change-case: 5.3.0
+      directory-tree: 3.5.1
+      find-up: 7.0.0
+      fs-extra: 11.2.0
+      js-runtime: 0.0.7
+      natural-orderby: 3.0.2
+      p-queue: 8.0.1
+      seedrandom: 3.0.5
+      semver: 7.5.4
     dev: false
 
-  /@kubb/parser@1.15.0-canary.20231126T104825:
-    resolution: {integrity: sha512-3hW2UPALkJvNBFRfFcZ5++wmABM9Xrz+3DSSaP+PbKsRMIE5Mc1qmZpSIoWyUNJStgVYsWbsQtPJhM6HB9r4bg==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      typescript: 5.3.3
-    dev: false
-
-  /@kubb/parser@2.0.0:
-    resolution: {integrity: sha512-L6IYoZqFitKrUxZOd3nrQQvnX3spPGh9fqrRdhvHnvXxbmSFLnBpjTCdSGo85qIuTh0BEhpbUadATjxlr1SG8A==}
+  /@kubb/parser@0.0.0-canary-20231213204140:
+    resolution: {integrity: sha512-1U+9nM0B5c6d8UggT6eVZ3TnRY7xQj6w7Pgc9ZukDI+gJzlLfpzpAX6AYqCrGrvcLinRKUXMARB+l9NmpWa1vQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       typescript: 5.3.3
@@ -2434,56 +2404,41 @@ packages:
       typescript: 5.3.3
     dev: false
 
-  /@kubb/react@2.0.0:
-    resolution: {integrity: sha512-OkhEAMR7gzIRoZ12VasYnv+8P204EnGdzLLTzjvwBZ1YlgTw7rg07c/FkXbaYffja6LuqHFmCWF2rFMKXD54og==}
+  /@kubb/parser@2.0.5:
+    resolution: {integrity: sha512-wz5seRbSi0SAeiXzid0BYCKbquEzIJ9wFgdYriWmLM2X7V8eJndwHDzKOaxTwIaqrvtegL100jZIQ4EAwpXGBQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
+      typescript: 5.3.3
     dev: false
 
-  /@kubb/swagger-client@1.15.0-canary.20231126T105002(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-pZISr94s3pI39GvYW1bZpaP5IT9vLci/bio8hCugM1M2Jr3XfaUiqnbN3/DnVyfbtbgRsDE3pcsSFen+pytsNg==}
+  /@kubb/react@2.0.5:
+    resolution: {integrity: sha512-5rIdl0GORy+0DesQ8lEWXlWRCZHIU4h64Q6IfSb3tzPxUsApesURaz+8MWC35ohsd1qUJbbm9NWZ2QNPMub0Dw==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    dependencies:
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+    dev: false
+
+  /@kubb/swagger-client@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-5qW8jEdHTqWM9v0d3c1ks/qhnnH9f3c6XdtdI5zQTyHvH79LGmxBL2QTX5KWVzStQ0mvYPz71/l0/bAJjmpmAw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231126T104846
+      '@kubb/react': 0.0.0-canary-20231213204140
       axios: ^1.4.0
     peerDependenciesMeta:
       axios:
         optional: true
     dependencies:
-      '@kubb/core': 1.15.0-canary.20231126T104835
-      '@kubb/parser': 1.15.0-canary.20231126T104825
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 1.15.0-canary.20231126T104858(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.15.0-canary.20231126T104930(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      change-case: 4.1.2
-    transitivePeerDependencies:
-      - encoding
-      - openapi-types
-      - typescript
-    dev: false
-
-  /@kubb/swagger-client@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-7IC4wqW4IrAdgUts5nYCncbpCbYonBnO89IUVte7es1mAGOJlB2YWjWsmD/jNVcG4/GNWPpap4WW+CoJjgeE8Q==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    peerDependencies:
-      '@kubb/react': 2.0.0
-      axios: ^1.4.0
-    peerDependenciesMeta:
-      axios:
-        optional: true
-    dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
+  /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3):
     resolution: {integrity: sha512-WWNeEx/BrMJd3jnpS7Ot5WFmKITi6XEhMgwMAvFy+ZpM7QP5l8o1XrDEEvKr3wHl2hp6PtajFI+KlE+loWGakQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2495,9 +2450,9 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2505,7 +2460,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-RlvdrY8Lr64RmaRg6TRimzOEKtinymTFSwsB15j+Msmq2wC2iIzfOBCbRFsCOvPlj8e/y0T/7pb4Qrfl+7ynwA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2517,52 +2472,55 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-faker@1.15.0-canary.20231206T162605(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-BgSpzI13ss4uRWEQabpaiIYD9cwOJSpd+/IJiKIrPntOZDJOtgn70IcwLwVcYjHlR1p9h48PvVoDm76Geh2Vdg==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      '@kubb/core': 1.14.9
-      '@kubb/parser': 1.14.9
-      '@kubb/swagger': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      change-case: 4.1.2
-    transitivePeerDependencies:
-      - '@kubb/react'
-      - encoding
-      - openapi-types
-      - typescript
-    dev: false
-
-  /@kubb/swagger-faker@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-6aJg2Jg9sK2A75KB86qRW1detXkF1UDZLHQVxUcZjS1CyBjP7UgwjSW/XeU8660BFhsWXvmHrAKbVMd88caprA==}
+  /@kubb/swagger-client@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-6ZsxV3usN/5nRgVW0SbLpeJCAKsldgR2W0Rf369naE5pXTuRklgGXm5tF7mOG0ZJeNq8CsJ+HLZXBPRLasBRww==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 2.0.0
+      '@kubb/react': 2.0.5
+      axios: ^1.4.0
+    peerDependenciesMeta:
+      axios:
+        optional: true
     dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.5(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
+  /@kubb/swagger-faker@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-5Nc4aEmWrB0XrbikcNxhbV59ouZnCjka6ONJ8QKpabeMYdh2UAB2jBaU7Z/+dcagzjDnSa3TCtPmZQUe2PSjTQ==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    peerDependencies:
+      '@kubb/react': 0.0.0-canary-20231213204140
+    dependencies:
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3):
     resolution: {integrity: sha512-qiT9Hu0ZIgbsO1xBva5PH5Mj7L5QAIQDa/KagpnJQLEVVUbjlwOVtOLG9dljp5a18HseDNpEtsD4VT9w8/ning==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2571,7 +2529,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-Qg9j6tSXPmtjEWXha8VbkSXiv6ngVbe1lmEoWRrekjOKoN/wYwMsAsbqaQ1G0ugQ1sJdgLN6fmh5Mc0lBI674g==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2579,49 +2537,45 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-msw@1.15.0-canary.20231206T162617(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-wfIHjN8euftYUoutKVGYUTLublz1NJMxZPXtu4w8v3g7IlW11KwfeIGRIbzvvW99dbJsj1upX5xzgqfchzSFkQ==}
+  /@kubb/swagger-faker@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-QJdsoBibHgsZfu1fsCMo0A6Pzxoalbqs5lOKvrEFNfn3yBwiCgiB3RU74oaweyGuGYGZt2QzS9mUPI+AWCtBVQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.9
+      '@kubb/react': 2.0.5
     dependencies:
-      '@kubb/core': 1.14.9
-      '@kubb/parser': 1.14.9
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-faker': 1.15.0-canary.20231206T162605(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      '@kubb/swagger-ts': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      change-case: 4.1.2
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.5(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
-      - openapi-types
-      - typescript
     dev: false
 
-  /@kubb/swagger-msw@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-/8J4BQldBH4U4uP4GIE41ur58V0R/ybrfEz7mkvIp4x1AtksvL4uNljllVzemP4XjSlOZCC7CGvpSS53lw8khg==}
+  /@kubb/swagger-msw@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-SkiTQ0ECR4ToLcjd1dTZaqKm3UlB1g+DnVytM3Ms/QjdYM2/VSEOuMPVJiMQUt44TNXKVZcbHi+2CLnaBrAvCQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 2.0.0
+      '@kubb/react': 0.0.0-canary-20231213204140
     dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-faker': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-faker': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
+  /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3):
     resolution: {integrity: sha512-dmy0FNgh2hr2h3uNj5DwWcJ+ybrTYwp+j4Z0afGrNl8V+sCxPqslr8kKhHyRA81kXrCh5CpPn3nO8DMD2Cl6SA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2629,10 +2583,10 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-faker': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
+      '@kubb/swagger-faker': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2640,7 +2594,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-9o6y/tZbm4pSbhXp8Tf31+nZgLhs8a3K7TfV7BOyLVd+UsJSiuL7DsvtJqUy8YalMts48IH87kLBbIUU5yUHiw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2648,69 +2602,65 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-faker': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-faker': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-swr@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-5VbDD0vwGhVb+MYv1cOWJzkyIqjqo/ygw9jue6mEmB2eSz0GH8+P50HAkCpYOZCfY8BS7fDYjj96VYhbdW97Ag==}
+  /@kubb/swagger-msw@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-oStgw8N2GXCD+YfBgqBMNEiLiG1DeycxJsdmPeEIwLB0OdoqE9I3EWNNb/KupirzJrzC0XgBmw5rFzW3R3YjXA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 2.0.0
+      '@kubb/react': 2.0.5
     dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-client': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-faker': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.5(@kubb/react@2.0.5)
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/swagger-swr@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-pMjb7hmwiWMM001tsvZKmJAM67O7sYWvsSSnnCA8w3gEaz8W9aZ0ByTViulvV3y5NuRJt0nQOvncUBXZjz0wRQ==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    peerDependencies:
+      '@kubb/react': 2.0.5
+    dependencies:
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-client': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.5(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-tanstack-query@1.15.0-canary.20231126T105034(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-e6bwY+3ASqb3F39Sr2hJ3Or0p8lQ7jNxY6R9lb3j5mRAMWiqLCGBHNZxT285lENkqoMfUV0eW5lu5BtsXNgQ8g==}
+  /@kubb/swagger-tanstack-query@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-Urgq+SaQQ6dP/LvNN0qcf5ipI6mbgUrZWuJkfO3w4u9M6swmPJD82r2vNXwIZ5ws17RvTWZbT53AoTvdijOlZA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231126T104846
+      '@kubb/react': 0.0.0-canary-20231213204140
     dependencies:
-      '@kubb/core': 1.15.0-canary.20231126T104835
-      '@kubb/parser': 1.15.0-canary.20231126T104825
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 1.15.0-canary.20231126T104858(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 1.15.0-canary.20231126T105002(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      '@kubb/swagger-ts': 1.15.0-canary.20231126T104930(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      change-case: 4.1.2
-    transitivePeerDependencies:
-      - axios
-      - encoding
-      - openapi-types
-      - typescript
-    dev: false
-
-  /@kubb/swagger-tanstack-query@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-AngXc2vnWOed3lPhY6J737RpoUWDxIVH08Q8omE3DrT3FfOfg4MBFzZn4s0FB7+/UyENxQUVt+w68xarL9n7FQ==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    peerDependencies:
-      '@kubb/react': 2.0.0
-    dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-client': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-client': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
+  /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3):
     resolution: {integrity: sha512-8fCuiM+mDvjUXdsDA9tKW8JcujXXkt/LoJTgG4+UMhLKQQl3q4PAX+ETx+iQXPL4rjtT4Txub/Q7sD/zLeCGQg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2718,10 +2668,10 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
+      '@kubb/swagger-client': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2730,7 +2680,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-Es2borFz7qtS4j7Dmjn/fRLKonnSV7CGVRe39L46tODLQ/dPOSptBNjFvAVz6Uv8KK6R0YS2J+XJFZ+6yuYl1Q==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2738,60 +2688,43 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-client': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-client': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-ts@1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-nCKfobfwbgRGZ0sF7PgVPhLMk449G5+hb/Ct8rDwtJqHzpeETQwzUJZfp49pd4kg5EV5E8LcMvlklWapVY6mbA==}
+  /@kubb/swagger-tanstack-query@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-OQNHiXjxi112NB8FHaOrys2hK5RuB6SY+/VfCfePFziuN6IlgaB0tNFat6i6KckySffFs9cH1Y5H3wTt/QinWg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      typescript: ^5.2.2
+      '@kubb/react': 2.0.5
     dependencies:
-      '@kubb/core': 1.14.9
-      '@kubb/parser': 1.14.9
-      '@kubb/swagger': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      change-case: 4.1.2
-      typescript: 5.3.3
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-client': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-ts': 2.0.5(@kubb/react@2.0.5)
     transitivePeerDependencies:
-      - '@kubb/react'
+      - axios
       - encoding
-      - openapi-types
     dev: false
 
-  /@kubb/swagger-ts@1.15.0-canary.20231126T104930(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
-    resolution: {integrity: sha512-LpewtXqmRe4x2zcG9QZkPbIiuZ5jbOH1OEJk7IeqgjMOc2ZhZksi487urqOOoUuv4Qk0hvKbGxcaLLJ1yIq8kw==}
+  /@kubb/swagger-ts@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-s+72KZcF23d533yQLlOPSJCxmluaVgehdZZgl6QejB9Oj1Eby2ghXu47Lxca7ubV0iIkeejLo1ObQIkjiyilOw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      typescript: ^5.2.2
+      '@kubb/react': 0.0.0-canary-20231213204140
     dependencies:
-      '@kubb/core': 1.15.0-canary.20231126T104835
-      '@kubb/parser': 1.15.0-canary.20231126T104825
-      '@kubb/swagger': 1.15.0-canary.20231126T104858(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      change-case: 4.1.2
-      typescript: 5.3.3
-    transitivePeerDependencies:
-      - '@kubb/react'
-      - encoding
-      - openapi-types
-    dev: false
-
-  /@kubb/swagger-ts@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-b1a9JIDAjP7UXb7A505LiiQVllUa5ikGeBXYZUnhb2AeVFWg4P4DuU9BlsE5J/9BA2JFpDe/A+Y4dEdz7RSJnA==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    peerDependencies:
-      '@kubb/react': 2.0.0
-    dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/types': 2.0.0
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/types': 0.0.0-canary-20231213204140
       hotscript: 1.0.13
       json-schema-to-ts: 2.9.2
       ts-toolbelt: 9.6.0
@@ -2799,7 +2732,7 @@ packages:
       - encoding
     dev: false
 
-  /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)(typescript@5.3.3):
+  /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)(typescript@5.3.3):
     resolution: {integrity: sha512-5oiMQWBH2fAiso61OCaC4vXWWACvtSetWDvFh610GFYiDMclBlgGaoN/ukeVI+fVtGoHhqiBUdelOny03LX9DQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2807,7 +2740,7 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
       change-case: 4.1.2
       typescript: 5.3.3
     transitivePeerDependencies:
@@ -2816,7 +2749,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-lLfOtkkLVUd/4qsAuBrgusQ0ip+Db9F8hDTJCcSF4xAIrPXlSIvpTfsK6VQf3vvo7hWCflcZ8otG1USg8coGLg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2824,8 +2757,8 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
       '@kubb/types': 2.0.0-beta.14
       hotscript: 1.0.13
       json-schema-to-ts: 2.9.2
@@ -2834,41 +2767,45 @@ packages:
       - encoding
     dev: false
 
-  /@kubb/swagger-zod@1.15.0-canary.20231202T101038(@kubb/react@2.0.0)(openapi-types@12.1.3):
-    resolution: {integrity: sha512-ct5VdStZFPK8MjrA1twaxL/IuMnihkafAD/rghIOTQVq1u8/j/uX4PMZ8ni6NIyTz5Cja3C3yF3fPLZ9RuNOWg==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      '@kubb/core': 1.14.9
-      '@kubb/parser': 1.14.9
-      '@kubb/swagger': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      change-case: 4.1.2
-    transitivePeerDependencies:
-      - '@kubb/react'
-      - encoding
-      - openapi-types
-    dev: false
-
-  /@kubb/swagger-zod@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-PXuUxNfT5HdNs4gj+4be31fZGK864oNrS1NRNcC+Eg93uQPaQ8jYIPTQ/CgpAf2OIkUDCAFfhoYLzsfQu7estg==}
+  /@kubb/swagger-ts@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-c7+xrt+8qcJXp0KK0hMsd5T2+eMHmO9M4r1fMnXQ3TUyRPjcdren5kPnC7n5mGxnTPPgWoVPm0pfsJv2eI7yGw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 2.0.0
+      '@kubb/react': 2.0.5
     dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/types': 2.0.5
+      hotscript: 1.0.13
+      json-schema-to-ts: 2.9.2
+      ts-toolbelt: 9.6.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3):
+  /@kubb/swagger-zod@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-apIVTqMfCGeDyefy3hBQVwB/NyRbe5qZQd5EQqmA41jCk4WP7ahtifqSfw9+vumG6V3PhyoCij6GULayIA8H1w==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    peerDependencies:
+      '@kubb/react': 0.0.0-canary-20231213204140
+    dependencies:
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3):
     resolution: {integrity: sha512-QZZRa4CG7EZ/hr5nfy5+By72MJDI//5zuH7FDXcWkh79UjtGHMeL3q0KZf0ob+E/BWhm4ciwaijBdO+0cxLPKw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2876,7 +2813,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-DNUcB/2kSFWHw38uUvJKuTTuL+gATv4/5/Z3HKyHo6xIcl3nKlOAmTPb6MzamRij8WEUEhf9J9Y/qVn+PfrKqg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2884,50 +2821,49 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zodios@1.15.0-canary.20231202T101052(@kubb/react@2.0.0)(openapi-types@12.1.3):
-    resolution: {integrity: sha512-JSPKvIkDOEaYdzCb+D9SgA5mzXUusKiBpyiNFMW0o7psmP5iD4X2z7XqFWmbkcGhIAeArXCDQlix3zvRz/DnQw==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    dependencies:
-      '@kubb/core': 1.14.9
-      '@kubb/parser': 1.14.9
-      '@kubb/swagger': 1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 1.15.0-canary.20231202T101038(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      change-case: 4.1.2
-    transitivePeerDependencies:
-      - '@kubb/react'
-      - encoding
-      - openapi-types
-    dev: false
-
-  /@kubb/swagger-zodios@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-+mKf8tKResTxAlZGrJxrWwH8Cedlb1Yrt/oBioZoS+g8HMVCterdS8asJWafR7Lt96lPOeR3JeJRa3W7Awh3ug==}
+  /@kubb/swagger-zod@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-5HaxpoA9UXf+TyooGaQexqNrAq9mpMSkBVTmNX2G9F4yxZiFHn8wmzwcTYYJrgyIhTQdkq9uAaBxxUmisqFPAw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 2.0.0
+      '@kubb/react': 2.0.5
     dependencies:
-      '@kubb/core': 2.0.0
-      '@kubb/parser': 2.0.0
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0(@kubb/react@2.0.0)
-      '@kubb/swagger-zod': 2.0.0(@kubb/react@2.0.0)
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3):
+  /@kubb/swagger-zodios@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-r8E+2lf4Nw5sMvh3azHudfR1/ArsNdosp/TTrkoVa62daQ4TFdB0mZgtCFSkLZTs30kzEkNBa84u66Hgtiyr1Q==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    peerDependencies:
+      '@kubb/react': 0.0.0-canary-20231213204140
+    dependencies:
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/parser': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+      '@kubb/swagger-zod': 0.0.0-canary-20231213204140(@kubb/react@2.0.5)
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3):
     resolution: {integrity: sha512-NyOfUD4DNg8IUjc8y+yGfSUMD79eqG4Atu4MCDqUWAN/MTCStkRn8Tc+LX2YIL/M/gEUM+NsRRAFL+Wqfnz8Ig==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
+      '@kubb/swagger-zod': 2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2935,7 +2871,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-4G4lwyeFQzGmCGglzupocAUPGOyJgnpgic89ysb4eat7Wkn8V48aBKF86APVbBS+Qk1O40mXpF5wISQwBqUZ4A==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2943,60 +2879,37 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.0)
-      '@kubb/swagger-zod': 2.0.0-beta.14(@kubb/react@2.0.0)
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.0.5)
+      '@kubb/swagger-zod': 2.0.0-beta.14(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger@1.14.9(@kubb/react@2.0.0)(openapi-types@12.1.3):
-    resolution: {integrity: sha512-WnE7jKtRyguiTqCWWz+zN9KzpMJD8zF1FvAM+AGT/4/ADIRSvJxkoXUXnxva8rvZ/uSWhJ4MOh/FK3W+3N8I9w==}
+  /@kubb/swagger-zodios@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-/A0a6sTyyI+3qkWNG+iRGLC97iA3PmgdjZNUQZJjS/ELfaNm4UjnWYOexIzBoYerwPk0RSYyLwghcDeJ54IwyA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.14.9
+      '@kubb/react': 2.0.5
     dependencies:
-      '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
-      '@kubb/core': 1.14.9
-      '@kubb/react': 2.0.0
-      change-case: 4.1.2
-      js-yaml: 4.1.0
-      oas: 23.0.0
-      oas-normalize: 11.0.1
-      swagger2openapi: 7.0.8
+      '@kubb/core': 2.0.5
+      '@kubb/parser': 2.0.5
+      '@kubb/react': 2.0.5
+      '@kubb/swagger': 2.0.5(@kubb/react@2.0.5)
+      '@kubb/swagger-zod': 2.0.5(@kubb/react@2.0.5)
     transitivePeerDependencies:
       - encoding
-      - openapi-types
     dev: false
 
-  /@kubb/swagger@1.15.0-canary.20231126T104858(@kubb/react@2.0.0)(openapi-types@12.1.3):
-    resolution: {integrity: sha512-zCX2MEgoCYNtIsvzZGY6+6aIJFPoAwwNqRbbeJiCUBW68b2t9pvFpZ/Fnsd2OnIAMVzatVJerGNDTXPEqgz7Dw==}
+  /@kubb/swagger@0.0.0-canary-20231213204140(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-73IUMJAcf0yQCEAgrAmm/3cw+cvIyyjXVsBAL+0WVLyUycWmi1aFTvZvPGcWX3sXC0BLlsQWalafMpKMOHRlow==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
-      '@kubb/react': 1.15.0-canary.20231126T104846
+      '@kubb/react': 0.0.0-canary-20231213204140
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
-      '@kubb/core': 1.15.0-canary.20231126T104835
-      '@kubb/react': 2.0.0
-      change-case: 4.1.2
-      js-yaml: 4.1.0
-      oas: 23.0.0
-      oas-normalize: 11.0.1
-      swagger2openapi: 7.0.8
-    transitivePeerDependencies:
-      - encoding
-      - openapi-types
-    dev: false
-
-  /@kubb/swagger@2.0.0(@kubb/react@2.0.0):
-    resolution: {integrity: sha512-DjX3Sd8oc5BkutMPv2o6BU2t4fvmowjubd5BRiClDatd70fYsds29WC/1lSyQ/63cBk/qRAHoWyHmJ8l9pjKzA==}
-    engines: {node: '>=18', pnpm: '>=8.3.0'}
-    peerDependencies:
-      '@kubb/react': 2.0.0
-    dependencies:
-      '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
-      '@kubb/core': 2.0.0
-      '@kubb/react': 2.0.0
+      '@kubb/core': 0.0.0-canary-20231213204140
+      '@kubb/react': 2.0.5
       js-yaml: 4.1.0
       oas: 24.1.0
       oas-normalize: 11.0.1
@@ -3006,7 +2919,7 @@ packages:
       - encoding
     dev: false
 
-  /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.0.0)(openapi-types@12.1.3):
+  /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.0.5)(openapi-types@12.1.3):
     resolution: {integrity: sha512-01ErKih/UZLKqjwrx3maNQuFiBaznddfYda49WxAY600zzkMQ/lpdbnJKuoxLaAaX0zlK4TGas9pgxthMzThhA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -3014,7 +2927,7 @@ packages:
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 2.0.0-alpha.12
-      '@kubb/react': 2.0.0
+      '@kubb/react': 2.0.5
       change-case: 4.1.2
       js-yaml: 4.1.0
       oas: 23.0.0
@@ -3025,7 +2938,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.0.0):
+  /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.0.5):
     resolution: {integrity: sha512-OVCIxcyXJ3iLsOtGBwtE7SdX6Jdk1a/memvIMJkYsHessJept8gB/B+297OopzKZcZVn1FDz/mHTRZD/kZoPWA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -3033,7 +2946,7 @@ packages:
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 2.0.0-beta.14
-      '@kubb/react': 2.0.0
+      '@kubb/react': 2.0.5
       js-yaml: 4.1.0
       oas: 24.1.0
       oas-normalize: 11.0.1
@@ -3043,8 +2956,26 @@ packages:
       - encoding
     dev: false
 
-  /@kubb/types@2.0.0:
-    resolution: {integrity: sha512-NfrX5ucN9EkeQAak7Bjt31pPJYQ+hygIEeqCAWRQZJs/oki3kbkIq6xu9NVducHZ6ryILjId+E1FYUQskrkVjA==}
+  /@kubb/swagger@2.0.5(@kubb/react@2.0.5):
+    resolution: {integrity: sha512-LCSBwadmsWB1gdKKsaPQ/eMX/q6vx3un60RBHDJ5kXdslRguZXnR3oF8YJ1YrzhBHw/dlcNF05hSYbBDXkezUA==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    peerDependencies:
+      '@kubb/react': 2.0.5
+    dependencies:
+      '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
+      '@kubb/core': 2.0.5
+      '@kubb/react': 2.0.5
+      js-yaml: 4.1.0
+      oas: 24.1.0
+      oas-normalize: 11.0.1
+      openapi-types: 12.1.3
+      swagger2openapi: 7.0.8
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/types@0.0.0-canary-20231213204140:
+    resolution: {integrity: sha512-gvJQxsf8cjA5/vaz8BZ7Erf7RLsqJWAAYgfh/OPTGxNix5MHASX2MOcopp5/jsxy56Ng0gO7s9yEAqepcVBURQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dev: false
 
@@ -3055,6 +2986,11 @@ packages:
 
   /@kubb/types@2.0.0-beta.14:
     resolution: {integrity: sha512-1iLMDug3JeWtIlBzd3AOliWAnOZxzenou7otp8fHL7H4OzL/Vt1u+kh7I68sIs9V94J5z1WywKm9lEQRNmgWJw==}
+    engines: {node: '>=18', pnpm: '>=8.3.0'}
+    dev: false
+
+  /@kubb/types@2.0.5:
+    resolution: {integrity: sha512-aIPomb+Qn2g7gs8+XOpwt59v98oY5aR4JlN8Q+Kt0/kmOwRBRwdkKappPhOf1FTNXcUR521Xz1QqFiXuG65D9g==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dev: false
 
@@ -3208,7 +3144,7 @@ packages:
       ajv: 4.11.8 - 8
     dependencies:
       '@babel/code-frame': 7.23.5
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       '@humanwhocodes/momoa': 2.0.4
       ajv: 8.12.0
       chalk: 4.1.2
@@ -3528,8 +3464,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@smithy/signature-v4@2.0.17:
-    resolution: {integrity: sha512-ru5IUbHUAYgJ5ZqZaBi6PEsMjFT/do0Eu21Qt7b07NuRuPlwAMhlqNRDy/KE9QAF20ygehb+xe9ebmyZ26/BSA==}
+  /@smithy/signature-v4@2.0.18:
+    resolution: {integrity: sha512-SJRAj9jT/l9ocm8D0GojMbnA1sp7I4JeStOQ4lEXI8A5eHE73vbjlzlqIFB7cLvIgau0oUl4cGVpF9IGCrvjlw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/eventstream-codec': 2.0.15
@@ -3733,8 +3669,8 @@ packages:
       '@types/node': 20.10.4
     dev: true
 
-  /@types/eslint@8.44.8:
-    resolution: {integrity: sha512-4K8GavROwhrYl2QXDXm0Rv9epkA8GBFu0EI+XrrnnuCl7u8CWBRusX7fXJfanhZTDWSAL24gDI/UqXyUM0Injw==}
+  /@types/eslint@8.44.9:
+    resolution: {integrity: sha512-6yBxcvwnnYoYT1Uk2d+jvIfsuP4mb2EdIxFnrPABj5a/838qe5bGkNLFOiipX4ULQ7XVQvTxOh7jO+BTAiqsEw==}
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
@@ -3831,11 +3767,11 @@ packages:
   /@types/react-dom@18.2.17:
     resolution: {integrity: sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==}
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
     dev: true
 
-  /@types/react@18.2.42:
-    resolution: {integrity: sha512-c1zEr96MjakLYus/wPnuWDo1/zErfdU9rNsIGmE+NV71nx88FG9Ttgo5dqorXTu/LImX2f63WBP986gJkMPNbA==}
+  /@types/react@18.2.45:
+    resolution: {integrity: sha512-TtAxCNrlrBp8GoeEp1npd5g+d/OejJHFxS3OWmrPBMFaVQMSN0OFySozJio5BHxTuTeug00AVXVAjfDSfk+lUg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -3863,8 +3799,8 @@ packages:
       '@types/node': 20.10.4
     dev: true
 
-  /@typescript-eslint/eslint-plugin@6.13.2(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-3+9OGAWHhk4O1LlcwLBONbdXsAhLjyCFogJY/cWy2lxdVJ2JrcTF2pTGMaLl2AE7U1l31n8Py4a8bx5DLf/0dQ==}
+  /@typescript-eslint/eslint-plugin@6.14.0(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-1ZJBykBCXaSHG94vMMKmiHoL0MhNHKSVlcHVYZNw+BKxufhqQVTOawNpwwI1P5nIFZ/4jLVop0mcY6mJJDFNaw==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       '@typescript-eslint/parser': ^6.0.0 || ^6.0.0-alpha
@@ -3875,11 +3811,11 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.10.0
-      '@typescript-eslint/parser': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
-      '@typescript-eslint/scope-manager': 6.13.2
-      '@typescript-eslint/type-utils': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
-      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
-      '@typescript-eslint/visitor-keys': 6.13.2
+      '@typescript-eslint/parser': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/scope-manager': 6.14.0
+      '@typescript-eslint/type-utils': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/utils': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/visitor-keys': 6.14.0
       debug: 4.3.4
       eslint: 8.55.0
       graphemer: 1.4.0
@@ -3892,8 +3828,8 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser@6.13.2(eslint@8.55.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-MUkcC+7Wt/QOGeVlM8aGGJZy1XV5YKjTpq9jK6r6/iLsGXhBVaGP5N0UYvFsu9BFlSpwY9kMretzdBH01rkRXg==}
+  /@typescript-eslint/parser@6.14.0(eslint@8.55.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-QjToC14CKacd4Pa7JK4GeB/vHmWFJckec49FR4hmIRf97+KXole0T97xxu9IFiPxVQ1DBWrQ5wreLwAGwWAVQA==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -3902,10 +3838,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/scope-manager': 6.13.2
-      '@typescript-eslint/types': 6.13.2
-      '@typescript-eslint/typescript-estree': 6.13.2(typescript@5.3.3)
-      '@typescript-eslint/visitor-keys': 6.13.2
+      '@typescript-eslint/scope-manager': 6.14.0
+      '@typescript-eslint/types': 6.14.0
+      '@typescript-eslint/typescript-estree': 6.14.0(typescript@5.3.3)
+      '@typescript-eslint/visitor-keys': 6.14.0
       debug: 4.3.4
       eslint: 8.55.0
       typescript: 5.3.3
@@ -3921,16 +3857,16 @@ packages:
       '@typescript-eslint/visitor-keys': 5.62.0
     dev: true
 
-  /@typescript-eslint/scope-manager@6.13.2:
-    resolution: {integrity: sha512-CXQA0xo7z6x13FeDYCgBkjWzNqzBn8RXaE3QVQVIUm74fWJLkJkaHmHdKStrxQllGh6Q4eUGyNpMe0b1hMkXFA==}
+  /@typescript-eslint/scope-manager@6.14.0:
+    resolution: {integrity: sha512-VT7CFWHbZipPncAZtuALr9y3EuzY1b1t1AEkIq2bTXUPKw+pHoXflGNG5L+Gv6nKul1cz1VH8fz16IThIU0tdg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
-      '@typescript-eslint/types': 6.13.2
-      '@typescript-eslint/visitor-keys': 6.13.2
+      '@typescript-eslint/types': 6.14.0
+      '@typescript-eslint/visitor-keys': 6.14.0
     dev: true
 
-  /@typescript-eslint/type-utils@6.13.2(eslint@8.55.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-Qr6ssS1GFongzH2qfnWKkAQmMUyZSyOr0W54nZNU1MDfo+U4Mv3XveeLZzadc/yq8iYhQZHYT+eoXJqnACM1tw==}
+  /@typescript-eslint/type-utils@6.14.0(eslint@8.55.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-x6OC9Q7HfYKqjnuNu5a7kffIYs3No30isapRBJl1iCHLitD8O0lFbRcVGiOcuyN837fqXzPZ1NS10maQzZMKqw==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -3939,8 +3875,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/typescript-estree': 6.13.2(typescript@5.3.3)
-      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/typescript-estree': 6.14.0(typescript@5.3.3)
+      '@typescript-eslint/utils': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
       debug: 4.3.4
       eslint: 8.55.0
       ts-api-utils: 1.0.3(typescript@5.3.3)
@@ -3954,8 +3890,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@typescript-eslint/types@6.13.2:
-    resolution: {integrity: sha512-7sxbQ+EMRubQc3wTfTsycgYpSujyVbI1xw+3UMRUcrhSy+pN09y/lWzeKDbvhoqcRbHdc+APLs/PWYi/cisLPg==}
+  /@typescript-eslint/types@6.14.0:
+    resolution: {integrity: sha512-uty9H2K4Xs8E47z3SnXEPRNDfsis8JO27amp2GNCnzGETEW3yTqEIVg5+AI7U276oGF/tw6ZA+UesxeQ104ceA==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
@@ -3980,8 +3916,8 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@6.13.2(typescript@5.3.3):
-    resolution: {integrity: sha512-SuD8YLQv6WHnOEtKv8D6HZUzOub855cfPnPMKvdM/Bh1plv1f7Q/0iFUDLKKlxHcEstQnaUU4QZskgQq74t+3w==}
+  /@typescript-eslint/typescript-estree@6.14.0(typescript@5.3.3):
+    resolution: {integrity: sha512-yPkaLwK0yH2mZKFE/bXkPAkkFgOv15GJAUzgUVonAbv0Hr4PK/N2yaA/4XQbTZQdygiDkpt5DkxPELqHguNvyw==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       typescript: '*'
@@ -3989,8 +3925,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/types': 6.13.2
-      '@typescript-eslint/visitor-keys': 6.13.2
+      '@typescript-eslint/types': 6.14.0
+      '@typescript-eslint/visitor-keys': 6.14.0
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
@@ -4021,8 +3957,8 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/utils@6.13.2(eslint@8.55.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-b9Ptq4eAZUym4idijCRzl61oPCwwREcfDI8xGk751Vhzig5fFZR9CyzDz4Sp/nxSLBYxUPyh4QdIDqWykFhNmQ==}
+  /@typescript-eslint/utils@6.14.0(eslint@8.55.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-XwRTnbvRr7Ey9a1NT6jqdKX8y/atWG+8fAIu3z73HSP8h06i3r/ClMhmaF/RGWGW1tHJEwij1uEg2GbEmPYvYg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -4030,9 +3966,9 @@ packages:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.55.0)
       '@types/json-schema': 7.0.15
       '@types/semver': 7.5.6
-      '@typescript-eslint/scope-manager': 6.13.2
-      '@typescript-eslint/types': 6.13.2
-      '@typescript-eslint/typescript-estree': 6.13.2(typescript@5.3.3)
+      '@typescript-eslint/scope-manager': 6.14.0
+      '@typescript-eslint/types': 6.14.0
+      '@typescript-eslint/typescript-estree': 6.14.0(typescript@5.3.3)
       eslint: 8.55.0
       semver: 7.5.4
     transitivePeerDependencies:
@@ -4048,11 +3984,11 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@typescript-eslint/visitor-keys@6.13.2:
-    resolution: {integrity: sha512-OGznFs0eAQXJsp+xSd6k/O1UbFi/K/L7WjqeRoFE7vadjAF9y0uppXhYNQNEqygjou782maGClOoZwPqF0Drlw==}
+  /@typescript-eslint/visitor-keys@6.14.0:
+    resolution: {integrity: sha512-fB5cw6GRhJUz03MrROVuj5Zm/Q+XWlVdIsFj+Zb1Hvqouc8t+XP2H5y53QYU/MGtd2dPg6/vJJlhoX3xc2ehfw==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
-      '@typescript-eslint/types': 6.13.2
+      '@typescript-eslint/types': 6.14.0
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -4299,7 +4235,7 @@ packages:
     resolution: {integrity: sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg==}
     engines: {node: '>=10', npm: '>=6'}
     dependencies:
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       cosmiconfig: 7.1.0
       resolve: 1.22.8
     dev: false
@@ -4418,8 +4354,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /caniuse-lite@1.0.30001566:
-    resolution: {integrity: sha512-ggIhCsTxmITBAMmK8yZjEhCO5/47jKXPu6Dha/wuCS4JePVL+3uiDEBuhu2aIoT+bqTOR8L76Ip1ARL9xYsEJA==}
+  /caniuse-lite@1.0.30001570:
+    resolution: {integrity: sha512-+3e0ASu4sw1SWaoCtvPeyXp+5PsjigkSt8OXZbF9StH5pQWbxEjLAZE3n8Aup5udop1uRiKA7a4utUk/uoSpUw==}
     dev: false
 
   /capital-case@1.0.4:
@@ -4521,8 +4457,8 @@ packages:
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  /color2k@2.0.2:
-    resolution: {integrity: sha512-kJhwH5nAwb34tmyuqq/lgjEKzlFXn1U99NlnB6Ws4qVaERcRUYeYP1cBw6BJ4vxaWStAUEef4WMr7WjOCnBt8w==}
+  /color2k@2.0.3:
+    resolution: {integrity: sha512-zW190nQTIoXcGCaU08DvVNFTmQhUpnJfVuAKfWqUQkflXKpaDdpaYoM0iluLS9lgJNHyBF58KKA2FBEwkD7wog==}
     dev: false
 
   /command-line-args@5.2.1:
@@ -4988,7 +4924,7 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  /eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.29.0)(eslint@8.55.0):
+  /eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.29.1)(eslint@8.55.0):
     resolution: {integrity: sha512-xaX3z4ZZIcFLvh2oUNvcX5oEofXda7giYmuplVxoOg5A7EXJMrUyqRgR+mhDhPK8LZ4PttFOBvCYDbX3sUoUig==}
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
@@ -4997,13 +4933,13 @@ packages:
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.55.0
-      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)
       object.assign: 4.1.5
       object.entries: 1.1.7
       semver: 6.3.1
     dev: true
 
-  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.29.0)(eslint-plugin-jsx-a11y@6.8.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.55.0):
+  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.29.1)(eslint-plugin-jsx-a11y@6.8.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.55.0):
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -5014,8 +4950,8 @@ packages:
       eslint-plugin-react-hooks: ^4.3.0
     dependencies:
       eslint: 8.55.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.29.0)(eslint@8.55.0)
-      eslint-plugin-import: 2.29.0(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.29.1)(eslint@8.55.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.55.0)
       eslint-plugin-react: 7.33.2(eslint@8.55.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.55.0)
@@ -5042,7 +4978,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils@2.8.0(@typescript-eslint/parser@6.13.2)(eslint-import-resolver-node@0.3.9)(eslint@8.55.0):
+  /eslint-module-utils@2.8.0(@typescript-eslint/parser@6.14.0)(eslint-import-resolver-node@0.3.9)(eslint@8.55.0):
     resolution: {integrity: sha512-aWajIYfsqCKRDgUfjEXNN/JlrzauMuSEy5sbd7WXbtW3EH6A6MpwEh42c7qD+MqQo9QMJ6fWLAeIJynx0g6OAw==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -5063,7 +4999,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/parser': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
       debug: 3.2.7
       eslint: 8.55.0
       eslint-import-resolver-node: 0.3.9
@@ -5078,9 +5014,9 @@ packages:
     dependencies:
       '@formatjs/icu-messageformat-parser': 2.7.3
       '@formatjs/ts-transformer': 3.13.9
-      '@types/eslint': 8.44.8
+      '@types/eslint': 8.44.9
       '@types/picomatch': 2.3.3
-      '@typescript-eslint/utils': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/utils': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
       emoji-regex: 10.3.0
       eslint: 8.55.0
       magic-string: 0.30.5
@@ -5093,8 +5029,8 @@ packages:
       - ts-jest
     dev: true
 
-  /eslint-plugin-import@2.29.0(@typescript-eslint/parser@6.13.2)(eslint@8.55.0):
-    resolution: {integrity: sha512-QPOO5NO6Odv5lpoTkddtutccQjysJuFxoPS7fAHO+9m9udNHvTCPSAMW9zGAYj8lAIdr40I8yPCdUYrncXtrwg==}
+  /eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.14.0)(eslint@8.55.0):
+    resolution: {integrity: sha512-BbPC0cuExzhiMo4Ff1BTVwHpjjv28C5R+btTOGaCRC7UEz801up0JadwkeSk5Ued6TG34uaczuVuH6qyy5YUxw==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -5103,7 +5039,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/parser': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
       array-includes: 3.1.7
       array.prototype.findlastindex: 1.2.3
       array.prototype.flat: 1.3.2
@@ -5112,7 +5048,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.55.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.13.2)(eslint-import-resolver-node@0.3.9)(eslint@8.55.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.14.0)(eslint-import-resolver-node@0.3.9)(eslint@8.55.0)
       hasown: 2.0.0
       is-core-module: 2.13.1
       is-glob: 4.0.3
@@ -5121,14 +5057,14 @@ packages:
       object.groupby: 1.0.1
       object.values: 1.1.7
       semver: 6.3.1
-      tsconfig-paths: 3.14.2
+      tsconfig-paths: 3.15.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
     dev: true
 
-  /eslint-plugin-jest@27.6.0(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)(typescript@5.3.3):
+  /eslint-plugin-jest@27.6.0(@typescript-eslint/eslint-plugin@6.14.0)(eslint@8.55.0)(typescript@5.3.3):
     resolution: {integrity: sha512-MTlusnnDMChbElsszJvrwD1dN3x6nZl//s4JD23BxB6MgR66TZlL064su24xEIS3VACfAoHV1vgyMgPw8nkdng==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
@@ -5141,7 +5077,7 @@ packages:
       jest:
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': 6.13.2(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/eslint-plugin': 6.14.0(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)(typescript@5.3.3)
       '@typescript-eslint/utils': 5.62.0(eslint@8.55.0)(typescript@5.3.3)
       eslint: 8.55.0
     transitivePeerDependencies:
@@ -5155,7 +5091,7 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
     dependencies:
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       aria-query: 5.3.0
       array-includes: 3.1.7
       array.prototype.flatmap: 1.3.2
@@ -5229,7 +5165,7 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0):
+  /eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.14.0)(eslint@8.55.0):
     resolution: {integrity: sha512-sduiswLJfZHeeBJ+MQaG+xYzSWdRXoSw61DpU13mzWumCkR0ufD0HmO4kdNokjrkluMHpj/7PJeN35pgbhW3kw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -5239,7 +5175,7 @@ packages:
       '@typescript-eslint/eslint-plugin':
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': 6.13.2(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)(typescript@5.3.3)
+      '@typescript-eslint/eslint-plugin': 6.14.0(@typescript-eslint/parser@6.14.0)(eslint@8.55.0)(typescript@5.3.3)
       eslint: 8.55.0
       eslint-rule-composer: 0.3.0
     dev: true
@@ -5298,7 +5234,7 @@ packages:
       file-entry-cache: 6.0.1
       find-up: 5.0.0
       glob-parent: 6.0.2
-      globals: 13.23.0
+      globals: 13.24.0
       graphemer: 1.4.0
       ignore: 5.3.0
       imurmurhash: 0.1.4
@@ -5710,8 +5646,8 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /globals@13.23.0:
-    resolution: {integrity: sha512-XAmF0RjlrjY23MA51q3HltdlGxUpXPvg0GioKiD9X6HD28iMjo2dKC8Vqwm7lne4GNr78+RHTfliktR6ZH09wA==}
+  /globals@13.24.0:
+    resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.20.2
@@ -6123,7 +6059,7 @@ packages:
       set-function-name: 2.0.1
     dev: true
 
-  /jotai@2.6.0(@types/react@18.2.42)(react@18.2.0):
+  /jotai@2.6.0(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-Vt6hsc04Km4j03l+Ax+Sc+FVft5cRJhqgxt6GTz6GM2eM3DyX3CdBdzcG0z2FrlZToL1/0OAkqDghIyARWnSuQ==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
@@ -6135,7 +6071,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       react: 18.2.0
     dev: false
 
@@ -6197,7 +6133,7 @@ packages:
     resolution: {integrity: sha512-h9WqLkTVpBbiaPb5OmeUpz/FBLS/kvIJw4oRCPiEisIu2WjMh+aai0QIY2LoOhRFx5r92taGLcerIrzxKBAP6g==}
     engines: {node: '>=16'}
     dependencies:
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       '@types/json-schema': 7.0.15
       ts-algebra: 1.2.2
     dev: false
@@ -6535,7 +6471,7 @@ packages:
       '@next/env': 13.5.6
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001566
+      caniuse-lite: 1.0.30001570
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -6893,8 +6829,8 @@ packages:
       p-timeout: 5.1.0
     dev: false
 
-  /p-queue@8.0.0:
-    resolution: {integrity: sha512-7LAaj8F47D5963LiTIAb/4UWR6w6SnDrDlxXg9ev/U0Lg9h35Kg8C8KiBry0c6MUofSicdLsEvS0j25gHAyCuA==}
+  /p-queue@8.0.1:
+    resolution: {integrity: sha512-NXzu9aQJTAzbBqOt2hwsR63ea7yvxJc0PwN/zobNAudYfb1B7R08SzB4TsLeSbUCuG467NhnoT0oO6w1qRO+BA==}
     engines: {node: '>=18'}
     dependencies:
       eventemitter3: 5.0.1
@@ -7082,7 +7018,7 @@ packages:
     peerDependencies:
       react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@babel/runtime': 7.23.5
+      '@babel/runtime': 7.23.6
       react: 18.2.0
     dev: false
 
@@ -7100,7 +7036,7 @@ packages:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
-  /react-focus-lock@2.9.6(@types/react@18.2.42)(react@18.2.0):
+  /react-focus-lock@2.9.6(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-B7gYnCjHNrNYwY2juS71dHbf0+UpXXojt02svxybj8N5bxceAkzPChKEncHuratjUHkIFNCn06k2qj1DRlzTug==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -7109,14 +7045,14 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.5
-      '@types/react': 18.2.42
+      '@babel/runtime': 7.23.6
+      '@types/react': 18.2.45
       focus-lock: 1.0.0
       prop-types: 15.8.1
       react: 18.2.0
       react-clientside-effect: 1.2.6(react@18.2.0)
-      use-callback-ref: 1.3.0(@types/react@18.2.42)(react@18.2.0)
-      use-sidecar: 1.1.2(@types/react@18.2.42)(react@18.2.0)
+      use-callback-ref: 1.3.0(@types/react@18.2.45)(react@18.2.0)
+      use-sidecar: 1.1.2(@types/react@18.2.45)(react@18.2.0)
     dev: false
 
   /react-icons@4.12.0(react@18.2.0):
@@ -7130,7 +7066,7 @@ packages:
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-remove-scroll-bar@2.3.4(@types/react@18.2.42)(react@18.2.0):
+  /react-remove-scroll-bar@2.3.4(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-63C4YQBUt0m6ALadE9XV56hV8BgJWDmmTPY758iIJjfQKt2nYwoUrPk0LXRXcB/yIj82T1/Ixfdpdk68LwIB0A==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7140,13 +7076,13 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       react: 18.2.0
-      react-style-singleton: 2.2.1(@types/react@18.2.42)(react@18.2.0)
+      react-style-singleton: 2.2.1(@types/react@18.2.45)(react@18.2.0)
       tslib: 2.6.2
     dev: false
 
-  /react-remove-scroll@2.5.7(@types/react@18.2.42)(react@18.2.0):
+  /react-remove-scroll@2.5.7(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-FnrTWO4L7/Bhhf3CYBNArEG/yROV0tKmTv7/3h9QCFvH6sndeFf1wPqOcbFVu5VAulS5dV1wGT3GZZ/1GawqiA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7156,16 +7092,16 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       react: 18.2.0
-      react-remove-scroll-bar: 2.3.4(@types/react@18.2.42)(react@18.2.0)
-      react-style-singleton: 2.2.1(@types/react@18.2.42)(react@18.2.0)
+      react-remove-scroll-bar: 2.3.4(@types/react@18.2.45)(react@18.2.0)
+      react-style-singleton: 2.2.1(@types/react@18.2.45)(react@18.2.0)
       tslib: 2.6.2
-      use-callback-ref: 1.3.0(@types/react@18.2.42)(react@18.2.0)
-      use-sidecar: 1.1.2(@types/react@18.2.42)(react@18.2.0)
+      use-callback-ref: 1.3.0(@types/react@18.2.45)(react@18.2.0)
+      use-sidecar: 1.1.2(@types/react@18.2.45)(react@18.2.0)
     dev: false
 
-  /react-style-singleton@2.2.1(@types/react@18.2.42)(react@18.2.0):
+  /react-style-singleton@2.2.1(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7175,7 +7111,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.2.0
@@ -7805,8 +7741,8 @@ packages:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: false
 
-  /tsconfig-paths@3.14.2:
-    resolution: {integrity: sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==}
+  /tsconfig-paths@3.15.0:
+    resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.2
@@ -7978,7 +7914,7 @@ packages:
     dependencies:
       punycode: 2.3.1
 
-  /use-callback-ref@1.3.0(@types/react@18.2.42)(react@18.2.0):
+  /use-callback-ref@1.3.0(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7988,12 +7924,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       react: 18.2.0
       tslib: 2.6.2
     dev: false
 
-  /use-sidecar@1.1.2(@types/react@18.2.42)(react@18.2.0):
+  /use-sidecar@1.1.2(@types/react@18.2.45)(react@18.2.0):
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -8003,7 +7939,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.42
+      '@types/react': 18.2.45
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.6.2
