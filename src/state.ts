@@ -1,10 +1,10 @@
 import { atom } from 'jotai'
 
-import type { KubbUserConfig } from '@kubb/core'
+import type { UserConfig } from '@kubb/core'
 
 export const codeAtom = atom('')
 
-export const configAtom = atom<KubbUserConfig>({
+export const configAtom = atom<UserConfig>({
   root: '.',
   input: {
     path: './petStore.yaml',
@@ -40,4 +40,4 @@ export const configAtom = atom<KubbUserConfig>({
       },
     ],
   ],
-} as unknown as KubbUserConfig)
+} as unknown as UserConfig)

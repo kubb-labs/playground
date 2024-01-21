@@ -8,7 +8,7 @@ import { CgShare, CgFileDocument } from 'react-icons/cg'
 import { Base64 } from 'js-base64'
 import { gzip, ungzip } from 'pako'
 
-import type { KubbUserConfig } from '@kubb/core'
+import type { UserConfig } from '@kubb/core'
 
 import { codeAtom, configAtom } from '../state'
 import { editorOptions, useBorderColor, useMonacoThemeValue } from '../utils'
@@ -19,17 +19,7 @@ import type { TransformationResult } from '../kubb'
 
 const STORAGE_KEY = 'v1.code'
 
-function getIssueReportUrl({
-  code,
-  version,
-  config,
-  playgroundLink,
-}: {
-  code: string
-  version: string
-  config: KubbUserConfig
-  playgroundLink: string
-}): string {
+function getIssueReportUrl({ code, version, config, playgroundLink }: { code: string; version: string; config: UserConfig; playgroundLink: string }): string {
   const reportUrl = new URL(`https://github.com/kubb-project/kubb/issues/new?assignees=&labels=C-bug&template=bug_report.yml`)
 
   reportUrl.searchParams.set('code', code)

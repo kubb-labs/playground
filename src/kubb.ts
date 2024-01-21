@@ -4,7 +4,7 @@ import packageJson from '@kubb/core/package.json'
 
 import type { Result } from 'ts-results'
 import type { JSONSchema6 } from 'json-schema'
-import { KubbUserConfig } from '@kubb/core'
+import { UserConfig } from '@kubb/core'
 
 export interface TransformationOutput {
   code: string
@@ -17,7 +17,7 @@ export type ParserBody = {
   version: 'canary' | 'alpha' | 'beta' | (string & {})
   tanstackVersion: '4' | '5' | (string & {})
   mswVersion: '1' | '2' | (string & {})
-  config: KubbUserConfig
+  config: UserConfig
 }
 
 export const defaultVersion = new URLSearchParams(window.location.search).get('version') ?? packageJson?.version
