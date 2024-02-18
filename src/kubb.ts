@@ -24,6 +24,8 @@ export const defaultVersion = new URLSearchParams(window.location.search).get('v
 
 export const versionAtom = atom<ParserBody['version']>(defaultVersion)
 
+export const inputVisibleAtom = atom<boolean>(true)
+
 export const tanstackVersionAtom = atom<ParserBody['tanstackVersion']>(
   (new URLSearchParams(window.location.search).get('tanstack_version') as ParserBody['tanstackVersion']) || '4'
 )

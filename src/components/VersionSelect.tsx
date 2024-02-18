@@ -47,7 +47,7 @@ export default function VersionSelect({ isLoading }: Props) {
       </Heading>
       <Flex direction="column" p="2" bg={bg} borderColor={borderColor} borderWidth="1px">
         {packageInfo ? (
-          <Select value={version} onChange={handleCurrentVersionChange}>
+          <Select variant="filled" value={version} onChange={handleCurrentVersionChange}>
             <option>{defaultVersion} (latest)</option>
             {tags.map((tag) => (
               <option key={tag} value={tag}>
@@ -56,7 +56,7 @@ export default function VersionSelect({ isLoading }: Props) {
             ))}
           </Select>
         ) : (
-          <Select>
+          <Select variant="filled">
             <option>{defaultVersion} (latest)</option>
           </Select>
         )}

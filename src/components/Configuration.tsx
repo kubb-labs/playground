@@ -47,12 +47,7 @@ export default function Configuration() {
       <Heading size="md" mb="8px">
         Configuration
       </Heading>
-      <Flex direction="column" p="2" bg={bg} borderColor={borderColor} borderWidth="1px">
-        <VStack spacing="2">
-          <FormControl>
-            <FormLabel htmlFor="logLevel">LogLevel</FormLabel>
-          </FormControl>
-        </VStack>
+      <Flex direction="column" p="2" paddingTop={0} bg={bg} borderColor={borderColor} borderWidth="1px">
         <ConfigEditorModal />
       </Flex>
     </Flex>

@@ -67,12 +67,10 @@ export default function OutputEditor({ output, files }: Props) {
 
   return (
     <Flex direction="column" gridArea="output" minW={0} minH={0}>
-      <Flex justifyContent="space-between" alignItems="center">
-        <Heading size="md" mb="8px">
-          Output
-        </Heading>
+      <Flex justifyContent="space-between" alignItems="center" marginBottom={'10px'}>
+        <Heading size="md">Output</Heading>
         <HStack spacing="10px">
-          <Select size="xs" id="logLevel" value={fileName} onInput={handleFileNameChange}>
+          <Select variant="filled" size="sm" value={fileName} onInput={handleFileNameChange}>
             {files
               ?.sort((a, b) => {
                 if (a.baseName < b.baseName) {

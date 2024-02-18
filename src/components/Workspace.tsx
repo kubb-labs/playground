@@ -3,25 +3,38 @@ import { useEffect, useMemo } from 'react'
 import { useAtom } from 'jotai'
 import useSWRMutation from 'swr/mutation'
 import useSWR from 'swr'
-import { Center, CircularProgress, useToast, VStack } from '@chakra-ui/react'
+import { Button, Center, CircularProgress, HStack, useToast, VStack } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 import { loader } from '@monaco-editor/react'
 import { Err } from 'ts-results'
+import { gzip } from 'pako'
 
-import type { KubbFile } from '@kubb/core'
+import type { KubbFile, UserConfig } from '@kubb/core'
 
 import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
 import InputEditor from './InputEditor'
 import OutputEditor from './OutputEditor'
-import MSWSelect from './MSWSelect'
-import TanstackSelect from './TanstackSelect'
 
 import { format } from '../format'
-import { mswVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom } from '../kubb'
+import { mswVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom, inputVisibleAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
 import type { ParserBody, TransformationResult } from '../kubb'
+import Customize from './Customize'
+import { CgFileDocument, CgShare } from 'react-icons/cg'
+import { Base64 } from 'js-base64'
+
+function getIssueReportUrl({ code, version, config, playgroundLink }: { code: string; version: string; config: UserConfig; playgroundLink: string }): string {
+  const reportUrl = new URL(`https://github.com/kubb-project/kubb/issues/new?assignees=&labels=C-bug&template=bug_report.yml`)
+
+  reportUrl.searchParams.set('code', code)
+  reportUrl.searchParams.set('config', JSON.stringify(config, null, 2))
+  reportUrl.searchParams.set('repro-link', playgroundLink)
+  reportUrl.searchParams.set('version', version)
+
+  return reportUrl.toString()
+}
 
 const Main = styled.main`
   display: grid;
@@ -131,6 +144,7 @@ export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
   // const d = useSWR('load', () => loadKubbCore())
   const [version] = useAtom(versionAtom)
+  const [inputVisible, setInputVisible] = useAtom(inputVisibleAtom)
   const [tanstackVersion] = useAtom(tanstackVersionAtom)
   const [mswVersion] = useAtom(mswVersionAtom)
   const [fileName] = useAtom(fileNameAtom)
@@ -185,6 +199,70 @@ export default function Workspace() {
   }, [error, toast])
 
   const isLoadingMonaco = !monaco
+
+  const shareUrl = useMemo(() => {
+    const url = new URL(location.href)
+    const encodedInput = Base64.fromUint8Array(gzip(code))
+    const encodedConfig = Base64.fromUint8Array(gzip(JSON.stringify(config)))
+
+    url.searchParams.set('version', version)
+    url.searchParams.set('tanstack_version', tanstackVersion)
+    url.searchParams.set('msw_version', mswVersion)
+    url.searchParams.set('config', encodedConfig)
+    url.searchParams.set('code', encodedInput)
+
+    return url.toString()
+  }, [code, config, version])
+
+  const issueReportUrl = useMemo(
+    () =>
+      getIssueReportUrl({
+        code,
+        config,
+        version,
+        playgroundLink: shareUrl,
+      }),
+    [code, config, version, shareUrl]
+  )
+
+  const handleIssueReportClick = () => {
+    if (code.length > 2000) {
+      toast({
+        title: 'Code too long',
+        description: 'Your input is too large to share. Please copy the code and paste it into the issue.',
+        status: 'error',
+        duration: 5000,
+        isClosable: true,
+      })
+      return
+    }
+    window.open(issueReportUrl, '_blank')
+  }
+
+  const handleShare = async () => {
+    if (!navigator.clipboard) {
+      toast({
+        title: 'Error',
+        description: 'Clipboard is not supported in your environment.',
+        status: 'error',
+        duration: 3000,
+        position: 'top',
+        isClosable: true,
+      })
+      return
+    }
+
+    window.history.replaceState(null, '', shareUrl)
+    await navigator.clipboard.writeText(shareUrl)
+    toast({
+      title: 'URL is copied to clipboard.',
+      status: 'success',
+      duration: 3000,
+      position: 'top',
+      isClosable: true,
+    })
+  }
+
   if (isLoadingMonaco && !files) {
     return (
       <Center width="full" height="88vh" display="flex" flexDirection="column">
@@ -198,14 +276,28 @@ export default function Workspace() {
   }
 
   return (
-    <Main>
+    <Main
+      style={{
+        gridTemplateAreas: inputVisible ? undefined : "'sidebar output output'",
+      }}
+    >
       <VStack spacing={4} alignItems="unset" gridArea="sidebar">
         <Configuration />
-        <TanstackSelect isLoading={isMutating} />
-        <MSWSelect isLoading={isMutating} />
+        <Customize isLoading={isMutating} />
         <VersionSelect isLoading={isMutating} />
+        <HStack spacing="10px">
+          <Button size="xs" onClick={() => setInputVisible(!inputVisible)}>
+            {inputVisible ? 'Hide' : 'Show'} input
+          </Button>
+          <Button size="xs" leftIcon={<CgFileDocument />} onClick={handleIssueReportClick}>
+            Report Issue
+          </Button>
+          <Button size="xs" leftIcon={<CgShare />} onClick={handleShare}>
+            Share
+          </Button>
+        </HStack>
       </VStack>
-      <InputEditor output={output} />
+      {inputVisible && <InputEditor output={output} />}
       <OutputEditor files={files} output={output} />
     </Main>
   )

@@ -2,7 +2,7 @@ import { Box, useColorModeValue } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import React from 'react'
 
-import HeaderBar from '../components/HeaderBar'
+// import HeaderBar from '../components/HeaderBar'
 
 const Workspace = dynamic(() => import('../components/Workspace'), {
   ssr: false,
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <Box minHeight="100vh" pb={[8, 8, 0]} bg={bg}>
-      <HeaderBar />
+      {/* <HeaderBar /> */}
       <Workspace />
     </Box>
   )
