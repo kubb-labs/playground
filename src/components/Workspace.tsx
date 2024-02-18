@@ -42,25 +42,21 @@ const Main = styled.main`
   gap: 1em;
 
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: 'sidebar' 'input' 'output';
 
-  min-height: 88vh;
+  min-height: 100vh;
 
   @media screen and (min-width: 600px) {
     grid-template-columns: 256px 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 'sidebar input' 'sidebar output';
-
-    min-height: calc(100vh - 80px);
   }
 
   @media screen and (min-width: 1200px) {
     grid-template-columns: 256px repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: 'sidebar input output';
-
-    min-height: calc(100vh - 80px);
   }
 `
 
