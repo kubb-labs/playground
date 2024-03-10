@@ -39,3 +39,5 @@ cache
 *.crt
 .cache/**/*
 .dccache
+.vercel
+.env.**

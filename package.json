@@ -16,7 +16,6 @@
   "author": "Stijn Van Hulle <stijn@stijnvanhulle.be",
   "license": "MIT",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.529.1",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
@@ -62,6 +61,7 @@
     "@kubb/swagger-zod": "latest",
     "@kubb/swagger-zodios": "latest",
     "@monaco-editor/react": "^4.6.0",
+    "@vercel/blob": "^0.22.1",
     "express": "^4.18.3",
     "framer-motion": "^10.18.0",
     "jotai": "^2.7.0",
