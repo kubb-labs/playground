@@ -1,6 +1,4 @@
-import crypto from 'node:crypto'
 
-import { put } from '@vercel/blob'
 
 import type { NextApiRequest, NextApiResponse } from 'next'
 
@@ -11,13 +9,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (req.method === 'POST') {
       const { body } = req
 
-      const blob = await put(crypto.randomUUID(), body.input, {
-        access: 'public',
-        // 1 hour
-        cacheControlMaxAge: 60 * 60,
-      })
+      // const blob = await put(crypto.randomUUID(), body.input, {
+      //   access: 'public',
+      //   // 1 hour
+      //   cacheControlMaxAge: 60 * 60,
+      // })
 
-      res.status(200).json({ url: blob.downloadUrl })
+      res.status(200).json({ url: '' })
       return
     }
     res.status(200).send(undefined)

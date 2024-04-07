@@ -60,21 +60,21 @@ const Main = styled.main`
   }
 `
 
-const fetchOutput = async (url: string, { arg }: { arg: ParserBody }) => {
-  const file = await fetch(`/api/upload`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ input: arg.input }),
-  }).then(async (response) => {
-    const json = await response.json()
-    if (response.status === 500) {
-      throw json.error
-    }
+const fetchOutput = async (_url: string, { arg }: { arg: ParserBody }) => {
+  // const file = await fetch(`/api/upload`, {
+  //   method: 'POST',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify({ input: arg.input }),
+  // }).then(async (response) => {
+  //   const json = await response.json()
+  //   if (response.status === 500) {
+  //     throw json.error
+  //   }
 
-    return json as { url: string }
-  })
+  //   return json as { url: string }
+  // })
 
   return fetch(`/api/parse`, {
     method: 'POST',
@@ -82,20 +82,19 @@ const fetchOutput = async (url: string, { arg }: { arg: ParserBody }) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      file: file.url,
       version: arg.version,
       tanstackVersion: arg.tanstackVersion,
       mswVersion: arg.mswVersion,
       config:
-        arg.config && file.url
+        arg.config && arg.input
           ? {
               ...arg.config,
               input: {
-                path: file.url,
+                data: arg.input
               },
             }
           : arg.config,
-    }),
+    } as ParserBody),
   }).then(async (response) => {
     const json = await response.json()
     if (response.status === 500) {

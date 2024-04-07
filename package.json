@@ -61,7 +61,6 @@
     "@kubb/swagger-zod": "latest",
     "@kubb/swagger-zodios": "latest",
     "@monaco-editor/react": "^4.6.0",
-    "@vercel/blob": "^0.22.2",
     "framer-motion": "^10.18.0",
     "jotai": "^2.7.2",
     "js-base64": "^3.7.7",
