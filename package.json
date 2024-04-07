@@ -62,7 +62,6 @@
     "@kubb/swagger-zodios": "latest",
     "@monaco-editor/react": "^4.6.0",
     "@vercel/blob": "^0.22.2",
-    "express": "^4.19.2",
     "framer-motion": "^10.18.0",
     "jotai": "^2.7.2",
     "js-base64": "^3.7.7",
@@ -84,7 +83,6 @@
   "devDependencies": {
     "@gplane/tsconfig": "^6.1.0",
     "@next/env": "^13.5.6",
-    "@types/express": "^4.17.21",
     "@types/json-schema": "^7.0.15",
     "@types/node": "^20.12.5",
     "@types/pako": "^2.0.3",
@@ -113,9 +111,9 @@
     "safari >= 9",
     "ie > 10"
   ],
-  "packageManager": "pnpm@8.3.0",
+  "packageManager": "pnpm@8.15.0",
   "engines": {
     "node": ">=18",
-    "pnpm": ">=8.3.0"
+    "pnpm": ">=8.15.0"
   }
 }
