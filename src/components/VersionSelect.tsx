@@ -19,7 +19,7 @@ type PackageInfo = {
 const fetchPackageInfo = async (packageName: string): Promise<PackageInfo> => {
   const api = await fetch(`https://data.jsdelivr.com/v1/package/npm/${packageName}`)
 
-  return await api.json()
+  return api.json()
 }
 
 interface Props {

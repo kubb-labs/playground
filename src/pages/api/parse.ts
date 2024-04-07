@@ -2,8 +2,9 @@
 import oas from 'oas'
 import oasNormalize from 'oas-normalize'
 
-import type { NextApiRequest, NextApiResponse } from 'next'
 import { ParserBody } from '../../kubb'
+
+import type { NextApiRequest, NextApiResponse } from 'next'
 
 const latest = {
   '@kubb/core': import('@kubb/core'),
@@ -71,7 +72,7 @@ export const buildKubbFiles = async (
   config: ParserBody['config'],
   version: ParserBody['version'],
   tanstackVersion: ParserBody['tanstackVersion'],
-  mswVersion: ParserBody['mswVersion']
+  mswVersion: ParserBody['mswVersion'],
 ) => {
   const latestCore = await latest['@kubb/core']
   const packages = versions[version as keyof typeof versions] || latest

@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 import { useEffect } from 'react'
 import { useAtom } from 'jotai'
-import { Flex, FormControl, FormLabel, Heading, VStack } from '@chakra-ui/react'
+import { Flex, Heading } from '@chakra-ui/react'
 import { Base64 } from 'js-base64'
 import { ungzip } from 'pako'
 import * as React from 'react'

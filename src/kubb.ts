@@ -1,10 +1,10 @@
 import { atom } from 'jotai'
 
 import packageJson from '@kubb/core/package.json'
+import { UserConfig } from '@kubb/core'
 
 import type { Result } from 'ts-results'
 import type { JSONSchema6 } from 'json-schema'
-import { UserConfig } from '@kubb/core'
 
 export interface TransformationOutput {
   code: string
@@ -27,11 +27,11 @@ export const versionAtom = atom<ParserBody['version']>(defaultVersion)
 export const inputVisibleAtom = atom<boolean>(true)
 
 export const tanstackVersionAtom = atom<ParserBody['tanstackVersion']>(
-  (new URLSearchParams(window.location.search).get('tanstack_version') as ParserBody['tanstackVersion']) || '4'
+  (new URLSearchParams(window.location.search).get('tanstack_version') as ParserBody['tanstackVersion']) || '4',
 )
 
 export const mswVersionAtom = atom<ParserBody['mswVersion']>(
-  (new URLSearchParams(window.location.search).get('msw_version') as ParserBody['mswVersion']) || '1'
+  (new URLSearchParams(window.location.search).get('msw_version') as ParserBody['mswVersion']) || '1',
 )
 
 export const fileNameAtom = atom('')

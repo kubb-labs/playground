@@ -3,8 +3,7 @@
 import { useEffect, useRef } from 'react'
 import Editor, { useMonaco } from '@monaco-editor/react'
 import { useAtom } from 'jotai'
-import { Box, Flex, Heading, useToast, HStack } from '@chakra-ui/react'
-
+import { Box, Flex, Heading, useToast } from '@chakra-ui/react'
 import { Base64 } from 'js-base64'
 import { ungzip } from 'pako'
 

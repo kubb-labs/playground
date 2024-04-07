@@ -8,6 +8,8 @@ import styled from '@emotion/styled'
 import { loader } from '@monaco-editor/react'
 import { Err } from 'ts-results'
 import { gzip } from 'pako'
+import { CgFileDocument, CgShare } from 'react-icons/cg'
+import { Base64 } from 'js-base64'
 
 import type { KubbFile, UserConfig } from '@kubb/core'
 
@@ -15,15 +17,13 @@ import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
 import InputEditor from './InputEditor'
 import OutputEditor from './OutputEditor'
+import Customize from './Customize'
 
 import { format } from '../format'
 import { mswVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom, inputVisibleAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
 import type { ParserBody, TransformationResult } from '../kubb'
-import Customize from './Customize'
-import { CgFileDocument, CgShare } from 'react-icons/cg'
-import { Base64 } from 'js-base64'
 
 function getIssueReportUrl({ code, version, config, playgroundLink }: { code: string; version: string; config: UserConfig; playgroundLink: string }): string {
   const reportUrl = new URL(`https://github.com/kubb-project/kubb/issues/new?assignees=&labels=C-bug&template=bug_report.yml`)
@@ -197,7 +197,7 @@ export default function Workspace() {
   const isLoadingMonaco = !monaco
 
   const shareUrl = useMemo(() => {
-    const url = new URL(location.href)
+    const url = new URL(globalThis.location.href)
     const encodedInput = Base64.fromUint8Array(gzip(code))
     const encodedConfig = Base64.fromUint8Array(gzip(JSON.stringify(config)))
 
@@ -218,7 +218,7 @@ export default function Workspace() {
         version,
         playgroundLink: shareUrl,
       }),
-    [code, config, version, shareUrl]
+    [code, config, version, shareUrl],
   )
 
   const handleIssueReportClick = () => {
