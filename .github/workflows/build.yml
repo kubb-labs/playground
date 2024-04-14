@@ -1,25 +1,69 @@
-name: Build
+name: Release
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - main
+    inputs:
+      tag:
+        description: override release tag
+        required: false
   push:
-    branches: ['main', 'alpha', 'beta', 'rc']
+    branches: ["main", "alpha", "beta", "rc"]
+    paths:
+      - ".changeset/**"
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+env:
+  DOCKER_REGISTRY: ghcr.io
+  DOCKER_IMAGE_NAME: kubb-labs/playground
+
 
 jobs:
-  build:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: read
-        packages: write
+  release:
+    name: Release
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      steps:
-        - name: Check out code
-          uses: actions/checkout@v4
-          with:
-            fetch-depth: 2
-            
-        - name: Deploy to Coolify
-          run: | 
-            curl --request GET '${{ secrets.COOLIFY_WEBHOOK }}' --header 'Authorization: Bearer ${{ secrets.COOLIFY_TOKEN }}'  
+      - name: Setup
+        uses: ./.github/setup
+
+      - name: Build
+        run: bun run build --concurrency=1
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.DOCKER_REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_IMAGE_NAME }}
+          labels: |
+            org.opencontainers.image.title= ${{ env.DOCKER_IMAGE_TITLE }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+
+      - name: Build
+        run: bun run build
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Deploy to Coolify
+        run: |
+          curl --request GET '${{ secrets.COOLIFY_WEBHOOK }}' --header 'Authorization: Bearer ${{ secrets.COOLIFY_TOKEN }}'
