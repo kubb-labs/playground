@@ -7,8 +7,6 @@ on:
         required: false
   push:
     branches: ["main", "alpha", "beta", "rc"]
-    paths:
-      - ".changeset/**"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 env:
