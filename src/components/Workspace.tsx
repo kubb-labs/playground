@@ -283,7 +283,7 @@ export default function Workspace() {
         <VersionSelect isLoading={isMutating} />
         <HStack spacing="10px">
           <Button size="xs" onClick={() => setFocusMode((prev) => (prev === 'default' ? 'zen' : 'default'))}>
-            {focusMode ? 'Zen mode' : 'Default mode'}
+            {focusMode === 'zen' ? 'Zen mode' : 'Default mode'}
           </Button>
           <Button size="xs" leftIcon={<CgFileDocument />} onClick={handleIssueReportClick}>
             Report Issue
