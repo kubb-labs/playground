@@ -20,7 +20,7 @@ import OutputEditor from './OutputEditor'
 import Customize from './Customize'
 
 import { format } from '../format'
-import { mswVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom, inputVisibleAtom } from '../kubb'
+import { mswVersionAtom, fileNameAtom, tanstackVersionAtom, versionAtom, focusModeAtom } from '../kubb'
 import { codeAtom, configAtom } from '../state'
 
 import type { ParserBody, TransformationResult } from '../kubb'
@@ -28,10 +28,10 @@ import type { ParserBody, TransformationResult } from '../kubb'
 function getIssueReportUrl({ code, version, config, playgroundLink }: { code: string; version: string; config: UserConfig; playgroundLink: string }): string {
   const reportUrl = new URL(`https://github.com/kubb-project/kubb/issues/new?assignees=&labels=C-bug&template=bug_report.yml`)
 
+  reportUrl.searchParams.set('version', version)
   reportUrl.searchParams.set('code', code)
   reportUrl.searchParams.set('config', JSON.stringify(config, null, 2))
   reportUrl.searchParams.set('repro-link', playgroundLink)
-  reportUrl.searchParams.set('version', version)
 
   return reportUrl.toString()
 }
@@ -90,7 +90,7 @@ const fetchOutput = async (_url: string, { arg }: { arg: ParserBody }) => {
           ? {
               ...arg.config,
               input: {
-                data: arg.input
+                data: arg.input,
               },
             }
           : arg.config,
@@ -139,7 +139,7 @@ export default function Workspace() {
   const { data: monaco } = useSWR('monaco', () => loader.init())
   // const d = useSWR('load', () => loadKubbCore())
   const [version] = useAtom(versionAtom)
-  const [inputVisible, setInputVisible] = useAtom(inputVisibleAtom)
+  const [focusMode, setFocusMode] = useAtom(focusModeAtom)
   const [tanstackVersion] = useAtom(tanstackVersionAtom)
   const [mswVersion] = useAtom(mswVersionAtom)
   const [fileName] = useAtom(fileNameAtom)
@@ -200,6 +200,7 @@ export default function Workspace() {
     const encodedInput = Base64.fromUint8Array(gzip(code))
     const encodedConfig = Base64.fromUint8Array(gzip(JSON.stringify(config)))
 
+    url.searchParams.set('focus_mode', focusMode)
     url.searchParams.set('version', version)
     url.searchParams.set('tanstack_version', tanstackVersion)
     url.searchParams.set('msw_version', mswVersion)
@@ -207,7 +208,7 @@ export default function Workspace() {
     url.searchParams.set('code', encodedInput)
 
     return url.toString()
-  }, [code, config, version])
+  }, [code, config, version, focusMode])
 
   const issueReportUrl = useMemo(
     () =>
@@ -217,7 +218,7 @@ export default function Workspace() {
         version,
         playgroundLink: shareUrl,
       }),
-    [code, config, version, shareUrl],
+    [code, config, version, shareUrl]
   )
 
   const handleIssueReportClick = () => {
@@ -273,7 +274,7 @@ export default function Workspace() {
   return (
     <Main
       style={{
-        gridTemplateAreas: inputVisible ? undefined : "'sidebar output output'",
+        gridTemplateAreas: focusMode === 'default' ? undefined : "'sidebar output output'",
       }}
     >
       <VStack spacing={4} alignItems="unset" gridArea="sidebar">
@@ -281,8 +282,8 @@ export default function Workspace() {
         <Customize isLoading={isMutating} />
         <VersionSelect isLoading={isMutating} />
         <HStack spacing="10px">
-          <Button size="xs" onClick={() => setInputVisible(!inputVisible)}>
-            {inputVisible ? 'Hide' : 'Show'} input
+          <Button size="xs" onClick={() => setFocusMode((prev) => (prev === 'default' ? 'zen' : 'default'))}>
+            {focusMode ? 'Zen mode' : 'Default mode'}
           </Button>
           <Button size="xs" leftIcon={<CgFileDocument />} onClick={handleIssueReportClick}>
             Report Issue
@@ -292,7 +293,7 @@ export default function Workspace() {
           </Button>
         </HStack>
       </VStack>
-      {inputVisible && <InputEditor output={output} />}
+      {focusMode === 'default' && <InputEditor output={output} />}
       <OutputEditor files={files} output={output} />
     </Main>
   )

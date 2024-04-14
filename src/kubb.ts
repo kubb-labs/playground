@@ -24,14 +24,14 @@ export const defaultVersion = new URLSearchParams(window.location.search).get('v
 
 export const versionAtom = atom<ParserBody['version']>(defaultVersion)
 
-export const inputVisibleAtom = atom<boolean>(true)
+export const focusModeAtom = atom<'zen' | 'default'>((new URLSearchParams(window.location.search).get('focus_mode') as 'zen') || 'default')
 
 export const tanstackVersionAtom = atom<ParserBody['tanstackVersion']>(
-  (new URLSearchParams(window.location.search).get('tanstack_version') as ParserBody['tanstackVersion']) || '4',
+  (new URLSearchParams(window.location.search).get('tanstack_version') as ParserBody['tanstackVersion']) || '4'
 )
 
 export const mswVersionAtom = atom<ParserBody['mswVersion']>(
-  (new URLSearchParams(window.location.search).get('msw_version') as ParserBody['mswVersion']) || '1',
+  (new URLSearchParams(window.location.search).get('msw_version') as ParserBody['mswVersion']) || '1'
 )
 
 export const fileNameAtom = atom('')
