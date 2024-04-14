@@ -2,32 +2,17 @@
 import { useEffect } from 'react'
 import { useAtom } from 'jotai'
 import { Flex, Heading } from '@chakra-ui/react'
-import { Base64 } from 'js-base64'
-import { ungzip } from 'pako'
 import * as React from 'react'
 
 import ConfigEditorModal from './ConfigEditorModal'
 
-import { configAtom } from '../state'
+import { STORAGE_KEY, configAtom } from '../state'
 import { useBgColor, useBorderColor } from '../utils'
-
-const STORAGE_KEY = 'v1.config'
 
 export default function Configuration() {
   const [config, setConfig] = useAtom(configAtom)
   const bg = useBgColor()
   const borderColor = useBorderColor()
-
-  useEffect(() => {
-    const url = new URL(location.href)
-    const encodedConfig = url.searchParams.get('config')
-    const storedConfig = localStorage.getItem(STORAGE_KEY)
-    if (encodedConfig) {
-      setConfig(JSON.parse(ungzip(Base64.toUint8Array(encodedConfig), { to: 'string' })))
-    } else if (storedConfig) {
-      setConfig(JSON.parse(storedConfig))
-    }
-  }, [setConfig])
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(config))

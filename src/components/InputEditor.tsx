@@ -4,17 +4,13 @@ import { useEffect, useRef } from 'react'
 import Editor, { useMonaco } from '@monaco-editor/react'
 import { useAtom } from 'jotai'
 import { Box, Flex, Heading, useToast } from '@chakra-ui/react'
-import { Base64 } from 'js-base64'
-import { ungzip } from 'pako'
 
-import { codeAtom, configAtom } from '../state'
+import { STORAGE_KEY, codeAtom, configAtom } from '../state'
 import { editorOptions, useBorderColor, useMonacoThemeValue } from '../utils'
 import { mswVersionAtom, tanstackVersionAtom, versionAtom } from '../kubb'
 
 import type { editor } from 'monaco-editor'
 import type { TransformationResult } from '../kubb'
-
-const STORAGE_KEY = 'v1.code'
 
 interface Props {
   output: TransformationResult
@@ -39,17 +35,6 @@ export default function InputEditor(_props: Props) {
       noSuggestionDiagnostics: true,
     })
   }, [monaco])
-
-  useEffect(() => {
-    const url = new URL(location.href)
-    const encodedInput = url.searchParams.get('code')
-    const storedInput = localStorage.getItem(STORAGE_KEY)
-    if (encodedInput) {
-      setCode(ungzip(Base64.toUint8Array(encodedInput), { to: 'string' }))
-    } else if (storedInput) {
-      setCode(storedInput)
-    }
-  }, [setCode])
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, code)
