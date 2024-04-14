@@ -1,4 +1,4 @@
-name: Release
+name: Build
 on:
   workflow_dispatch:
     inputs:
@@ -17,8 +17,8 @@ env:
 
 
 jobs:
-  release:
-    name: Release
+  build:
+    name: Build
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
