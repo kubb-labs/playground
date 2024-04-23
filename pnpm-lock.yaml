@@ -7,136 +7,136 @@ settings:
 dependencies:
   '@chakra-ui/react':
     specifier: ^2.8.2
-    version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.78)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.79)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0)
   '@emotion/react':
     specifier: ^11.11.4
-    version: 11.11.4(@types/react@18.2.78)(react@18.2.0)
+    version: 11.11.4(@types/react@18.2.79)(react@18.2.0)
   '@emotion/styled':
     specifier: ^11.11.5
-    version: 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.78)(react@18.2.0)
+    version: 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.79)(react@18.2.0)
   '@kubb-alpha/core':
     specifier: npm:@kubb/core@alpha
     version: /@kubb/core@2.0.0-alpha.12
   '@kubb-alpha/swagger':
     specifier: npm:@kubb/swagger@alpha
-    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-client':
     specifier: npm:@kubb/swagger-client@alpha
-    version: /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+    version: /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
   '@kubb-alpha/swagger-faker':
     specifier: npm:@kubb/swagger-faker@alpha
-    version: /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+    version: /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
   '@kubb-alpha/swagger-msw':
     specifier: npm:@kubb/swagger-msw@alpha
-    version: /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+    version: /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
   '@kubb-alpha/swagger-swr':
     specifier: npm:@kubb/swagger@alpha
-    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@alpha
-    version: /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+    version: /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
   '@kubb-alpha/swagger-ts':
     specifier: npm:@kubb/swagger-ts@alpha
-    version: /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+    version: /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
   '@kubb-alpha/swagger-zod':
     specifier: npm:@kubb/swagger-zod@alpha
-    version: /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
   '@kubb-alpha/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@alpha
-    version: /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+    version: /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
   '@kubb-beta/core':
     specifier: npm:@kubb/core@beta
     version: /@kubb/core@2.0.0-beta.14
   '@kubb-beta/swagger':
     specifier: npm:@kubb/swagger@beta
-    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-client':
     specifier: npm:@kubb/swagger-client@beta
-    version: /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-faker':
     specifier: npm:@kubb/swagger-faker@beta
-    version: /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-msw':
     specifier: npm:@kubb/swagger-msw@beta
-    version: /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-swr':
     specifier: npm:@kubb/swagger@beta
-    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@beta
-    version: /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-ts':
     specifier: npm:@kubb/swagger-ts@beta
-    version: /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-zod':
     specifier: npm:@kubb/swagger-zod@beta
-    version: /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-beta/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@beta
-    version: /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.13.0)
+    version: /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.13.3)
   '@kubb-canary/core':
     specifier: npm:@kubb/core@canary
-    version: /@kubb/core@0.0.0-canary-20240413152232
+    version: /@kubb/core@0.0.0-canary-20240423195307
   '@kubb-canary/swagger':
     specifier: npm:@kubb/swagger@canary
-    version: /@kubb/swagger@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-client':
     specifier: npm:@kubb/swagger-client@canary
-    version: /@kubb/swagger-client@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-client@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-faker':
     specifier: npm:@kubb/swagger-faker@canary
-    version: /@kubb/swagger-faker@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-faker@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-msw':
     specifier: npm:@kubb/swagger-msw@canary
-    version: /@kubb/swagger-msw@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-msw@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-swr':
     specifier: npm:@kubb/swagger@canary
-    version: /@kubb/swagger@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-tanstack-query':
     specifier: npm:@kubb/swagger-tanstack-query@canary
-    version: /@kubb/swagger-tanstack-query@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-tanstack-query@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-ts':
     specifier: npm:@kubb/swagger-ts@canary
-    version: /@kubb/swagger-ts@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-ts@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-zod':
     specifier: npm:@kubb/swagger-zod@canary
-    version: /@kubb/swagger-zod@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-zod@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb-canary/swagger-zodios':
     specifier: npm:@kubb/swagger-zodios@canary
-    version: /@kubb/swagger-zodios@0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+    version: /@kubb/swagger-zodios@0.0.0-canary-20240423195307(@kubb/react@2.13.3)
   '@kubb/core':
     specifier: latest
-    version: 2.13.0
+    version: 2.13.3
   '@kubb/react':
     specifier: latest
-    version: 2.13.0
+    version: 2.13.3
   '@kubb/swagger':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-client':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-faker':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-msw':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-swr':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-tanstack-query':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-ts':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-zod':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@kubb/swagger-zodios':
     specifier: latest
-    version: 2.13.0(@kubb/react@2.13.0)
+    version: 2.13.3(@kubb/react@2.13.3)
   '@monaco-editor/react':
     specifier: ^4.6.0
     version: 4.6.0(monaco-editor@0.44.0)(react-dom@18.2.0)(react@18.2.0)
@@ -145,7 +145,7 @@ dependencies:
     version: 10.18.0(react-dom@18.2.0)(react@18.2.0)
   jotai:
     specifier: ^2.8.0
-    version: 2.8.0(@types/react@18.2.78)(react@18.2.0)
+    version: 2.8.0(@types/react@18.2.79)(react@18.2.0)
   js-base64:
     specifier: ^3.7.7
     version: 3.7.7
@@ -153,14 +153,14 @@ dependencies:
     specifier: ^0.44.0
     version: 0.44.0
   next:
-    specifier: ^14.2.1
-    version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^14.2.2
+    version: 14.2.2(react-dom@18.2.0)(react@18.2.0)
   oas:
-    specifier: ^24.2.1
-    version: 24.2.1
+    specifier: ^24.2.2
+    version: 24.2.2
   oas-normalize:
-    specifier: ^11.0.3
-    version: 11.0.3
+    specifier: ^11.0.4
+    version: 11.0.4
   ora:
     specifier: ^8.0.1
     version: 8.0.1
@@ -174,8 +174,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-icons:
-    specifier: ^5.0.1
-    version: 5.0.1(react@18.2.0)
+    specifier: ^5.1.0
+    version: 5.1.0(react@18.2.0)
   semver:
     specifier: ^7.6.0
     version: 7.6.0
@@ -209,8 +209,8 @@ devDependencies:
     specifier: ^2.0.3
     version: 2.0.3
   '@types/react':
-    specifier: ^18.2.78
-    version: 18.2.78
+    specifier: ^18.2.79
+    version: 18.2.79
   '@types/react-dom':
     specifier: ^18.2.25
     version: 18.2.25
@@ -218,8 +218,8 @@ devDependencies:
     specifier: ^7.5.8
     version: 7.5.8
   '@typescript-eslint/eslint-plugin':
-    specifier: ^7.6.0
-    version: 7.6.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
+    specifier: ^7.7.1
+    version: 7.7.1(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
   '@typescript-eslint/parser':
     specifier: ^6.21.0
     version: 6.21.0(eslint@8.57.0)(typescript@5.4.5)
@@ -246,13 +246,13 @@ devDependencies:
     version: 2.29.1(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)
   eslint-plugin-jest:
     specifier: ^27.9.0
-    version: 27.9.0(@typescript-eslint/eslint-plugin@7.6.0)(eslint@8.57.0)(typescript@5.4.5)
+    version: 27.9.0(@typescript-eslint/eslint-plugin@7.7.1)(eslint@8.57.0)(typescript@5.4.5)
   eslint-plugin-prettier:
     specifier: ^5.1.3
     version: 5.1.3(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@2.8.8)
   eslint-plugin-unused-imports:
     specifier: ^3.1.0
-    version: 3.1.0(@typescript-eslint/eslint-plugin@7.6.0)(eslint@8.57.0)
+    version: 3.1.0(@typescript-eslint/eslint-plugin@7.7.1)(eslint@8.57.0)
   prettier:
     specifier: ^2.8.8
     version: 2.8.8
@@ -263,8 +263,8 @@ devDependencies:
     specifier: ^5.4.5
     version: 5.4.5
   undici:
-    specifier: ^6.13.0
-    version: 6.13.0
+    specifier: ^6.14.1
+    version: 6.14.1
 
 packages:
 
@@ -528,7 +528,7 @@ packages:
       '@emotion/react': '>=10.0.35'
       react: '>=18'
     dependencies:
-      '@emotion/react': 11.11.4(@types/react@18.2.78)(react@18.2.0)
+      '@emotion/react': 11.11.4(@types/react@18.2.79)(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -569,14 +569,14 @@ packages:
     resolution: {integrity: sha512-IGM/yGUHS+8TOQrZGpAKOJl/xGBrmRYJrmbHfUE7zrG3PpQyXvbLDP1M+RggkCFVgHlJi2wpYIf0QtQlU0XZfw==}
     dev: false
 
-  /@chakra-ui/focus-lock@2.1.0(@types/react@18.2.78)(react@18.2.0):
+  /@chakra-ui/focus-lock@2.1.0(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-EmGx4PhWGjm4dpjRqM4Aa+rCWBxP+Rq8Uc/nAVnD4YVqkEhBkrPTpui2lnjsuxqNaZ24fIAZ10cF1hlpemte/w==}
     peerDependencies:
       react: '>=18'
     dependencies:
       '@chakra-ui/dom-utils': 2.1.0
       react: 18.2.0
-      react-focus-lock: 2.11.3(@types/react@18.2.78)(react@18.2.0)
+      react-focus-lock: 2.12.1(@types/react@18.2.79)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -714,7 +714,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.78)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.79)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-TQv1ZaiJMZN+rR9DK0snx/OPwmtaGH1HbZtlYt4W4s6CzyK541fxLRTjIXfEzIGpvNW+b6VFuFjbcR78p4DEoQ==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -723,7 +723,7 @@ packages:
       react-dom: '>=18'
     dependencies:
       '@chakra-ui/close-button': 2.1.1(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.78)(react@18.2.0)
+      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.79)(react@18.2.0)
       '@chakra-ui/portal': 2.1.0(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/react-context': 2.1.0(react@18.2.0)
       '@chakra-ui/react-types': 2.0.7(react@18.2.0)
@@ -735,7 +735,7 @@ packages:
       framer-motion: 10.18.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-remove-scroll: 2.5.9(@types/react@18.2.78)(react@18.2.0)
+      react-remove-scroll: 2.5.9(@types/react@18.2.79)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -856,8 +856,8 @@ packages:
       '@chakra-ui/react-env': 3.1.0(react@18.2.0)
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
       '@chakra-ui/utils': 2.0.15
-      '@emotion/react': 11.11.4(@types/react@18.2.78)(react@18.2.0)
-      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.78)(react@18.2.0)
+      '@emotion/react': 11.11.4(@types/react@18.2.79)(react@18.2.0)
+      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.79)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -1073,7 +1073,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/react@2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.78)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/react@2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.79)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Hn0moyxxyCDKuR9ywYpqgX8dvjqwu9ArwpIb9wHNYjnODETjLwazgNIliCVBRcJvysGRiV51U2/JtJVrpeCjUQ==}
     peerDependencies:
       '@emotion/react': ^11.0.0
@@ -1094,7 +1094,7 @@ packages:
       '@chakra-ui/counter': 2.1.0(react@18.2.0)
       '@chakra-ui/css-reset': 2.3.0(@emotion/react@11.11.4)(react@18.2.0)
       '@chakra-ui/editable': 3.1.0(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.78)(react@18.2.0)
+      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.2.79)(react@18.2.0)
       '@chakra-ui/form-control': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/hooks': 2.2.1(react@18.2.0)
       '@chakra-ui/icon': 3.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
@@ -1104,7 +1104,7 @@ packages:
       '@chakra-ui/live-region': 2.1.0(react@18.2.0)
       '@chakra-ui/media-query': 3.3.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/menu': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@10.18.0)(react@18.2.0)
-      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.78)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.79)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/number-input': 2.1.2(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/pin-input': 2.1.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/popover': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@10.18.0)(react@18.2.0)
@@ -1135,8 +1135,8 @@ packages:
       '@chakra-ui/transition': 2.1.0(framer-motion@10.18.0)(react@18.2.0)
       '@chakra-ui/utils': 2.0.15
       '@chakra-ui/visually-hidden': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@emotion/react': 11.11.4(@types/react@18.2.78)(react@18.2.0)
-      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.78)(react@18.2.0)
+      '@emotion/react': 11.11.4(@types/react@18.2.79)(react@18.2.0)
+      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.79)(react@18.2.0)
       framer-motion: 10.18.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1275,8 +1275,8 @@ packages:
       '@chakra-ui/styled-system': 2.9.2
       '@chakra-ui/theme-utils': 2.0.21
       '@chakra-ui/utils': 2.0.15
-      '@emotion/react': 11.11.4(@types/react@18.2.78)(react@18.2.0)
-      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.78)(react@18.2.0)
+      '@emotion/react': 11.11.4(@types/react@18.2.79)(react@18.2.0)
+      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.79)(react@18.2.0)
       react: 18.2.0
       react-fast-compare: 3.2.2
     dev: false
@@ -1503,7 +1503,7 @@ packages:
     resolution: {integrity: sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==}
     dev: false
 
-  /@emotion/react@11.11.4(@types/react@18.2.78)(react@18.2.0):
+  /@emotion/react@11.11.4(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-t8AjMlF0gHpvvxk5mAtCqR4vmxiGHCeJBaQO6gncUSdklELOgtwjerNY2yuJNfwnc6vi16U/+uMF+afIawJ9iw==}
     peerDependencies:
       '@types/react': '*'
@@ -1519,7 +1519,7 @@ packages:
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
       '@emotion/weak-memoize': 0.3.1
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
     dev: false
@@ -1538,7 +1538,7 @@ packages:
     resolution: {integrity: sha512-0QBtGvaqtWi+nx6doRwDdBIzhNdZrXUppvTM4dtZZWEGTXL/XE/yJxLMGlDT1Gt+UHH5IX1n+jkXyytE/av7OA==}
     dev: false
 
-  /@emotion/styled@11.11.5(@emotion/react@11.11.4)(@types/react@18.2.78)(react@18.2.0):
+  /@emotion/styled@11.11.5(@emotion/react@11.11.4)(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-/ZjjnaNKvuMPxcIiUkf/9SHoG4Q196DRl1w82hQ3WCsjo1IUR8uaGWrC6a87CrYAW0Kb/pK7hk8BnLgLRi9KoQ==}
     peerDependencies:
       '@emotion/react': ^11.0.0-rc.0
@@ -1551,11 +1551,11 @@ packages:
       '@babel/runtime': 7.24.4
       '@emotion/babel-plugin': 11.11.0
       '@emotion/is-prop-valid': 1.2.2
-      '@emotion/react': 11.11.4(@types/react@18.2.78)(react@18.2.0)
+      '@emotion/react': 11.11.4(@types/react@18.2.79)(react@18.2.0)
       '@emotion/serialize': 1.1.4
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       react: 18.2.0
     dev: false
 
@@ -1714,12 +1714,12 @@ packages:
     resolution: {integrity: sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==}
     dev: false
 
-  /@kubb/core@0.0.0-canary-20240413152232:
-    resolution: {integrity: sha512-ukajMX/wvH6MHyvSYnj+OJ4rqTsKReG+LTRK+jFX0xLlX8mQhgGT+YvkT1X5CGPqwYAgAqEi+Z3kDNcipBVuwQ==}
+  /@kubb/core@0.0.0-canary-20240423195307:
+    resolution: {integrity: sha512-HmSp6S/23XIiGw45/k4lfn0fdIdZ4FSH9k4OBNVuR2tznQKycsIpZKZNqjZy9lhc6inFPQw7kxuk6kQBmN+mnw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dependencies:
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/types': 0.0.0-canary-20240413152232
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/types': 0.0.0-canary-20240423195307
       change-case: 5.4.4
       directory-tree: 3.5.1
       find-up: 7.0.0
@@ -1727,7 +1727,7 @@ packages:
       js-runtime: 0.0.7
       natural-orderby: 3.0.2
       p-queue: 8.0.1
-      remeda: 1.58.3
+      remeda: 1.61.0
       seedrandom: 3.0.5
       semver: 7.6.0
       unraw: 3.0.0
@@ -1768,12 +1768,12 @@ packages:
       semver: 7.6.0
     dev: false
 
-  /@kubb/core@2.13.0:
-    resolution: {integrity: sha512-JzkCKmDGEwFwxYai5ktUlw0RlQRXo3Nph1gr4OAJhq5U95NGDKdHM/prfm4RukldZ8hjPu+MKqECCzIy9kBv7w==}
+  /@kubb/core@2.13.3:
+    resolution: {integrity: sha512-XRA0PziaMjAMeijWhWTClxHlMRbX1TRaAIkwcQLevNS5elMR9vt2vm3ymsxkk+wlolvA27Pv/ja8kOvatHcSIQ==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dependencies:
-      '@kubb/parser': 2.13.0
-      '@kubb/types': 2.13.0
+      '@kubb/parser': 2.13.3
+      '@kubb/types': 2.13.3
       change-case: 5.4.4
       directory-tree: 3.5.1
       find-up: 7.0.0
@@ -1781,17 +1781,49 @@ packages:
       js-runtime: 0.0.7
       natural-orderby: 3.0.2
       p-queue: 8.0.1
-      remeda: 1.58.3
+      remeda: 1.61.0
       seedrandom: 3.0.5
       semver: 7.6.0
       unraw: 3.0.0
     dev: false
 
-  /@kubb/parser@0.0.0-canary-20240413152232:
-    resolution: {integrity: sha512-E+IHghXh3KeRAF9yWSGq8d85vwxXOLxSoZS6CApr8PwB4mGzmdtW0l+g4E3YPVhZTrbeh6gGBsOaz2coFY6pxA==}
+  /@kubb/oas@0.0.0-canary-20240423195307:
+    resolution: {integrity: sha512-gA9ekv8TSiQRYzEDT9WtRojKlGpCgiq+eFPMDKHLGX1WrZqP7Rxb1eHTVvURO51Hx8LJfZIrYWWUeOXffH8kZg==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dependencies:
-      remeda: 1.58.3
+      hotscript: 1.0.13
+      json-schema-to-ts: 3.0.1
+      oas: 24.2.2
+      oas-normalize: 11.0.4
+      openapi-types: 12.1.3
+      remeda: 1.61.0
+      swagger2openapi: 7.0.8
+      ts-toolbelt: 9.6.0
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/oas@2.13.3:
+    resolution: {integrity: sha512-WY/GojpV7K0nnPxOuV6XNrRWE6gzkt1Ga9Kvm9VQEAydawpO48gJBBn/uXZYBoSz3T9iEeN5V4rsB/U/P5z9aQ==}
+    engines: {node: '>=18', pnpm: '>=8.15.0'}
+    dependencies:
+      hotscript: 1.0.13
+      json-schema-to-ts: 3.0.1
+      oas: 24.2.2
+      oas-normalize: 11.0.4
+      openapi-types: 12.1.3
+      remeda: 1.61.0
+      swagger2openapi: 7.0.8
+      ts-toolbelt: 9.6.0
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /@kubb/parser@0.0.0-canary-20240423195307:
+    resolution: {integrity: sha512-5+gsdiqszy3TCmF7eg3Mouy7YCpOhsjRgCkSkMwrzxsbbII3Hi0kcq3MBdEXu8sH2/LwEAOXqw4cN6qzPof09w==}
+    engines: {node: '>=18', pnpm: '>=8.15.0'}
+    dependencies:
+      remeda: 1.61.0
       typescript: 5.4.5
     dev: false
 
@@ -1809,42 +1841,43 @@ packages:
       typescript: 5.4.5
     dev: false
 
-  /@kubb/parser@2.13.0:
-    resolution: {integrity: sha512-94p4WhfcH1jKow0v1gBUH7ycOG7zfJLtrCuTC8VutP19S9oUE9MZenTYsF/rU4fPdvG1H6XUS6BShiJQrroHlg==}
+  /@kubb/parser@2.13.3:
+    resolution: {integrity: sha512-X3wCZZ3OwyAcrGL2wEotUrdYKfpnsDQeeFMPN+qYEJ3Ncs/k1W4pG1IxP/gOGV1gx/jAVyOgZ1WdexiWYq70cw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dependencies:
-      remeda: 1.58.3
+      remeda: 1.61.0
       typescript: 5.4.5
     dev: false
 
-  /@kubb/react@2.13.0:
-    resolution: {integrity: sha512-GTJdERlsjKngrF3ZraH5Mem1i517htwchI22hOiXTp7F5PvG6t4bGROiZIByo6MDFwENR6+y1vUE9Rtztup+3w==}
+  /@kubb/react@2.13.3:
+    resolution: {integrity: sha512-AbUFO3FgvFT3tJieUpexABOXf5XuQMtoDNno6yejosMHXj83zTUUEd+JzLU8bqpxw/JeM7y+bf+G7Vam73GzGg==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
     dev: false
 
-  /@kubb/swagger-client@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-WcjC01aLefeUhiAL7q2whCB3b2/7NCy1ZILL+nn1BLwog7+4F7gY3NcpA6m8gn/0n7XmDBz8xsxcNRDg3KhGkw==}
+  /@kubb/swagger-client@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-26absRsfrCQ+7o4aVkAW2cslrEentBhdI6cciDHuI/ILwxYS+w1Mwi3Cm86F2kIrIwO+OizbmXcTO1tQcqhtog==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
       axios: ^1.6.8
     peerDependenciesMeta:
       axios:
         optional: true
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/oas': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5):
+  /@kubb/swagger-client@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5):
     resolution: {integrity: sha512-WWNeEx/BrMJd3jnpS7Ot5WFmKITi6XEhMgwMAvFy+ZpM7QP5l8o1XrDEEvKr3wHl2hp6PtajFI+KlE+loWGakQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -1856,9 +1889,9 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -1866,7 +1899,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-client@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-RlvdrY8Lr64RmaRg6TRimzOEKtinymTFSwsB15j+Msmq2wC2iIzfOBCbRFsCOvPlj8e/y0T/7pb4Qrfl+7ynwA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -1878,55 +1911,56 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-client@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-MReRQc6v1QTzEt4qlg8zrev0C7aVm8cIcIjpBYBfTSR8w08beufp5m12YXwPqetHJxUKzg4wACiTh4Y+fZpcBw==}
+  /@kubb/swagger-client@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-uo+mvxMGJdFRFrwGl/GDXEWjsFtOEYYtR0syYN8MjSsrU5o7rLTyv4sMBbcJyG7AutjTxtTPST6JopctcOkJYw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
       axios: ^1.6.8
     peerDependenciesMeta:
       axios:
         optional: true
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/oas': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-faker@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-RoOMaQVnH0Ikjw9KCSpol6MlqmXK8VG2+gmIZW8GpEfnAoLbAK/hrmL2CGBYmPNFon/GcajoFIuqqfU8wnThkw==}
+  /@kubb/swagger-faker@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-nAgjuuNrokRlEbr2xZB4hNCyd1Jbh0Q72EPOadz0Np9foFf3bJ5dqO08lIpGuzAluCopvVKKv4ywQxZwE3LCkg==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5):
+  /@kubb/swagger-faker@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5):
     resolution: {integrity: sha512-qiT9Hu0ZIgbsO1xBva5PH5Mj7L5QAIQDa/KagpnJQLEVVUbjlwOVtOLG9dljp5a18HseDNpEtsD4VT9w8/ning==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -1935,7 +1969,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-faker@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-Qg9j6tSXPmtjEWXha8VbkSXiv6ngVbe1lmEoWRrekjOKoN/wYwMsAsbqaQ1G0ugQ1sJdgLN6fmh5Mc0lBI674g==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -1943,45 +1977,45 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-faker@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-KU6Wxm90rCI+cDLgtxUv1+6KcS2hppKu2oCVM7NHRjswGARlaU3X9Mj5GV8CaCJayM1XEgGV/+7/SUsOVpNBzg==}
+  /@kubb/swagger-faker@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-FMZZTqc4fa9SaK3HoYU+k/tD7I3Rfyx53GMqTTRq2q1Z0z3lGY66biCnNEIPEUWBJdQLXDoEiu2fS7lmkVcNZw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-msw@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-d/eSr+0MUsW42dEsYLLm4w3HR77XyOj3D2dBmGr0F3hDq55rcpZ/w7PdrKZdXYgR7U2GaSEPXCcdt2pvi43Hrw==}
+  /@kubb/swagger-msw@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-+/VIFBVa/TbbIOBskwSLf2E+p/T6LswC4oGCZ0/OVNTSvvOY/N5IYyTrcWIRW0jJaYKxunVzIB3O/nUalKtwtg==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-faker': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-faker': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5):
+  /@kubb/swagger-msw@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5):
     resolution: {integrity: sha512-dmy0FNgh2hr2h3uNj5DwWcJ+ybrTYwp+j4Z0afGrNl8V+sCxPqslr8kKhHyRA81kXrCh5CpPn3nO8DMD2Cl6SA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -1989,10 +2023,10 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
-      '@kubb/swagger-faker': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
+      '@kubb/swagger-faker': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
       change-case: 4.1.2
     transitivePeerDependencies:
       - encoding
@@ -2000,7 +2034,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-msw@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-9o6y/tZbm4pSbhXp8Tf31+nZgLhs8a3K7TfV7BOyLVd+UsJSiuL7DsvtJqUy8YalMts48IH87kLBbIUU5yUHiw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2008,66 +2042,66 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-faker': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-faker': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-msw@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-XGONIq7LwUVWtnr+x+jxr1mshPwrFlg/M6hPOSYw46rDAHFWTUXrC+W7311RKIj9BMiJgsUFSzsZgu0uT31aSw==}
+  /@kubb/swagger-msw@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-3kBUAR6jeha+V4VgS1RovtL2A7YPHr4Ljn+9qlolHt7zleVv0RA/5gUosdxpvh+9XqywsMAis5ugYavzxkOgaA==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-faker': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-faker': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-swr@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-qs6PKXeRRiihr0R/xbRHab7N9Ysnf+Xmpmb5yC92PnFy6BiaVti47Mhl+21yV6QIxmLMLqQEhwBls3/BzqOBzQ==}
+  /@kubb/swagger-swr@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-s6zlwl4YvA7Jq5yrxQ5uVgsI9W9aw17CTb62Vfqao0ROmS28mOjMQMWBfJgti4lJ0MTcwCtQyckl0R8OyeA2IA==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-client': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-client': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-tanstack-query@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-udYtLKsprVwLM8HpdCMj5RU/yU/tLWp45ZpOk/dpAcOWAN9t3wli2bpBJJyiKYpCTHIMz+KpfvapPyaZV/Bhzw==}
+  /@kubb/swagger-tanstack-query@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-6qdzxn+RmMi1hZKxMFfcsRKidjGU7t2xOjvkre4Fla7ZRumtZe/EMnORyUTShF4s0uUagum1KS2kxMUmzHFz1g==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-client': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-zod': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-client': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-zod': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5):
+  /@kubb/swagger-tanstack-query@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5):
     resolution: {integrity: sha512-8fCuiM+mDvjUXdsDA9tKW8JcujXXkt/LoJTgG4+UMhLKQQl3q4PAX+ETx+iQXPL4rjtT4Txub/Q7sD/zLeCGQg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2075,10 +2109,10 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
-      '@kubb/swagger-client': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
-      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
+      '@kubb/swagger-client': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
+      '@kubb/swagger-ts': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5)
       change-case: 4.1.2
     transitivePeerDependencies:
       - axios
@@ -2087,7 +2121,7 @@ packages:
       - typescript
     dev: false
 
-  /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-tanstack-query@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-Es2borFz7qtS4j7Dmjn/fRLKonnSV7CGVRe39L46tODLQ/dPOSptBNjFvAVz6Uv8KK6R0YS2J+XJFZ+6yuYl1Q==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2095,52 +2129,50 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-client': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-client': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.0.0-beta.14(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-tanstack-query@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-4+0xrfhx/ZVyTId81UXYV/98C2ihG2ENKwsZdrIUWQWBSTlOM9q9wWWP1y02NZ8LWse5PXL2bdQizoDIPToW7Q==}
+  /@kubb/swagger-tanstack-query@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-0u5uNG0blhPHkoYk2vzug28Mg4aymFxxeHiQrZWyqND2dA0k69nrfYjAOzVyYwyoIDNDKbd8EXLAIWXxH3hK/A==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-client': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-zod': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-client': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-zod': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - axios
       - encoding
     dev: false
 
-  /@kubb/swagger-ts@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-nxcDTGpUSnFv8/daxooU2VXqaPa3YlLn1Wp8/a6hoGCdpydAZF5GjP8lQtWSug0G7JUBeBhkHreg0axGf4bfBQ==}
+  /@kubb/swagger-ts@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-qvUE6mfN2jCQDlncUQYqSyJgHwwCA2Pv0h66RLdZJF2TgmTDfP0r5EJHsgM3imdNAP0CfODLmuVJ6GEfiXouyQ==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/types': 0.0.0-canary-20240413152232
-      hotscript: 1.0.13
-      json-schema-to-ts: 3.0.1
-      ts-toolbelt: 9.6.0
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/oas': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/types': 0.0.0-canary-20240423195307
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)(typescript@5.4.5):
+  /@kubb/swagger-ts@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)(typescript@5.4.5):
     resolution: {integrity: sha512-5oiMQWBH2fAiso61OCaC4vXWWACvtSetWDvFh610GFYiDMclBlgGaoN/ukeVI+fVtGoHhqiBUdelOny03LX9DQ==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2148,7 +2180,7 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
       change-case: 4.1.2
       typescript: 5.4.5
     transitivePeerDependencies:
@@ -2157,7 +2189,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-ts@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-lLfOtkkLVUd/4qsAuBrgusQ0ip+Db9F8hDTJCcSF4xAIrPXlSIvpTfsK6VQf3vvo7hWCflcZ8otG1USg8coGLg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2165,8 +2197,8 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
       '@kubb/types': 2.0.0-beta.14
       hotscript: 1.0.13
       json-schema-to-ts: 2.12.0
@@ -2175,46 +2207,44 @@ packages:
       - encoding
     dev: false
 
-  /@kubb/swagger-ts@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-ZlC8Ckp5OKrRm1t7wyKZKb5liXjhc9MnUYzZn0cDB59byn895pco7lBUSiXk+IV7+EAqFIRwXjA3PHg4s103aw==}
+  /@kubb/swagger-ts@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-mH6hnknQNFaAg+01ppnugaSQ1wMyK0fbxTF98NUjm9xqlxF1wHghlhgzVeOFEfxuzlXfAW0UtqbFWRzfrDEVZg==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/types': 2.13.0
-      hotscript: 1.0.13
-      json-schema-to-ts: 3.0.1
-      ts-toolbelt: 9.6.0
+      '@kubb/core': 2.13.3
+      '@kubb/oas': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/types': 2.13.3
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zod@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-1Xrv99biaMJc1u+2WAOh7kIVHpZqyaYsD3NA6ADbF74IhH/xo3mDkyUvC7Zs2yzvf0fUJj2sIqXbln458t51og==}
+  /@kubb/swagger-zod@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-1Dsau3SJH4+ME5Uoe0UW0OiBydXxV4x1o3klYZizf/b+JGe+ZRMLkqOCuVilqTuzKuFe6ke01+mGxbYn2JZaJQ==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3):
+  /@kubb/swagger-zod@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3):
     resolution: {integrity: sha512-QZZRa4CG7EZ/hr5nfy5+By72MJDI//5zuH7FDXcWkh79UjtGHMeL3q0KZf0ob+E/BWhm4ciwaijBdO+0cxLPKw==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2222,7 +2252,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-zod@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-DNUcB/2kSFWHw38uUvJKuTTuL+gATv4/5/Z3HKyHo6xIcl3nKlOAmTPb6MzamRij8WEUEhf9J9Y/qVn+PfrKqg==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2230,50 +2260,50 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zod@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-hJJSFaGcjyygjLjzkIXOxfCKrgpmpziE1jpoOZXSVjlTa/XkEyvMAKHUVChTk/qSKB5OK+z578lRoHTVVc5ztg==}
+  /@kubb/swagger-zod@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-ARUit9aPivj+Y7aP2FZ0an7finDS8W1BbEbpv+znjTlnawn72ppNQYdttSjMeqexo8pojXkARH2RA2eTvf8L3Q==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-ts': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-ts': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zodios@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-gvSp32IoXWqeWTqQejS3cIF0VM/2I2semCbtG/MGdnfPIE7CpsFxR23kesfUlnDmuVQxrZ4DgxgNMkTa7TBZXA==}
+  /@kubb/swagger-zodios@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-49bLOZsp9tW+9YkmaCvMohFgYC1cfKnYDRn4sVbtT6+l91/AL7DvxySMh6Td76mdQCl37cSKA5Ij950EeEp+1g==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/parser': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
-      '@kubb/swagger-zod': 0.0.0-canary-20240413152232(@kubb/react@2.13.0)
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/parser': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
+      '@kubb/swagger-zod': 0.0.0-canary-20240423195307(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3):
+  /@kubb/swagger-zodios@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3):
     resolution: {integrity: sha512-NyOfUD4DNg8IUjc8y+yGfSUMD79eqG4Atu4MCDqUWAN/MTCStkRn8Tc+LX2YIL/M/gEUM+NsRRAFL+Wqfnz8Ig==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dependencies:
       '@kubb/core': 2.0.0-alpha.12
       '@kubb/parser': 2.0.0-alpha.12
-      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
-      '@kubb/swagger-zod': 2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3)
+      '@kubb/swagger': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
+      '@kubb/swagger-zod': 2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3)
       change-case: 4.1.2
     transitivePeerDependencies:
       - '@kubb/react'
@@ -2281,7 +2311,7 @@ packages:
       - openapi-types
     dev: false
 
-  /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger-zodios@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-4G4lwyeFQzGmCGglzupocAUPGOyJgnpgic89ysb4eat7Wkn8V48aBKF86APVbBS+Qk1O40mXpF5wISQwBqUZ4A==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2289,48 +2319,44 @@ packages:
     dependencies:
       '@kubb/core': 2.0.0-beta.14
       '@kubb/parser': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.0)
-      '@kubb/swagger-zod': 2.0.0-beta.14(@kubb/react@2.13.0)
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.0.0-beta.14(@kubb/react@2.13.3)
+      '@kubb/swagger-zod': 2.0.0-beta.14(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger-zodios@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-4BFoTpBhWWb7OaRfqaxJy/qIJGOuWwgOhzQfG4fRXJt3KacYMHlb0cHpFPyFPOtXHNUApdg6vSjuX/+LJkt6RA==}
+  /@kubb/swagger-zodios@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-qyMGHZgHZZmbhdE3iK2OxA3+Gk6XuW58AoC9T33wHQDhFAn82iStUO9dThq9/uRhz8lnLdqZHp05si6BFRJzFw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@kubb/core': 2.13.0
-      '@kubb/parser': 2.13.0
-      '@kubb/react': 2.13.0
-      '@kubb/swagger': 2.13.0(@kubb/react@2.13.0)
-      '@kubb/swagger-zod': 2.13.0(@kubb/react@2.13.0)
+      '@kubb/core': 2.13.3
+      '@kubb/parser': 2.13.3
+      '@kubb/react': 2.13.3
+      '@kubb/swagger': 2.13.3(@kubb/react@2.13.3)
+      '@kubb/swagger-zod': 2.13.3(@kubb/react@2.13.3)
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger@0.0.0-canary-20240413152232(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-+3h+BIbst4vN1H7QaGSkl5P93Mit1Fpken+t/8MP0kPf45sMqF3jVoYrqh0avy0pK5GJfcpoOZFVSyewbFN/PA==}
+  /@kubb/swagger@0.0.0-canary-20240423195307(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-0bQUt3Nfw6YUFJClWdaqKQAVaY3SvbcCKYLJmLeN1CUmywat5KhbfAzlmgbHMHAtpNh60pHrr8yud/0/p82paw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 0.0.0-canary-20240413152232
+      '@kubb/react': 0.0.0-canary-20240423195307
     dependencies:
-      '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
-      '@kubb/core': 0.0.0-canary-20240413152232
-      '@kubb/react': 2.13.0
-      js-yaml: 4.1.0
-      oas: 24.2.1
-      oas-normalize: 11.0.3
-      openapi-types: 12.1.3
-      remeda: 1.58.3
-      swagger2openapi: 7.0.8
+      '@kubb/core': 0.0.0-canary-20240423195307
+      '@kubb/oas': 0.0.0-canary-20240423195307
+      '@kubb/react': 2.13.3
+      '@stoplight/yaml': 4.3.0
+      remeda: 1.61.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.13.0)(openapi-types@12.1.3):
+  /@kubb/swagger@2.0.0-alpha.12(@kubb/react@2.13.3)(openapi-types@12.1.3):
     resolution: {integrity: sha512-01ErKih/UZLKqjwrx3maNQuFiBaznddfYda49WxAY600zzkMQ/lpdbnJKuoxLaAaX0zlK4TGas9pgxthMzThhA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2338,18 +2364,18 @@ packages:
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 2.0.0-alpha.12
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
       change-case: 4.1.2
       js-yaml: 4.1.0
       oas: 23.0.0
-      oas-normalize: 11.0.3
+      oas-normalize: 11.0.4
       swagger2openapi: 7.0.8
     transitivePeerDependencies:
       - encoding
       - openapi-types
     dev: false
 
-  /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.13.0):
+  /@kubb/swagger@2.0.0-beta.14(@kubb/react@2.13.3):
     resolution: {integrity: sha512-OVCIxcyXJ3iLsOtGBwtE7SdX6Jdk1a/memvIMJkYsHessJept8gB/B+297OopzKZcZVn1FDz/mHTRZD/kZoPWA==}
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     peerDependencies:
@@ -2357,37 +2383,33 @@ packages:
     dependencies:
       '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
       '@kubb/core': 2.0.0-beta.14
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
       js-yaml: 4.1.0
-      oas: 24.2.1
-      oas-normalize: 11.0.3
+      oas: 24.2.2
+      oas-normalize: 11.0.4
       openapi-types: 12.1.3
       swagger2openapi: 7.0.8
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/swagger@2.13.0(@kubb/react@2.13.0):
-    resolution: {integrity: sha512-mDWCWIi3jiZi56cFzVmKl3WQPj5wkYJG2RH5BgYIVu3x44M5AfOyjfnRpLBS7TpP6+uvSMbdbKmQFMZ613MAWA==}
+  /@kubb/swagger@2.13.3(@kubb/react@2.13.3):
+    resolution: {integrity: sha512-ZQ1WaJ8geuvD6eO2akaA08BThxj31iN9jqeRqx4hHJ0qV7HqChkOTBsvMHK8vlPTdbpPXTrabjUfQ9GutQKJFw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     peerDependencies:
-      '@kubb/react': 2.13.0
+      '@kubb/react': 2.13.3
     dependencies:
-      '@apidevtools/swagger-parser': 10.1.0(openapi-types@12.1.3)
-      '@kubb/core': 2.13.0
-      '@kubb/react': 2.13.0
-      js-yaml: 4.1.0
-      oas: 24.2.1
-      oas-normalize: 11.0.3
-      openapi-types: 12.1.3
-      remeda: 1.58.3
-      swagger2openapi: 7.0.8
+      '@kubb/core': 2.13.3
+      '@kubb/oas': 2.13.3
+      '@kubb/react': 2.13.3
+      '@stoplight/yaml': 4.3.0
+      remeda: 1.61.0
     transitivePeerDependencies:
       - encoding
     dev: false
 
-  /@kubb/types@0.0.0-canary-20240413152232:
-    resolution: {integrity: sha512-D8CyMbkdSOCoVhMiOiznpMMZwAVAFwXd4Go7YpZ102YcHMtXB/Z1CkDaNNCZYtK96oGKSfw8XVV2ylJy4eOv2Q==}
+  /@kubb/types@0.0.0-canary-20240423195307:
+    resolution: {integrity: sha512-A7pfwrc36O0qM87ZrAacvmNJbnps/vSRBW0j5fG38bWVovo1x03nD1NnmiqqZczfB/NDMbL4vkoEAQ57GalyZw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dev: false
 
@@ -2401,8 +2423,8 @@ packages:
     engines: {node: '>=18', pnpm: '>=8.3.0'}
     dev: false
 
-  /@kubb/types@2.13.0:
-    resolution: {integrity: sha512-qCy3yucTBwawlMJc6u4IZUIQIa7rhGVXxXU4E22o6Kwy8Xua4rAiHAUymtcFY4mcUJYpE/rhH2lDt2kkKieCXg==}
+  /@kubb/types@2.13.3:
+    resolution: {integrity: sha512-goMplCSpd6JJaQXs25CoD+cmHic4VdRxTmSFhkVnV7iWAxermzy3yVUbLiJjAHctQBSitMEaafnFuC4P8qxxfw==}
     engines: {node: '>=18', pnpm: '>=8.15.0'}
     dev: false
 
@@ -2432,12 +2454,12 @@ packages:
     resolution: {integrity: sha512-Yac/bV5sBGkkEXmAX5FWPS9Mmo2rthrOPRQQNfycJPkjUAUclomCPH7QFVCDQ4Mp2k2K1SSM6m0zrxYrOwtFQw==}
     dev: true
 
-  /@next/env@14.2.1:
-    resolution: {integrity: sha512-qsHJle3GU3CmVx7pUoXcghX4sRN+vINkbLdH611T8ZlsP//grzqVW87BSUgOZeSAD4q7ZdZicdwNe/20U2janA==}
+  /@next/env@14.2.2:
+    resolution: {integrity: sha512-sk72qRfM1Q90XZWYRoJKu/UWlTgihrASiYw/scb15u+tyzcze3bOuJ/UV6TBOQEeUaxOkRqGeuGUdiiuxc5oqw==}
     dev: false
 
-  /@next/swc-darwin-arm64@14.2.1:
-    resolution: {integrity: sha512-kGjnjcIJehEcd3rT/3NAATJQndAEELk0J9GmGMXHSC75TMnvpOhONcjNHbjtcWE5HUQnIHy5JVkatrnYm1QhVw==}
+  /@next/swc-darwin-arm64@14.2.2:
+    resolution: {integrity: sha512-3iPgMhzbalizGwHNFUcGnDhFPSgVBHQ8aqSTAMxB5BvJG0oYrDf1WOJZlbXBgunOEj/8KMVbejEur/FpvFsgFQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -2445,8 +2467,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-darwin-x64@14.2.1:
-    resolution: {integrity: sha512-dAdWndgdQi7BK2WSXrx4lae7mYcOYjbHJUhvOUnJjMNYrmYhxbbvJ2xElZpxNxdfA6zkqagIB9He2tQk+l16ew==}
+  /@next/swc-darwin-x64@14.2.2:
+    resolution: {integrity: sha512-x7Afi/jt0ZBRUZHTi49yyej4o8znfIMHO4RvThuoc0P+uli8Jd99y5GKjxoYunPKsXL09xBXEM1+OQy2xEL0Ag==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -2454,8 +2476,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-gnu@14.2.1:
-    resolution: {integrity: sha512-2ZctfnyFOGvTkoD6L+DtQtO3BfFz4CapoHnyLTXkOxbZkVRgg3TQBUjTD/xKrO1QWeydeo8AWfZRg8539qNKrg==}
+  /@next/swc-linux-arm64-gnu@14.2.2:
+    resolution: {integrity: sha512-zbfPtkk7L41ODMJwSp5VbmPozPmMMQrzAc0HAUomVeVIIwlDGs/UCqLJvLNDt4jpWgc21SjjyIn762lNGrMaUA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -2463,8 +2485,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-musl@14.2.1:
-    resolution: {integrity: sha512-jazZXctiaanemy4r+TPIpFP36t1mMwWCKMsmrTRVChRqE6putyAxZA4PDujx0SnfvZHosjdkx9xIq9BzBB5tWg==}
+  /@next/swc-linux-arm64-musl@14.2.2:
+    resolution: {integrity: sha512-wPbS3pI/JU16rm3XdLvvTmlsmm1nd+sBa2ohXgBZcShX4TgOjD4R+RqHKlI1cjo/jDZKXt6OxmcU0Iys0OC/yg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -2472,8 +2494,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-gnu@14.2.1:
-    resolution: {integrity: sha512-VjCHWCjsAzQAAo8lkBOLEIkBZFdfW+Z18qcQ056kL4KpUYc8o59JhLDCBlhg+hINQRgzQ2UPGma2AURGOH0+Qg==}
+  /@next/swc-linux-x64-gnu@14.2.2:
+    resolution: {integrity: sha512-NqWOHqqq8iC9tuHvZxjQ2tX+jWy2X9y8NX2mcB4sj2bIccuCxbIZrU/ThFPZZPauygajZuVQ6zediejQHwZHwQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -2481,8 +2503,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-musl@14.2.1:
-    resolution: {integrity: sha512-7HZKYKvAp4nAHiHIbY04finRqjeYvkITOGOurP1aLMexIFG/1+oCnqhGogBdc4lao/lkMW1c+AkwWSzSlLasqw==}
+  /@next/swc-linux-x64-musl@14.2.2:
+    resolution: {integrity: sha512-lGepHhwb9sGhCcU7999+iK1ZZT+6rrIoVg40MP7DZski9GIZP80wORSbt5kJzh9v2x2ev2lxC6VgwMQT0PcgTA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -2490,8 +2512,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-arm64-msvc@14.2.1:
-    resolution: {integrity: sha512-YGHklaJ/Cj/F0Xd8jxgj2p8po4JTCi6H7Z3Yics3xJhm9CPIqtl8erlpK1CLv+HInDqEWfXilqatF8YsLxxA2Q==}
+  /@next/swc-win32-arm64-msvc@14.2.2:
+    resolution: {integrity: sha512-TZSh/48SfcLEQ4rD25VVn2kdIgUWmMflRX3OiyPwGNXn3NiyPqhqei/BaqCYXViIQ+6QsG9R0C8LftMqy8JPMA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -2499,8 +2521,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-ia32-msvc@14.2.1:
-    resolution: {integrity: sha512-o+ISKOlvU/L43ZhtAAfCjwIfcwuZstiHVXq/BDsZwGqQE0h/81td95MPHliWCnFoikzWcYqh+hz54ZB2FIT8RA==}
+  /@next/swc-win32-ia32-msvc@14.2.2:
+    resolution: {integrity: sha512-M0tBVNMEBJN2ZNQWlcekMn6pvLria7Sa2Fai5znm7CCJz4pP3lrvlSxhKdkCerk0D9E0bqx5yAo3o2Q7RrD4gA==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -2508,8 +2530,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-x64-msvc@14.2.1:
-    resolution: {integrity: sha512-GmRoTiLcvCLifujlisknv4zu9/C4i9r0ktsA8E51EMqJL4bD4CpO7lDYr7SrUxCR0tS4RVcrqKmCak24T0ohaw==}
+  /@next/swc-win32-x64-msvc@14.2.2:
+    resolution: {integrity: sha512-a/20E/wtTJZ3Ykv3f/8F0l7TtgQa2LWHU2oNB9bsu0VjqGuGGHmm/q6waoUNQYTVPYrrlxxaHjJcDV6aiSTt/w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -2576,9 +2598,9 @@ packages:
       js-yaml: 4.1.0
     dev: false
 
-  /@readme/openapi-parser@2.5.0(openapi-types@12.1.3):
-    resolution: {integrity: sha512-IbymbOqRuUzoIgxfAAR7XJt2FWl6n2yqN09fF5adacGm7W03siA3bj1Emql0X9D2T+RpBYz3x9zDsMhuoMP62A==}
-    engines: {node: '>=14'}
+  /@readme/openapi-parser@2.5.1(openapi-types@12.1.3):
+    resolution: {integrity: sha512-p9ndWhwjtP+DEiOOF6jeNMpdmYIPM4nl+JEIdnQNdq7b68esI024x7HiYACZpaYaSvISDSyKc7aiRJx4K4IDhg==}
+    engines: {node: '>=18'}
     peerDependencies:
       openapi-types: '>=7'
     dependencies:
@@ -2603,6 +2625,33 @@ packages:
       lodash.camelcase: 4.3.0
       marked: 4.3.0
       mustache: 4.2.0
+    dev: false
+
+  /@stoplight/ordered-object-literal@1.0.5:
+    resolution: {integrity: sha512-COTiuCU5bgMUtbIFBuyyh2/yVVzlr5Om0v5utQDgBCuQUOPgU1DwoffkTfg4UBQOvByi5foF4w4T+H9CoRe5wg==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /@stoplight/types@14.1.1:
+    resolution: {integrity: sha512-/kjtr+0t0tjKr+heVfviO9FrU/uGLc+QNX3fHJc19xsCNYqU7lVhaXxDmEID9BZTjG+/r9pK9xP/xU02XGg65g==}
+    engines: {node: ^12.20 || >=14.13}
+    dependencies:
+      '@types/json-schema': 7.0.15
+      utility-types: 3.11.0
+    dev: false
+
+  /@stoplight/yaml-ast-parser@0.0.50:
+    resolution: {integrity: sha512-Pb6M8TDO9DtSVla9yXSTAxmo9GVEouq5P40DWXdOie69bXogZTkgvopCq+yEvTMA0F6PEvdJmbtTV3ccIp11VQ==}
+    dev: false
+
+  /@stoplight/yaml@4.3.0:
+    resolution: {integrity: sha512-JZlVFE6/dYpP9tQmV0/ADfn32L9uFarHWxfcRhReKUnljz1ZiUM5zpX+PH8h5CJs6lao3TuFqnPm9IJJCEkE2w==}
+    engines: {node: '>=10.8'}
+    dependencies:
+      '@stoplight/ordered-object-literal': 1.0.5
+      '@stoplight/types': 14.1.1
+      '@stoplight/yaml-ast-parser': 0.0.50
+      tslib: 2.6.2
     dev: false
 
   /@swc/counter@0.1.3:
@@ -2632,8 +2681,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@types/eslint@8.56.9:
-    resolution: {integrity: sha512-W4W3KcqzjJ0sHg2vAq9vfml6OhsJ53TcUjUqfzzZf/EChUtwspszj/S0pzMxnfRcO55/iGq47dscXw71Fxc4Zg==}
+  /@types/eslint@8.56.10:
+    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
@@ -2692,11 +2741,11 @@ packages:
   /@types/react-dom@18.2.25:
     resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
     dev: true
 
-  /@types/react@18.2.78:
-    resolution: {integrity: sha512-qOwdPnnitQY4xKlKayt42q5W5UQrSHjgoXNVEtxeqdITJ99k4VXJOP3vt8Rkm9HmgJpH50UNU+rlqfkfWOqp0A==}
+  /@types/react@18.2.79:
+    resolution: {integrity: sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==}
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -2705,8 +2754,8 @@ packages:
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
     dev: true
 
-  /@typescript-eslint/eslint-plugin@7.6.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-gKmTNwZnblUdnTIJu3e9kmeRRzV2j1a/LUO27KNNAnIC5zjy1aSvXSRp4rVNlmAoHlQ7HzX42NbKpcSr4jF80A==}
+  /@typescript-eslint/eslint-plugin@7.7.1(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-KwfdWXJBOviaBVhxO3p5TJiLpNuh2iyXyjmWN0f1nU87pwyvfS0EmjC6ukQVYVFJd/K1+0NWGPDXiyEyQorn0Q==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       '@typescript-eslint/parser': ^7.0.0
@@ -2718,10 +2767,10 @@ packages:
     dependencies:
       '@eslint-community/regexpp': 4.10.0
       '@typescript-eslint/parser': 6.21.0(eslint@8.57.0)(typescript@5.4.5)
-      '@typescript-eslint/scope-manager': 7.6.0
-      '@typescript-eslint/type-utils': 7.6.0(eslint@8.57.0)(typescript@5.4.5)
-      '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.4.5)
-      '@typescript-eslint/visitor-keys': 7.6.0
+      '@typescript-eslint/scope-manager': 7.7.1
+      '@typescript-eslint/type-utils': 7.7.1(eslint@8.57.0)(typescript@5.4.5)
+      '@typescript-eslint/utils': 7.7.1(eslint@8.57.0)(typescript@5.4.5)
+      '@typescript-eslint/visitor-keys': 7.7.1
       debug: 4.3.4
       eslint: 8.57.0
       graphemer: 1.4.0
@@ -2771,16 +2820,16 @@ packages:
       '@typescript-eslint/visitor-keys': 6.21.0
     dev: true
 
-  /@typescript-eslint/scope-manager@7.6.0:
-    resolution: {integrity: sha512-ngttyfExA5PsHSx0rdFgnADMYQi+Zkeiv4/ZxGYUWd0nLs63Ha0ksmp8VMxAIC0wtCFxMos7Lt3PszJssG/E6w==}
+  /@typescript-eslint/scope-manager@7.7.1:
+    resolution: {integrity: sha512-PytBif2SF+9SpEUKynYn5g1RHFddJUcyynGpztX3l/ik7KmZEv19WCMhUBkHXPU9es/VWGD3/zg3wg90+Dh2rA==}
     engines: {node: ^18.18.0 || >=20.0.0}
     dependencies:
-      '@typescript-eslint/types': 7.6.0
-      '@typescript-eslint/visitor-keys': 7.6.0
+      '@typescript-eslint/types': 7.7.1
+      '@typescript-eslint/visitor-keys': 7.7.1
     dev: true
 
-  /@typescript-eslint/type-utils@7.6.0(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-NxAfqAPNLG6LTmy7uZgpK8KcuiS2NZD/HlThPXQRGwz6u7MDBWRVliEEl1Gj6U7++kVJTpehkhZzCJLMK66Scw==}
+  /@typescript-eslint/type-utils@7.7.1(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-ZksJLW3WF7o75zaBPScdW1Gbkwhd/lyeXGf1kQCxJaOeITscoSl0MjynVvCzuV5boUz/3fOI06Lz8La55mu29Q==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       eslint: ^8.56.0
@@ -2789,8 +2838,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.4.5)
-      '@typescript-eslint/utils': 7.6.0(eslint@8.57.0)(typescript@5.4.5)
+      '@typescript-eslint/typescript-estree': 7.7.1(typescript@5.4.5)
+      '@typescript-eslint/utils': 7.7.1(eslint@8.57.0)(typescript@5.4.5)
       debug: 4.3.4
       eslint: 8.57.0
       ts-api-utils: 1.3.0(typescript@5.4.5)
@@ -2809,8 +2858,8 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
-  /@typescript-eslint/types@7.6.0:
-    resolution: {integrity: sha512-h02rYQn8J+MureCvHVVzhl69/GAfQGPQZmOMjG1KfCl7o3HtMSlPaPUAPu6lLctXI5ySRGIYk94clD/AUMCUgQ==}
+  /@typescript-eslint/types@7.7.1:
+    resolution: {integrity: sha512-AmPmnGW1ZLTpWa+/2omPrPfR7BcbUU4oha5VIbSbS1a1Tv966bklvLNXxp3mrbc+P2j4MNOTfDffNsk4o0c6/w==}
     engines: {node: ^18.18.0 || >=20.0.0}
     dev: true
 
@@ -2857,8 +2906,8 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@7.6.0(typescript@5.4.5):
-    resolution: {integrity: sha512-+7Y/GP9VuYibecrCQWSKgl3GvUM5cILRttpWtnAu8GNL9j11e4tbuGZmZjJ8ejnKYyBRb2ddGQ3rEFCq3QjMJw==}
+  /@typescript-eslint/typescript-estree@7.7.1(typescript@5.4.5):
+    resolution: {integrity: sha512-CXe0JHCXru8Fa36dteXqmH2YxngKJjkQLjxzoj6LYwzZ7qZvgsLSc+eqItCrqIop8Vl2UKoAi0StVWu97FQZIQ==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       typescript: '*'
@@ -2866,8 +2915,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/types': 7.6.0
-      '@typescript-eslint/visitor-keys': 7.6.0
+      '@typescript-eslint/types': 7.7.1
+      '@typescript-eslint/visitor-keys': 7.7.1
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
@@ -2918,8 +2967,8 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/utils@7.6.0(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-x54gaSsRRI+Nwz59TXpCsr6harB98qjXYzsRxGqvA5Ue3kQH+FxS7FYU81g/omn22ML2pZJkisy6Q+ElK8pBCA==}
+  /@typescript-eslint/utils@7.7.1(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-QUvBxPEaBXf41ZBbaidKICgVL8Hin0p6prQDu6bbetWo39BKbWJxRsErOzMNT1rXvTll+J7ChrbmMCXM9rsvOQ==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       eslint: ^8.56.0
@@ -2927,9 +2976,9 @@ packages:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
       '@types/json-schema': 7.0.15
       '@types/semver': 7.5.8
-      '@typescript-eslint/scope-manager': 7.6.0
-      '@typescript-eslint/types': 7.6.0
-      '@typescript-eslint/typescript-estree': 7.6.0(typescript@5.4.5)
+      '@typescript-eslint/scope-manager': 7.7.1
+      '@typescript-eslint/types': 7.7.1
+      '@typescript-eslint/typescript-estree': 7.7.1(typescript@5.4.5)
       eslint: 8.57.0
       semver: 7.6.0
     transitivePeerDependencies:
@@ -2953,11 +3002,11 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@typescript-eslint/visitor-keys@7.6.0:
-    resolution: {integrity: sha512-4eLB7t+LlNUmXzfOu1VAIAdkjbu5xNSerURS9X/S5TUKWFRpXRQZbmtPqgKmYx8bj3J0irtQXSiWAOY82v+cgw==}
+  /@typescript-eslint/visitor-keys@7.7.1:
+    resolution: {integrity: sha512-gBL3Eq25uADw1LQ9kVpf3hRM+DWzs0uZknHYK3hq4jcTPqVCClHGDnB6UUUV2SFeBeA4KWHWbbLqmbGcZ4FYbw==}
     engines: {node: ^18.18.0 || >=20.0.0}
     dependencies:
-      '@typescript-eslint/types': 7.6.0
+      '@typescript-eslint/types': 7.7.1
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -3275,8 +3324,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /caniuse-lite@1.0.30001609:
-    resolution: {integrity: sha512-JFPQs34lHKx1B5t1EpQpWH4c+29zIyn/haGsbpfq3suuV9v56enjFt23zqijxGTMwy1p/4H2tjnQMY+p1WoAyA==}
+  /caniuse-lite@1.0.30001612:
+    resolution: {integrity: sha512-lFgnZ07UhaCcsSZgWW0K5j4e69dK1u/ltrL9lTUiFOwNHs12S3UMIEYgBV0Z6C6hRDev7iRnMzzYmKabYdXF9g==}
     dev: false
 
   /capital-case@1.0.4:
@@ -3911,12 +3960,12 @@ packages:
     dependencies:
       '@formatjs/icu-messageformat-parser': 2.7.6
       '@formatjs/ts-transformer': 3.13.12
-      '@types/eslint': 8.56.9
+      '@types/eslint': 8.56.10
       '@types/picomatch': 2.3.3
       '@typescript-eslint/utils': 6.21.0(eslint@8.57.0)(typescript@5.4.5)
       emoji-regex: 10.3.0
       eslint: 8.57.0
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       picomatch: 2.3.1
       tslib: 2.6.2
       typescript: 5.4.5
@@ -3961,7 +4010,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jest@27.9.0(@typescript-eslint/eslint-plugin@7.6.0)(eslint@8.57.0)(typescript@5.4.5):
+  /eslint-plugin-jest@27.9.0(@typescript-eslint/eslint-plugin@7.7.1)(eslint@8.57.0)(typescript@5.4.5):
     resolution: {integrity: sha512-QIT7FH7fNmd9n4se7FFKHbsLKGQiw885Ds6Y/sxKgCZ6natwCsXdgPOADnYVxN2QrRweF0FZWbJ6S7Rsn7llug==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
@@ -3974,7 +4023,7 @@ packages:
       jest:
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': 7.6.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
+      '@typescript-eslint/eslint-plugin': 7.7.1(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/utils': 5.62.0(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
     transitivePeerDependencies:
@@ -4064,7 +4113,7 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /eslint-plugin-unused-imports@3.1.0(@typescript-eslint/eslint-plugin@7.6.0)(eslint@8.57.0):
+  /eslint-plugin-unused-imports@3.1.0(@typescript-eslint/eslint-plugin@7.7.1)(eslint@8.57.0):
     resolution: {integrity: sha512-9l1YFCzXKkw1qtAru1RWUtG2EVDZY0a0eChKXcL+EZ5jitG7qxdctu4RnvhOJHv4xfmUf7h+JJPINlVpGhZMrw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4074,7 +4123,7 @@ packages:
       '@typescript-eslint/eslint-plugin':
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': 7.6.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
+      '@typescript-eslint/eslint-plugin': 7.7.1(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
       eslint-rule-composer: 0.3.0
     dev: true
@@ -4810,7 +4859,7 @@ packages:
       set-function-name: 2.0.2
     dev: true
 
-  /jotai@2.8.0(@types/react@18.2.78)(react@18.2.0):
+  /jotai@2.8.0(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-yZNMC36FdLOksOr8qga0yLf14miCJlEThlp5DeFJNnqzm2+ZG7wLcJzoOyij5K6U6Xlc5ljQqPDlJRgqW0Y18g==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
@@ -4822,7 +4871,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       react: 18.2.0
     dev: false
 
@@ -5076,9 +5125,8 @@ packages:
       es5-ext: 0.10.64
     dev: false
 
-  /magic-string@0.30.9:
-    resolution: {integrity: sha512-S1+hd+dIrC8EZqKyT9DstTH/0Z+f76kmmvZnkfQVmOpDEF9iVgdYif3Q/pIWHmCoo59bQVGW0kVL3e2nl+9+Sw==}
-    engines: {node: '>=12'}
+  /magic-string@0.30.10:
+    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
@@ -5184,8 +5232,8 @@ packages:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
     dev: false
 
-  /next@14.2.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-SF3TJnKdH43PMkCcErLPv+x/DY1YCklslk3ZmwaVoyUfDgHKexuKlf9sEfBQ69w+ue8jQ3msLb+hSj1T19hGag==}
+  /next@14.2.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-oGwUaa2bCs47FbuxWMpOoXtBMPYpvTPgdZr3UAo+pu7Ns00z9otmYpoeV1HEiYL06AlRQQIA/ypK526KjJfaxg==}
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
@@ -5202,25 +5250,25 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 14.2.1
+      '@next/env': 14.2.2
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001609
+      caniuse-lite: 1.0.30001612
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       styled-jsx: 5.1.1(react@18.2.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 14.2.1
-      '@next/swc-darwin-x64': 14.2.1
-      '@next/swc-linux-arm64-gnu': 14.2.1
-      '@next/swc-linux-arm64-musl': 14.2.1
-      '@next/swc-linux-x64-gnu': 14.2.1
-      '@next/swc-linux-x64-musl': 14.2.1
-      '@next/swc-win32-arm64-msvc': 14.2.1
-      '@next/swc-win32-ia32-msvc': 14.2.1
-      '@next/swc-win32-x64-msvc': 14.2.1
+      '@next/swc-darwin-arm64': 14.2.2
+      '@next/swc-darwin-x64': 14.2.2
+      '@next/swc-linux-arm64-gnu': 14.2.2
+      '@next/swc-linux-arm64-musl': 14.2.2
+      '@next/swc-linux-x64-gnu': 14.2.2
+      '@next/swc-linux-x64-musl': 14.2.2
+      '@next/swc-win32-arm64-msvc': 14.2.2
+      '@next/swc-win32-ia32-msvc': 14.2.2
+      '@next/swc-win32-x64-msvc': 14.2.2
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -5272,11 +5320,11 @@ packages:
       yaml: 1.10.2
     dev: false
 
-  /oas-normalize@11.0.3:
-    resolution: {integrity: sha512-YsPjVgbHuybhRXblRCRv+Jie5U26N30FLJSS+IyI/vkTryOlxnUbTKuALkO3/5vU9Ki/KIwl13KsIdf8mrdI0Q==}
+  /oas-normalize@11.0.4:
+    resolution: {integrity: sha512-mbpZD6yOSEwT30GkMOwqLnbhPU8x6vPHurpuY0h4TdBkEwidYOro6NwmO+39GQbl34cQy3JMbj4UdPnGJKgpcQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@readme/openapi-parser': 2.5.0(openapi-types@12.1.3)
+      '@readme/openapi-parser': 2.5.1(openapi-types@12.1.3)
       '@readme/postman-to-openapi': 4.1.0
       js-yaml: 4.1.0
       openapi-types: 12.1.3
@@ -5323,7 +5371,7 @@ packages:
       jsonpath-plus: 7.2.0
       jsonpointer: 5.0.1
       memoizee: 0.4.15
-      oas-normalize: 11.0.3
+      oas-normalize: 11.0.4
       openapi-types: 12.1.3
       path-to-regexp: 6.2.2
       remove-undefined-objects: 4.0.2
@@ -5331,8 +5379,8 @@ packages:
       - encoding
     dev: false
 
-  /oas@24.2.1:
-    resolution: {integrity: sha512-lk8/TXgfqq3StKe1wMYx/vGd0zojudhBwjTNqAVgVD32PaJRoocVB25hDPEjTu3XyNOUJsTAZ7dvSahkZ3ZUZQ==}
+  /oas@24.2.2:
+    resolution: {integrity: sha512-MPDVxivfY0wsFNXtCmFsY6czuV6YHQ9Z0Kaf75ARhatn216TUEp3ek1kmYcxYHwcqyCW1bX8lpmwi2AnHy1skQ==}
     engines: {node: '>=18'}
     dependencies:
       '@readme/json-schema-ref-parser': 1.2.0
@@ -5341,7 +5389,7 @@ packages:
       jsonpath-plus: 8.1.0
       jsonpointer: 5.0.1
       memoizee: 0.4.15
-      oas-normalize: 11.0.3
+      oas-normalize: 11.0.4
       openapi-types: 12.1.3
       path-to-regexp: 6.2.2
       remove-undefined-objects: 5.0.0
@@ -5667,8 +5715,8 @@ packages:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
-  /react-focus-lock@2.11.3(@types/react@18.2.78)(react@18.2.0):
-    resolution: {integrity: sha512-CfWYS86y6KvAIGxYzO1/HlWI2zGON9Fa3L2xfREDGMNFAtYj3m/ZRvnsMH4H75dj5FpgDy2LWA1Vyx+twV80vw==}
+  /react-focus-lock@2.12.1(@types/react@18.2.79)(react@18.2.0):
+    resolution: {integrity: sha512-lfp8Dve4yJagkHiFrC1bGtib3mF2ktqwPJw4/WGcgPW+pJ/AVQA5X2vI7xgp13FcxFEpYBBHpXai/N2DBNC0Jw==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -5677,17 +5725,17 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.24.4
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       focus-lock: 1.3.5
       prop-types: 15.8.1
       react: 18.2.0
       react-clientside-effect: 1.2.6(react@18.2.0)
-      use-callback-ref: 1.3.2(@types/react@18.2.78)(react@18.2.0)
-      use-sidecar: 1.1.2(@types/react@18.2.78)(react@18.2.0)
+      use-callback-ref: 1.3.2(@types/react@18.2.79)(react@18.2.0)
+      use-sidecar: 1.1.2(@types/react@18.2.79)(react@18.2.0)
     dev: false
 
-  /react-icons@5.0.1(react@18.2.0):
-    resolution: {integrity: sha512-WqLZJ4bLzlhmsvme6iFdgO8gfZP17rfjYEJ2m9RsZjZ+cc4k1hTzknEz63YS1MeT50kVzoa1Nz36f4BEx+Wigw==}
+  /react-icons@5.1.0(react@18.2.0):
+    resolution: {integrity: sha512-D3zug1270S4hbSlIRJ0CUS97QE1yNNKDjzQe3HqY0aefp2CBn9VgzgES27sRR2gOvFK+0CNx/BW0ggOESp6fqQ==}
     peerDependencies:
       react: '*'
     dependencies:
@@ -5697,7 +5745,7 @@ packages:
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-remove-scroll-bar@2.3.6(@types/react@18.2.78)(react@18.2.0):
+  /react-remove-scroll-bar@2.3.6(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-DtSYaao4mBmX+HDo5YWYdBWQwYIQQshUV/dVxFxK+KM26Wjwp1gZ6rv6OC3oujI6Bfu6Xyg3TwK533AQutsn/g==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -5707,13 +5755,13 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       react: 18.2.0
-      react-style-singleton: 2.2.1(@types/react@18.2.78)(react@18.2.0)
+      react-style-singleton: 2.2.1(@types/react@18.2.79)(react@18.2.0)
       tslib: 2.6.2
     dev: false
 
-  /react-remove-scroll@2.5.9(@types/react@18.2.78)(react@18.2.0):
+  /react-remove-scroll@2.5.9(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-bvHCLBrFfM2OgcrpPY2YW84sPdS2o2HKWJUf1xGyGLnSoEnOTOBpahIarjRuYtN0ryahCeP242yf+5TrBX/pZA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -5723,16 +5771,16 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       react: 18.2.0
-      react-remove-scroll-bar: 2.3.6(@types/react@18.2.78)(react@18.2.0)
-      react-style-singleton: 2.2.1(@types/react@18.2.78)(react@18.2.0)
+      react-remove-scroll-bar: 2.3.6(@types/react@18.2.79)(react@18.2.0)
+      react-style-singleton: 2.2.1(@types/react@18.2.79)(react@18.2.0)
       tslib: 2.6.2
-      use-callback-ref: 1.3.2(@types/react@18.2.78)(react@18.2.0)
-      use-sidecar: 1.1.2(@types/react@18.2.78)(react@18.2.0)
+      use-callback-ref: 1.3.2(@types/react@18.2.79)(react@18.2.0)
+      use-sidecar: 1.1.2(@types/react@18.2.79)(react@18.2.0)
     dev: false
 
-  /react-style-singleton@2.2.1(@types/react@18.2.78)(react@18.2.0):
+  /react-style-singleton@2.2.1(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -5742,7 +5790,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.2.0
@@ -5791,8 +5839,8 @@ packages:
       set-function-name: 2.0.2
     dev: true
 
-  /remeda@1.58.3:
-    resolution: {integrity: sha512-/3WVhU9DLFYtPQcoIZ6lIqxiS3VGdQF+k04VzbklZ3zWQafKqCJKlEfsXAjx8k380q9v4K7XPtUDGNE07l5G2g==}
+  /remeda@1.61.0:
+    resolution: {integrity: sha512-caKfSz9rDeSKBQQnlJnVW3mbVdFgxgGWQKq1XlFokqjf+hQD5gxutLGTTY2A/x24UxVyJe9gH5fAkFI63ULw4A==}
     dev: false
 
   /remove-undefined-objects@4.0.2:
@@ -6413,9 +6461,9 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /undici@6.13.0:
-    resolution: {integrity: sha512-Q2rtqmZWrbP8nePMq7mOJIN98M0fYvSgV89vwl/BQRT4mDOeY2GXZngfGpcBBhtky3woM7G24wZV3Q304Bv6cw==}
-    engines: {node: '>=18.0'}
+  /undici@6.14.1:
+    resolution: {integrity: sha512-mAel3i4BsYhkeVPXeIPXVGPJKeBzqCieZYoFsbWfUzd68JmHByhc1Plit5WlylxXFaGpgkZB8mExlxnt+Q1p7A==}
+    engines: {node: '>=18.17'}
     dev: true
 
   /unicode-emoji-utils@1.2.0:
@@ -6455,7 +6503,7 @@ packages:
     dependencies:
       punycode: 2.3.1
 
-  /use-callback-ref@1.3.2(@types/react@18.2.78)(react@18.2.0):
+  /use-callback-ref@1.3.2(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-elOQwe6Q8gqZgDA8mrh44qRTQqpIHDcZ3hXTLjBe1i4ph8XpNJnO+aQf3NaG+lriLopI4HMx9VjQLfPQ6vhnoA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -6465,12 +6513,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       react: 18.2.0
       tslib: 2.6.2
     dev: false
 
-  /use-sidecar@1.1.2(@types/react@18.2.78)(react@18.2.0):
+  /use-sidecar@1.1.2(@types/react@18.2.79)(react@18.2.0):
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -6480,7 +6528,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.78
+      '@types/react': 18.2.79
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.6.2
@@ -6492,6 +6540,11 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /utility-types@3.11.0:
+    resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
+    engines: {node: '>= 4'}
     dev: false
 
   /uuid@9.0.1:
