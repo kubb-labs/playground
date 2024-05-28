@@ -11,7 +11,8 @@ import { gzip } from 'pako'
 import { CgFileDocument, CgShare } from 'react-icons/cg'
 import { Base64 } from 'js-base64'
 
-import type { KubbFile, UserConfig } from '@kubb/core'
+import type { UserConfig } from '@kubb/core'
+import type { File } from '@kubb/fs/types'
 
 import Configuration from './Configuration'
 import VersionSelect from './VersionSelect'
@@ -101,7 +102,7 @@ const fetchOutput = async (_url: string, { arg }: { arg: ParserBody }) => {
       throw json.error
     }
 
-    const files: KubbFile.File[] = json
+    const files: File[] = json
       .map((file) => {
         return { ...file, path: file.path.split('/gen/')[1] }
       })
@@ -111,7 +112,7 @@ const fetchOutput = async (_url: string, { arg }: { arg: ParserBody }) => {
           return [...acc, file]
         }
         return acc
-      }, [] as KubbFile.File[])
+      }, [] as File[])
 
     return files
   })

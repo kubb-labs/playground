@@ -122,6 +122,9 @@ importers:
       '@kubb/core':
         specifier: latest
         version: 2.19.1
+      '@kubb/fs':
+        specifier: latest
+        version: 2.19.1
       '@kubb/plugin-oas':
         specifier: latest
         version: 2.19.1(@kubb/react@2.19.1)

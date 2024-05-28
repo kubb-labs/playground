@@ -4,7 +4,7 @@ import { Box, Flex, Heading, HStack, Select } from '@chakra-ui/react'
 import stripAnsi from 'strip-ansi'
 import { useAtom } from 'jotai'
 
-import type { KubbFile } from '@kubb/core'
+import type { File } from '@kubb/fs/types'
 
 import { editorOptions as sharedEditorOptions, useBorderColor, useMonacoThemeValue } from '../utils'
 import { fileNameAtom } from '../kubb'
@@ -29,7 +29,7 @@ function stringifyOutput(output: TransformationResult): string {
 
 interface Props {
   output: TransformationResult
-  files?: KubbFile.File[]
+  files?: File[]
 }
 
 const editorOptions: editor.IStandaloneEditorConstructionOptions = {

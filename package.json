@@ -54,6 +54,7 @@
     "@kubb-canary/swagger-zod": "npm:@kubb/swagger-zod@canary",
     "@kubb-canary/swagger-zodios": "npm:@kubb/swagger-zodios@canary",
     "@kubb/core": "latest",
+    "@kubb/fs": "latest",
     "@kubb/plugin-oas": "latest",
     "@kubb/plugin-redoc": "latest",
     "@kubb/react": "latest",
